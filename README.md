@@ -14,7 +14,7 @@ Aquí podrás encontrar nuestro proyecto acerca de como adquirir y procesar señ
 8. [Docentes del Curso](#docentes)
 
 
-## ¿Qué son las bioseñales? {#introducción}
+## ¿Qué son las bioseñales? 
 
 Las bioseñales son aquellas que tienen como origen los distintos sistemas fisiológicos de nuestro organismo. 
 Cada señal nos da información acerca de un órgano o conjunto de los mismos que permite al médico realizar un
@@ -22,17 +22,17 @@ adecuado tratatamiento. Algunos ejemplos de señales que podemos encontrar son l
 encefalogramas o electromiogramas. 
 
 
-## Contenido {#contenido}
+## Contenido 
 
 
-## Materiales {#materiales}
+## Materiales 
 
-## Metodología {metodologia}
+## Metodología 
 
-## Tema del proyecto {#tema}
+## Tema del proyecto 
 
 
-## Integrantes: {#integrantes}
+## Integrantes: 
 1. Ashley Estefania Bravo Bravo
 Contacto: ashley.bravo@upch.pe
 Sobre mí: Estudiante de pregrado de la carrera de Ingeniería Biomédica. Dentro de la Ingeniería Biomédica me gusta realizar investigación para aprender mejor los conceptos, me llama la atención el área de Señales e Imágenes.
@@ -61,7 +61,7 @@ Sobre mí:Estudiante de pregrado de Ingeniería Biomédica. El motivo porque el 
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e320c838548e418053c9f99338bc5b70aec08f52/Imagenes_Integrantes/leonardo_zuniga.jpeg" align="center" width="120" height="150"/>
 </p>
 
-## Docentes del Curso: {#docentes}
+## Docentes del Curso: 
 1. De la Cruz Rodriguez, Lewis - umbert.de.la.cruz@upch.pe
 2. Meza Rodriguez, Moises - moises.meza@upch.pe
 3. Venancio Huerta, Julissa - julissa.venancio@upch.pe
