@@ -8,13 +8,13 @@ Aquí podrás encontrar nuestro proyecto acerca de como adquirir y procesar señ
 <h2> Tabla de contenidos:</h2>
 
 <ol>
-<li href="intro">Bioseñales</li>
-<li href="Content">Contenidos del Curso</li>
-<li href="Materiales">Materiales</li>
-<li href="Metodos">Metodología</li>
-<li href="Tematica">Tema del Proyecto</li>
-<li href="Miembros">Integrantes del Grupo</li>
-<li href="Profes">Docentes del Curso</li>
+<li href="#intro">Bioseñales</li>
+<li href="#Content">Contenidos del Curso</li>
+<li href="#Materiales">Materiales</li>
+<li href="#Metodos">Metodología</li>
+<li href="#Tematica">Tema del Proyecto</li>
+<li href="#Miembros">Integrantes del Grupo</li>
+<li href="#Profes">Docentes del Curso</li>
 </ol>
 
 <h2 id="intro">¿Qué son las bioseñales?</h2>
