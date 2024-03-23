@@ -37,7 +37,7 @@ encefalogramas o electromiogramas.
 
     Contacto: ashley.bravo@upch.pe
 
-    Sobre mí: Estudiante de pregrado de la carrera de Ingeniería Biomédica. Dentro de la Ingeniería Biomédica me gusta realizar investigación para aprender mejor los conceptos, me llama la atención el área de Señales e Imágenes.
+    Sobre mí: Estudiante de pregrado de la carrera de Ingeniería Biomédica. Dentro de la Ingeniería Biomédica me gusta realizar investigación, me llama la atención el área de Señales e Imágenes. Adicionalmente también tengo interés en Deep Learning para la aplicación de Telemedicina.
 <p align="center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e320c838548e418053c9f99338bc5b70aec08f52/Imagenes_Integrantes/ashley_bravo.jpg" align="center" width="120" height="150"/>
 </p>
