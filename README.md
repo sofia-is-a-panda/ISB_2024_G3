@@ -16,11 +16,6 @@ Aquí podrás encontrar nuestro proyecto acerca de como adquirir y procesar señ
 
 ## ¿Qué son las bioseñales? 
 
-Las bioseñales son aquellas que tienen como origen los distintos sistemas fisiológicos de nuestro organismo. 
-Cada señal nos da información acerca de un órgano o conjunto de los mismos que permite al médico realizar un
-adecuado tratatamiento. Algunos ejemplos de señales que podemos encontrar son los electrocardiogramas,
-encefalogramas o electromiogramas. 
-
 
 ## Contenido 
 
