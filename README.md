@@ -1,33 +1,36 @@
-# INTRODUCCIÓN A SEÑALES BIOMÉDICAS - GRUPO 3
-```python
-Bienvenidos al repositorio del GRUPO 3 del curso "Introducción a Señales Biomédicas".
-Somos un equipo de estudiantes de Ingeniería Biomédica de las universidades UPCH y PUCP del semestre 2024-1. 
-Aquí podrás encontrar nuestro proyecto acerca de como adquirir y procesar señales de un electrocardiograma (ECG)
-```
-## Tabla de contenidos:
+<h1 style="text-align: center;">INTRODUCCIÓN A SEÑALES BIOMÉDICAS - GRUPO 3</h1>
+
+Bienvenidos al repositorio del **Grupo 3** del curso *Introducción a Señales Biomédicas*. Somos un equipo de estudiantes de Ingeniería Biomédica de las universidades UPCH y PUCP del semestre 2024-1. 
+<p style="text-align: center;">Aquí podrás encontrar nuestro proyecto relacionado a la adquisición y procesamientos señales de un electrocardiograma (ECG).</p>
+
+<h2 style="text-align: center;">Tabla de Contenidos</h2>
+
 1. [Bioseñales](#introducción)
-2. [Contenidos del Curso](#contenido)
-3. [Materiales](#materiales)
-4. [Metodología](#metodologia)
-5. [Tema del Proyecto](#tema)
-7. [Integrantes del Grupo](#integrantes)
-8. [Docentes del Curso](#docentes)
+2. [Contenidos del Curso](#Contenido)
+3. [Materiales](#Materiales)
+4. [Metodología](#Metodología)
+5. [Tema del Proyecto](#Tema)
+7. [Integrantes del Grupo](#Integrantes)
+8. [Docentes del Curso](#Docentes)
 
+<a id = "introducción" style></a>
+<h2 style = "text-align: center;">¿Qué son las señales biomédicas?</h2>
 
-## ¿Qué son las bioseñales? 
+<a id = "Contenido"></a> 
+<h2 style = "text-align: center;">Contenido del Curso</h2>
 
+<a id = "Materiales"></a>
+<h2 style = "text-align: center;">Materiales</h2>
 
-## Contenido 
+<a id = "Metodología"></a>
+<h2 style = "text-align: center;">Metodología</h2>
 
+<a id = "Tema"></a>
+<h2 style = "text-align: center;">Tema del Proyecto</h2>
 
-## Materiales 
+<a id = "Integrantes"></a>
+<h2 style = "text-align: center;">Integrantes</h2>
 
-## Metodología 
-
-## Tema del proyecto 
-
-
-## Integrantes: 
 1. Ashley Estefania Bravo Bravo
 
     Contacto: ashley.bravo@upch.pe
@@ -64,7 +67,9 @@ Aquí podrás encontrar nuestro proyecto acerca de como adquirir y procesar señ
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e320c838548e418053c9f99338bc5b70aec08f52/Imagenes_Integrantes/leonardo_zuniga.jpeg" align="center" width="120" height="150"/>
 </p>
 
-## Docentes del Curso: 
+<a id = "Docentes"></a>
+<h2 style = "text-align: center;">Docentes del Curso</h2>
+
 1. De la Cruz Rodriguez, Lewis - umbert.de.la.cruz@upch.pe
 2. Meza Rodriguez, Moises - moises.meza@upch.pe
 3. Venancio Huerta, Julissa - julissa.venancio@upch.pe
