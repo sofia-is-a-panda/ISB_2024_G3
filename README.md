@@ -12,11 +12,13 @@ Bienvenidos al repositorio del **Grupo 3** del curso *Introducción a Señales B
 5. [Tema del Proyecto](#Tema)
 7. [Integrantes del Grupo](#Integrantes)
 8. [Docentes del Curso](#Docentes)
+9. [Bibliografía](#Bibliografía)
 
 <a id = "introducción" style></a>
 <h2 style = "text-align: center;">¿Qué son las señales biomédicas?</h2>
-
-<a id = "Contenido"></a> 
+Las señales biomédicas, o bioseñales, representan un conjunto de información de los procesos fisiológicos producidos por un organismo a nivel tisular, celular o molecular y pueden ser de naturaleza eléctrica, acústica, química, térmica, etc [1].
+El procesamiento y análisis de estas señales son de mucha ayuda para el estudio de los procesos fisiológicos que originan tales señales, así como el monitoreo y diagnóstico de pacientes en el ámbito médico y hospitalario [2].
+<a id = "Contenido"></a>  
 <h2 style = "text-align: center;">Contenido del Curso</h2>
 El curso consta de las siguientes 3 unidades:
 
@@ -87,3 +89,8 @@ Finalmente, para complementar las técnicas y conceptos vistos en las 2 unidades
 2. Meza Rodriguez, Moises - moises.meza@upch.pe
 3. Venancio Huerta, Julissa - julissa.venancio@upch.pe
 4. Cáceres del Aguila, Jose Alonso - jose.caceres.d@upch.pe
+
+<a id = "Bibliografia"></a>
+<h2 style = "text-align: center;">Bibliografía</h2>
+[1] Subasi, A. (2019). Biomedical Signal Analysis and Its Usage in Healthcare. In: Paul, S. (eds) Biomedical Engineering and its Applications in Healthcare. Springer, Singapore. https://doi.org/10.1007/978-981-13-3705-5_18
+[2] Escabí, M. (2012). Biosignal Processing. Introduction to Biomedical Engineering, 667–746. https://doi.org/10.1016/B978-0-12-374979-6.00011-3
