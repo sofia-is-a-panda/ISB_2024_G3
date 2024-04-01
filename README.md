@@ -18,9 +18,22 @@ Bienvenidos al repositorio del **Grupo 3** del curso *Introducción a Señales B
 
 <a id = "Contenido"></a> 
 <h2 style = "text-align: center;">Contenido del Curso</h2>
+El curso consta de las siguientes 3 unidades:
+
+##### 1° Unidad: Introducción y adquisición de las señales EMG, ECG y EEG.
+Esta unidad introduce los conceptos de las señales biomédicas EMG, ECG y EEG al igual que sus características más importantes.
+También presenta los métodos de adquisición y ploteo de este tipo de señales.
+
+##### 2° Unidad: Procesamiento y análisis de señales ECG, EMG y EEG.
+Esta unidad se enfoca en el procesamiento y análisis de las señales anteriormente mencionadas a través del desarrollo de filtros digitales, algoritmos de detección y análisis de señales.
+
+##### 3° Unidad: Introducción al análisis de datos estructurados e inteligencia artificial.
+Finalmente, para complementar las técnicas y conceptos vistos en las 2 unidades previas, esta última unidad se enfoca en la estructuración de la data obtenido de las señales, así como su análisis estadístico y una breve introducción a la inteligencia artifical.
+
 
 <a id = "Materiales"></a>
 <h2 style = "text-align: center;">Materiales</h2>
+
 
 <a id = "Metodología"></a>
 <h2 style = "text-align: center;">Metodología</h2>
