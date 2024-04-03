@@ -16,9 +16,13 @@ Situándonos en el contexto nacional, la falta de diagnóstico y monitoreo conti
 
 ## Bibliografía:
 [1] Hipertensión [Internet]. Who.int. [citado el 3 de abril de 2024].Disponible en: https://www.who.int/es/health-topics/hypertension
+
 [2] CDC. High blood pressure symptoms and causes [Internet]. Centers for Disease Control and Prevention. 2023 [citado el 3 de abril de 2024]. Disponible en: https://www.cdc.gov/bloodpressure/about.htm
+
 [3] Hipertension [Internet]. Paho.org. [citado el 3 de abril de 2024]. Disponible en: https://www.paho.org/es/enlace/hipertension
+
 [4]Lip GYH, Coca A, Kahan T, Boriani G, Manolis AS, Olsen MH, et al. Hypertension and cardiac arrhythmias: Executive summary of a consensus document from the European heart rhythm association (EHRA) and ESC council on hypertension, endorsed by the heart rhythm society (HRS), Asia-pacific heart rhythm society (APHRS) and Sociedad latinoamericana de estimulación cardíaca y electrofisiología (SOLEACE). Eur Heart J Cardiovasc Pharmacother [Internet]. 2017 [citado el 3 de abril de 2024];3(4):235–50. Disponible en: https://doi.org/10.1093/ehjcvp/pvx019
+
 [5] Afzal MR, Savona S, Mohamed O, Mohamed-Osman A, Kalbfleisch SJ. Hypertension and arrhythmias. Heart Fail Clin [Internet]. 2019;15(4):543–50. Disponible en: http://dx.doi.org/10.1016/j.hfc.2019.06.011
 
 
