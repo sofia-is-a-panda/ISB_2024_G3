@@ -94,6 +94,4 @@ Finalmente, para complementar las técnicas y conceptos vistos en las 2 unidades
 <h2 style = "text-align: center;">Bibliografía</h2>
 [1] Subasi, A. (2019). Biomedical Signal Analysis and Its Usage in Healthcare. In: Paul, S. (eds) Biomedical Engineering and its Applications in Healthcare. Springer, Singapore. https://doi.org/10.1007/978-981-13-3705-5_18
 
-&nbsp;
-
 [2] Escabí, M. (2012). Biosignal Processing. Introduction to Biomedical Engineering, 667–746. https://doi.org/10.1016/B978-0-12-374979-6.00011-3
