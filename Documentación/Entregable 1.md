@@ -2,9 +2,11 @@
 
 ## Contexto:
 **¿Qué es la hipertensión arterial?**
+
 La hipertensión arterial, o simplemente hipertensión, se define como una condición en la cual la presión ejercida por la sangre hacia las arterias es considerablemente alta lo cual genera un mayor trabajo al corazón y, en caso de una condición crónica, podría desencadenar mayormente enfermedades cardiovasculares, cerebrales o renales a futuro [1]. Cuantitativamente, la hipertensión arterial se define a través de valores de la presión arterial sistólica mayores o iguales a 140 mmHg o valores de la presión arterial diastólica mayores o iguales a 90 mmHg [2]. 
 
 **Sobre las cifras de la hipertensión a nivel mundial y nacional:**
+
 La hipertensión arterial se considera una de las principales causas de enfermedades cardiovasculares a nivel mundial. La red de científicos de la salud conocida como NCD-RisC dio a conocer, a través de un análisis combinado de 1201 estudios representativos, la evolución de las cifras de prevalencia y control de la hipertensión arterial en múltiples países del mundo, incluyendo al Perú, desde 1990 a 2019 tomando una población total de 109 millones de participantes [3]. Este estudio afirma que la prevalencia mundial de la hipertensión arterial, en el año 2019, es de un poco más de 1000 millones de personas siendo ligeramente más prevalente en varones que en mujeres. Asimismo, el estudio también dio a conocer el porcentaje de personas que conocían su padecimiento el cual fue de 69,8% a nivel regional. Aunque el porcentaje de personas diagnosticadas con la enfermedad es relativamente alto a nivel mundial, esto no se refleja de igual manera en el Perú. Si nos situamos en el contexto nacional, se puede observar que la prevalencia de la hipertensión en el año 2019 fue de 20,7%, lo cual fue registrado como el menor porcentaje de prevalencia dentro de los distintos países analizados en el estudio; sin embargo, el porcentaje de personas que no conocían su condición fue de 53,5% lo cual supera el porcentaje de los demás países. 
 
 ## Problemática:
