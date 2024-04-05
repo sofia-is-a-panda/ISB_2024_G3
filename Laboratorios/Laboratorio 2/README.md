@@ -1,1 +1,1 @@
-Prueba
+<h1 style="text-align: center;">LABORATORIO 2 – ADQUISICIÓN DE SEÑALES Y GRAFICACIÓN EN ARDUINO</h1>
