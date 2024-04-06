@@ -28,7 +28,7 @@ Inicialmente utilizamos el generador de señales para proporcionar una señal si
 
 ### Ploteo de 3 señales utilizando el generador de señales
 
-Antes de iniciar a plotear con el Arduino, decidimos generar tres señales y visualizarlas en osciloscopio para poder tenerlas como referencia. 
+Antes de iniciar a plotear con el Arduino, decidimos generar tres señales y visualizarlas en osciloscopio para poder verificar la funcionalidad del generador de señales.
 
 <strong>-Conexiones:</strong>
  Para poder visualizar las ondas generadas primero conectamos un extremo del cable BNC en el canal 1 del generador de señales y el otro extremo en el canal 1 del osciloscopio.
@@ -95,7 +95,7 @@ Antes de iniciar a plotear con el Arduino, decidimos generar tres señales y vis
     <li>1 Arduino NANO 33 IoT</li>
 </ul>
 
-En la <strong>Figura 5</strong> se muestran las conexiones que realizamos. En esta ocasión utilizamos el pin analógico A0 del Arduino NANO 33 IOT, el cual conectamos al terminal positivo del capacitor y al generador de señales a través del cable jumper. Finalmente, conectamos a tierra el GND del Arduino, el GND del generador de señales y la pata negativa del capacitor.
+En la <strong>Figura 5</strong> se muestran las conexiones que realizamos. En esta ocasión, utilizamos el pin analógico A0 del Arduino NANO 33 IOT, el cual conectamos al terminal positivo del capacitor y al generador de señales a través del cable jumper. Finalmente, cortocircuitamos el GND del Arduino con el GND del generador de señales y la pata negativa del capacitor.
 
 <p align="center" style="margin-bottom:0">
 <img src="Imagenes/Circuito Arduino Nano 33 IoT.jpeg" width="500" height="300" />
@@ -105,19 +105,12 @@ En la <strong>Figura 5</strong> se muestran las conexiones que realizamos. En es
 ### Código utilizado
 
 ````
-unsigned long lastMsg = 0;
-float F=1;                      // 1 hz
-double Fs = 10*F;               // 10 hz
-double Ts_ms = (1/Fs)*1000;     //  100 ms  
-
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
 }
 void loop() {
 
     int r1 = analogRead(A0);
-
     Serial.println(r1);
     delay(100);
   }
