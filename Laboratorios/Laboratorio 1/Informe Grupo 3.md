@@ -98,7 +98,7 @@ Antes de iniciar a plotear con el Arduino, decidimos generar tres señales y vis
 En la <strong>Figura 5</strong> se muestran las conexiones que realizamos. En esta ocasión utilizamos el pin analógico A0 del Arduino NANO 33 IOT, el cual conectamos al terminal positivo del capacitor y al generador de señales a través del cable jumper. Finalmente, conectamos a tierra el GND del Arduino, el GND del generador de señales y la pata negativa del capacitor.
 
 <p align="center" style="margin-bottom:0">
-<img src="Imagenes/Circuito Arduino NANO 33 IoT.jpeg" width="500" height="300" />
+<img src="Imagenes/Circuito Arduino Nano 33 IoT.jpeg" width="500" height="300" />
 <div align="center"> <i>Figura 5. Conexiones del Arduino NANO 33 IOT y el generador de señales</i></div>
 </p>
 
@@ -132,14 +132,14 @@ Primero, observamos que obtenemos cuando el generador de señales para poder ide
 <div align="center"> <i>Figura 6. Ruido obtenido con el capacitor</i></div>
 </p>
 
-Notamos que obtenemos valores hasta de XXXXXXXXX . También, retiramos el capacitor para identificar el ruido que estamos captando sin este.
+Notamos que obtenemos valores hasta de 150 . También, retiramos el capacitor para identificar el ruido que estamos captando sin este.
 
 <p align="center" style="margin-bottom:0">
 <img src="Imagenes/Sin_capacitor.jpeg" width="500" height="300" />
 <div align="center"> <i>Figura 7. Ruido obtenido sin el capacitor</i></div>
 </p>
 
-Notamos que obtenemos valores hasta de XXXXXXXXXX
+Notamos que obtenemos valores hasta de 300
 
 Como sabemos, los microcontroladores Arduino, en su forma básica, no tienen una capacidad intrínseca para "captar" frecuencias como lo haría un osciloscopio, es por eso que utilizamos frecuencias bajas para poder plotear correctamente.
 
@@ -185,7 +185,7 @@ La primera y más notoria diferencia es la resolución y precisión. Como sabemo
 Finalmente, es importante resaltar que para poder visualizar resultados en el Arduino IDE, tuvimos que desconectar el capacitor. Para entender por qué tuvimos que hacer esto, primero vamos a mencionar que el capacitador estaba actuando como un filtro RC, donde el Arduino estaba funcionando como resistencia.
 
 ¿Qué es un filtro RC?
-Un filtro RC es un circuito electrónico básico que utiliza una resistencia (R) y un condensador (C) para filtrar señales eléctricas. Funciona al pasar las señales a través del condensador, lo que permite el paso de frecuencias más bajas y bloquea las frecuencias más altas. La resistencia y el condensador juntos determinan la frecuencia de corte del filtro, es decir, la frecuencia a la que comienza a atenuar las señales. Esto lo hace útil para suavizar o eliminar el ruido de una señal, o para seleccionar frecuencias específicas en un circuito.
+Un filtro RC es un circuito electrónico básico que utiliza una resistencia (R) y un condensador (C) para filtrar señales eléctricas. Funciona al pasar las señales a través del condensador, lo que permite el paso de frecuencias más bajas y bloquea las frecuencias más altas. La resistencia y el condensador juntos determinan la frecuencia de corte del filtro, es decir, la frecuencia a la que comienza a atenuar las señales. Esto lo hace útil para suavizar o eliminar el ruido de una señal, o para seleccionar frecuencias específicas en un circuito <strong>[1]</strong>.
 
 
 Teniendo todo esto en cuenta podemos decir que la configuración del filtro RC, podría estar atenuando la señal de salida del generador de señales, haciendo que la amplitud de la señal sea demasiado baja para ser detectada correctamente por la entrada del Arduino. Otra posibilidad es que sii la frecuencia de corte del filtro RC es demasiado baja, podría estar atenuando las frecuencias de la señal generada por el generador de señales en Arduino IDE. Esto podría hacer que la señal filtrada sea difícil de detectar o interpretar correctamente. Y finalmente, los filtros RC pueden introducir un retraso en la señal debido al tiempo que tarda en cargarse y descargarse el condensador. Esto podría causar problemas de sincronización si estás tratando de leer señales rápidas o pulsos cortos generados por el Arduino.
@@ -194,3 +194,5 @@ Teniendo todo esto en cuenta podemos decir que la configuración del filtro RC, 
 
 
 ### Bibliografia
+
+1. “Todo lo que necesitas saber sobre Filtros RC”. Solectroshop -Tu tienda de Arduino, Raspberry, Micro:Bit, Sparkfun. Accedido el 6 de abril de 2024. [En línea]. Disponible: https://solectroshop.com/es/blog/todo-lo-que-necesitas-saber-sobre-filtros-rc-n52
