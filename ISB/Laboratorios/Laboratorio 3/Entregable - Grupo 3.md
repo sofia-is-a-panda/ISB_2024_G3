@@ -125,7 +125,9 @@ Las señales obtenidas en la sesión fueron recuperadas y procesadas en Python d
 
 | Lectura en reposo | Lectura durante la tensión | Lectura durante oposición |
 | :---      |   :---:  |   :---:  | 
-|![emg_reposo](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/23c4744c-6a88-4d14-ab0b-93058803fe03) | ![emg_tension](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/11ae7671-05e1-4ac6-a21c-f4294123e23c) | ![emg_oposicion](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/c4b56ebe-0bcc-49d4-89bd-8cb78bc723b6)
+|![emg_reposo](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/23c4744c-6a88-4d14-ab0b-93058803fe03) | ![emg_tension](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/11ae7671-05e1-4ac6-a21c-f4294123e23c) | ![emg_oposicion](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/c4b56ebe-0bcc-49d4-89bd-8cb78bc723b6) |
+| :---      |   :---:  |   :---:  | 
+|![fft_reposo](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a1cb8c2f-8eb8-48ba-a0ee-3e46efd19f1e) | ![fft_tension](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/164d4aa8-cdf9-4cac-98dd-e75262fe4631) | ![fft_oposicion](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/b91bae71-5999-4fa7-8810-b2e850cc40a1) |
 
 
 
