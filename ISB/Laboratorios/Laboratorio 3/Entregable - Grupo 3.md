@@ -9,8 +9,8 @@
   * [Conexiones](#conexiones)
   * [Videos de la señal](#videos-de-señal)
   * [Gráficos OpenSignals](#gráficos-opensignals)
-  * [Discusión](#discusión)
   * [Ploteo en Python](#ploteo-en-python)
+  * [Discusión](#discusión)
 * [Bibliografía](#bibliografía)
 
 
@@ -119,10 +119,11 @@ Cuando el músculo se enfrenta a una posición, en este caso una fuerza externa 
 
 ### PLOTEO EN PYTHON
 
+### DISCUSIÓN
+Se llevó a cabo la captura de las señales eléctricas del músculo abductor corto del pulgar, como se mostró en las imágenes. Dado que se utilizaron electrodos superficiales, existe la posibilidad de que se hayan registrado diversos ruidos externos o señales ajenas al segmento mencionado, aunque para evitar dichos ruidos al momento de tomar las mediciones retiramos todos los aparatos electronicos y joyas de la voluntaria. A partir de este punto, se realizaron tres movimientos. El primero fue de relajación, en el cual las señales exhibieron una variación mínima, casi similar al silencio, como se puede observar en la imagen donde la señal permanece cerca de su centro, mostrando una baja amplitud que, a gran escala, parece casi una línea.
 
+Posteriormente, se procedió a inducir una tensión prolongada del músculo mediante un arqueo del falange, manteniendo la contracción por unos segundos. Y por último, se realizó un movimiento de oposición, en el cual pudimos detectar señales de mayor amplitud.
 
-
-
-
+##BIBLIOGRAFÍA
 
 
