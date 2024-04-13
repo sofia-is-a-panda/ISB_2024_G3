@@ -15,9 +15,9 @@
 
 
 ## OBJETIVOS
-* Adquirir de manera correcta una señal de EMG
+* Adquirir correctamente una señal de EMG.
 * Realizar una correcta configuración del BITalino
-* Extraer la información de las señal del EMG mediante el software OpenSignals (r)evolution 
+* Extraer la información de las señal del EMG mediante el software OpenSignals (r)evolution. 
 ## INTRODUCCIÓN 
 En este laboratorio, utilizaremos la plataforma BITalino para adquirir señales de EMG utilizando el procedimiento para el estudio de conducción nerviosa motora del
 nervio mediano del MINSA [1]. Las señales de EMG serán visualizadas en tiempo real utilizando el software OpenSignals y guardaremos la información de las señales obtenidas para poder plotearlas en Python.
@@ -50,17 +50,18 @@ nervio mediano del MINSA [1]. Las señales de EMG serán visualizadas en tiempo 
     </tr>
     <tr>
         <th>
-        Electrodo desechable
+        Electrodos desechables
         </th>
         <th>
             <div align="center">3</div>  
         </th>
     </tr>
 </table>
-En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution (Figura 1). Dentro del mismo se encuentra el board del BITalino, 1 cable de 3 hilos, 1 cable de 2 hilos, 5 electrodos, 1 bateria de polimero de litio de 500 maH y  la guia de usuario.
+En la sesión de laboratorio, se hizo uso del kit BITalino (r)evolution (Figura 1). Dentro del mismo se encuentra el board del BITalino, 1 cable de 3 hilos, 1 cable de 2 hilos, 5 electrodos, 1 bateria de polímero de litio de 500 mAh y una breve guía de usuario.
 
+&nbsp;
 <p align="center" style="margin-bottom:0">
-<img src="Multimedia/kit_bitalino.jpeg" width="400" height="250"/>
+<img src="Multimedia/kit_bitalino.jpeg" width="400" height="500"/>
 <div align="center"> <i>Figura 1. Kit Bitalino</i></div>
 <p>
 
@@ -84,7 +85,7 @@ Para iniciar colocamos el electrodo positivo (G1) sobre el centro del músculo a
 <div align="center"> <i>Figura 3:Posición del electro de tierra.</i></div>
 <p>
 
-Después de posicionar los electrodos, se estableció la conexión Bluetooth entre el BiTalino y OpenSignals para visualizar la señal deseada. Se llevaron a cabo dos pruebas: una con el músculo en reposo y otra aplicando fuerza. La variación en la fuerza aplicada al músculo se reflejará en el gráfico de la señal de OpenSignals de la siguiente forma:
+Después de posicionar los electrodos, se estableció la conexión Bluetooth entre el BiTalino y OpenSignals para visualizar la señal deseada. Se llevaron a cabo 3 pruebas: Una con el músculo en reposo, otra tensionando el músculo sin oposición externa y la última tensionando el músculo con oposición externa.
 
 ### VIDEOS DE LA SEÑAL
 En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
@@ -104,12 +105,12 @@ https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/8904b899-1dba-4
 https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/83306ae2-ede3-4c62-a038-f5998ad6f474
 </div>
 
-### GRÁFICOS OpenSignals
-Señal en reposo:
-Podemos ver que observamos un poco de ruido cuando el músculo se encuntra en reposo.
+## GRÁFICOS OpenSignals
+### Señal en reposo:
+Podemos ver que observamos un poco de ruido cuando el músculo se encuentra en reposo que es debido a la mala colocación del electrodo de referencia.
 
 <p align="center">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5691ea9cc4dcb328cb7d2ba05e4e1b4d08b2d8db/ISB/Laboratorios/Laboratorio%203/Multimedia/ploteo_OS_reposo.jpeg" align="center" width="500" height="300"/>
+<img src="Multimedia\ploteo_OS_reposo.jpeg" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 4: Gráfica en OpenSignals músculo en reposo.</i></div>
 <p>
 </p>
@@ -118,16 +119,16 @@ Señal en tensión:
 Cuando el músculo empieza a hacer un poco de tensión, empezamos a notar señales.
 
 <p align="center">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5691ea9cc4dcb328cb7d2ba05e4e1b4d08b2d8db/ISB/Laboratorios/Laboratorio%203/Multimedia/ploteo_OS_tension.jpeg" align="center" width="500" height="300"/>
+<img src="Multimedia\ploteo_OS_tension.jpeg" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 5: Gráfica en OpenSignals músculo en tensión</i></div>
 <p>
 </p>
 
 Señal en oposición:
-Cuando el músculo se enfrenta a una posición, en este caso una fuerza externa aplicada por un compañero, empezamos a notar señales más pronunciadas.
+Cuando el músculo se enfrenta a una oposición, en este caso una fuerza externa aplicada por un compañero, empezamos a notar señales más pronunciadas.
 
 <p align="center">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5691ea9cc4dcb328cb7d2ba05e4e1b4d08b2d8db/ISB/Laboratorios/Laboratorio%203/Multimedia/ploteo_OS_oposicion.jpeg" align="center" width="500" height="300"/>
+<img src="Multimedia\ploteo_OS_oposicion.jpeg" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 6: Gráfica en OpenSignals músculo en oposición</i></div>
 <p>
 </p>
