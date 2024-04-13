@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 
 # LABORATORIO 3 – USO DE BITALINO PARA ADQUISICIÓN DE EMG
 
