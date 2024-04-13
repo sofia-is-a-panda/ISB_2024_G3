@@ -95,10 +95,29 @@ Podemos ver que observamos un poco de ruido cuando el músculo se encuntra en re
 
 <p align="center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5691ea9cc4dcb328cb7d2ba05e4e1b4d08b2d8db/ISB/Laboratorios/Laboratorio%203/Multimedia/ploteo_OS_reposo.jpeg" align="center" width="500" height="300"/>
+<div align="center"> <i>Figura 4: Gráfica en OpenSignals músculo en reposo.</i></div>
+<p>
 </p>
 
+Señal en tensión:
+Cuando el músculo empieza a hacer un poco de tensión, empezamos a notar señales.
 
-## PLOTEO EN PYTHON
+<p align="center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5691ea9cc4dcb328cb7d2ba05e4e1b4d08b2d8db/ISB/Laboratorios/Laboratorio%203/Multimedia/ploteo_OS_tension.jpeg" align="center" width="500" height="300"/>
+<div align="center"> <i>Figura 5: Gráfica en OpenSignals músculo en tensión</i></div>
+<p>
+</p>
+
+Señal en oposición:
+Cuando el músculo se enfrenta a una posición, en este caso una fuerza externa aplicada por un compañero, empezamos a notar señales más pronunciadas.
+
+<p align="center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5691ea9cc4dcb328cb7d2ba05e4e1b4d08b2d8db/ISB/Laboratorios/Laboratorio%203/Multimedia/ploteo_OS_oposicion.jpeg" align="center" width="500" height="300"/>
+<div align="center"> <i>Figura 6: Gráfica en OpenSignals músculo en oposición</i></div>
+<p>
+</p>
+
+### PLOTEO EN PYTHON
 
 
 
