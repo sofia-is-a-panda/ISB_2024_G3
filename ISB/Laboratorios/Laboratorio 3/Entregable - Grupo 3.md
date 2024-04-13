@@ -42,7 +42,7 @@ En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution. Este
 
 
 ## VIDEOS DE LA SEÑAL
-
+<video src="multimedia/videoyoposicion.mp4" controls></video>        
 
 <table border=1px>
     <tr>
