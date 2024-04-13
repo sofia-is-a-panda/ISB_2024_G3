@@ -89,8 +89,10 @@ Después de posicionar los electrodos, se estableció la conexión Bluetooth ent
 ### VIDEOS DE LA SEÑAL
 En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
 
-<div align="center">
-https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/00e5cbfd7596d8964c147536929cc88db92d847a/ISB/Laboratorios/Laboratorio%203/Multimedia/videoreposo.mp4 </div>
+<video width="640" height="360" controls>
+  <source src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/00e5cbfd7596d8964c147536929cc88db92d847a/ISB/Laboratorios/Laboratorio%203/Multimedia/videoreposo.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de videos.
+</video>
 
 ### GRÁFICOS OpenSignals
 Señal en reposo:
