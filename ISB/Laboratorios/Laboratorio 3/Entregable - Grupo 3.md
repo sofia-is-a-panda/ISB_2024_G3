@@ -90,18 +90,9 @@ Después de posicionar los electrodos, se estableció la conexión Bluetooth ent
 En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
 
 
-<p align="justify">Video de la toma de señal del músculo en reposo:</p>
- https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/245eb187-d307-48d9-b9f2-d8b08d0ef189
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/ed8fcd7f-e6f9-48fb-ae98-fa43f72851b1
 
 
-
-<p align="justify">Video de la toma de señal del músculo en tensión:</p>
-https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/8904b899-1dba-4b86-8b5a-1ba2ec50f83e
-
-
-
-<p align="justify">Video de la toma de señal del músculo en oposición:</p>
-https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/83306ae2-ede3-4c62-a038-f5998ad6f474
 
 ### GRÁFICOS OpenSignals
 Señal en reposo:
