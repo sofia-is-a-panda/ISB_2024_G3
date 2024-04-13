@@ -123,10 +123,10 @@ Las señales obtenidas en la sesión fueron recuperadas y procesadas en Python d
 * Lectura durante la tensión
 * Lectura durante oposición
 
-- [Lectura en reposo]![emg_reposo](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/23c4744c-6a88-4d14-ab0b-93058803fe03)
+| Lectura en reposo | Lectura durante la tensión | Lectura durante oposición |
+| :---      |   :---:  |   :---:  | 
+|![emg_reposo](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/23c4744c-6a88-4d14-ab0b-93058803fe03) | ![emg_tension](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/11ae7671-05e1-4ac6-a21c-f4294123e23c) | ![emg_oposicion](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/c4b56ebe-0bcc-49d4-89bd-8cb78bc723b6)
 
-- [Lectura durante la tensión](https://github.com/MauricioCastilloT/Intro-SenalesG8/blob/main/IBS%20/Laboratorios%20/Electrocardiograf%C3%ADa/grafica_pau2.ipynb)
-- [Lectura durante oposición](https://github.com/MauricioCastilloT/Intro-SenalesG8/blob/main/IBS%20/Laboratorios%20/Electrocardiograf%C3%ADa/grafica_pau3.ipynb)
 
 
 ### DISCUSIÓN
