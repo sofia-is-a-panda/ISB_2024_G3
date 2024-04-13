@@ -1,86 +1,99 @@
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-</head>
-
-
-
-<body>
-
 # LABORATORIO 3 – USO DE BITALINO PARA ADQUISICIÓN DE EMG
 
-### Integrantes del grupo 3
-
-1. Ashley Estefania Bravo Bravo - ashley.bravo@upch.pe
-2. Kevin Alexis Palomino Díaz - kevin.palomino@upch.pe
-3. Sofia Natalia Sotelo Castillo - sofia.sotelo@upch.pe
-4. Leonardo Nicolas Zuñiga - leonardo.zuniga@upch.pe
-
-
-### Entregables
-
-1. Fotos de conexiones
-2. Video de señal en silencio eléctrico y reposo.
-3. Ploteo de la señal en OpenSignals
-4. Resumen y explicación de la señal ploteada
-5. El archivo de los datos de la señal ploteada
-6. Ploteo de la señal en Python
-
-## INTRODUCCIÓN
-En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution. Este 
-<p align="center" style="margin-bottom:0">
-<img src="Multimedia/kit_bitalino.jpeg" width="500" height="300"/>
-<div align="center"> <i>Figura 1. Kit Bitalino</i></div>
-<p>
-
-## CONEXIONES
-
-## POSICIONAMIENTO DE LOS ELECTRODOS
+## CONTENIDO
+* [Objetivos](#objetivos-de-la-práctica)
+* [Introduccion](#introducción-emg)
+* [Materiales](#materiales-empleados)
+* []
+*   
+*   
+*   
 
 
-## VIDEOS DE LA SEÑAL
-<video src="multimedia/videoyoposicion.mp4" controls></video>        
+## OBJETIVOS DE LA PRÁCTICA
+* Adquirir de manera correcta una señal de EMG
+* Realizar una correcta configuración del BITalino
+* Extraer la información de las señal del EMG mediante el software OpenSignals (r)evolution 
+## INTRODUCCIÓN 
+Resumen de lo que se hara en el laboratorio
 
+
+
+## MATERIALES EMPLEADOS
 <table border=1px>
     <tr>
         <th>
-        <p align="center">Tipo de señal</p>
+            <div align="center">MATERIAL</div>
         </th>
         <th>
-        <p align="center">Video</p>
+            <div align="center">CANTIDAD</div>
         </th>
     </tr>
     <tr>
         <th>
-        En reposo
+             Kit BITalino
         </th>
         <th>
-        <video src="multimedia/videoreposo.mp4" controls></video> 
-        </th>
+            <div align="center">1</div>      
+        </th> 
     </tr>
     <tr>
         <th>
-        En oposicion
+             Laptop
         </th>
         <th>
-         <video src="multimedia/videoyoposicion.mp4" controls></video>        
-        </th>
+            <div align="center">1</div>  
+        </th> 
     </tr>
     <tr>
         <th>
-        En tensión
+        Electrodo desechable
         </th>
         <th>
-         <video src="multimedia/videotension.mp4" controls></video>        
+            <div align="center">3</div>  
         </th>
     </tr>
-
-    
-    
 </table>
-    ![youtube]("multimedia/videotension.mp4")
-</body>
-</html>
+En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution (Figura 1). Dentro del mismo se encuentra el board del BITalino, 1 cable de 3 hilos, 1 cable de 2 hilos, 5 electrodos, 1 bateria de polimero de litio de 500 maH y  la guia de usuario.
+
+<p align="center" style="margin-bottom:0">
+<img src="Multimedia/kit_bitalino.jpeg" width="400" height="250"/>
+<div align="center"> <i>Figura 1. Kit Bitalino</i></div>
+<p>
+
+
+
+## CONEXION EMPLEADA
+
+Se utilizo el cable de 3 hilos con sus respectivos electrodos. Cada uno de estso electrodos representa positivo (rojo), negativo (negro) y tierra (blanco).
+<p align="center" style="margin-bottom:0">
+<img src="Multimedia/posicion1.jpeg" width="400" height="250"/>
+<div align="center"> <i>Figura 2. Vista 1</i></div>
+<p>
+<p align="center" style="margin-bottom:0">
+<img src="Multimedia/posicion2.jpeg" width="400" height="250"/>
+<div align="center"> <i>Figura 3. Vista 2</i></div>
+<p>
+
+## VIDEOS DE LA SEÑAL
+poner videos
+
+## PLOTEO EN OPEN SIGNALS
+
+<img src="multimedia/ploteo_OS_reposo.jpeg"><img>
+
+<img src="multimedia/ploteo_OS_tension.jpeg"><img>
+
+<img src="multimedia/ploteo_OS_oposicion.jpeg"><img>
+
+
+## PLOTEO EN PYTHON
+
+
+
+
+
+
+
+
