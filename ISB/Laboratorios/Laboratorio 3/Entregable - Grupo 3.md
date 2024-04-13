@@ -2,25 +2,27 @@
 # LABORATORIO 3 – USO DE BITALINO PARA ADQUISICIÓN DE EMG
 
 ## CONTENIDO
-* [Objetivos](#objetivos-de-la-práctica)
-* [Introduccion](#introducción-emg)
-* [Materiales](#materiales-empleados)
-* []
-*   
-*   
-*   
+* [Objetivos](#objetivos)
+* [Introducción](#introducción)
+* [Materiales](#materiales)
+* [Laboratorio3](#laboratorio3)
+  * [Conexiones](#conexiones)
+  * [Videos de la señal](#videos-de-señal)
+  * [Gráficos OpenSignals](#gráficos-opensignals)
+  * [Discusión](#discusión)
+  * [Ploteo en Python](#ploteo-en-python)
+* [Bibliografía](#bibliografía)
 
 
-## OBJETIVOS DE LA PRÁCTICA
+## OBJETIVOS
 * Adquirir de manera correcta una señal de EMG
 * Realizar una correcta configuración del BITalino
 * Extraer la información de las señal del EMG mediante el software OpenSignals (r)evolution 
 ## INTRODUCCIÓN 
-Resumen de lo que se hara en el laboratorio
+En este laboratorio, utilizaremos la plataforma BITalino para adquirir señales de EMG utilizando el procedimiento para el estudio de conducción nerviosa motora del
+nervio mediano del MINSA [1]. Las señales de EMG serán visualizadas en tiempo real utilizando el software OpenSignals y guardaremos la información de las señales obtenidas para poder plotearlas en Python.
 
-
-
-## MATERIALES EMPLEADOS
+## MATERIALES
 <table border=1px>
     <tr>
         <th>
@@ -64,8 +66,10 @@ En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution (Figura 1
 
 
 
-## CONEXION EMPLEADA
+## LABORATORIO
+Como mencionamos anteriormente utilizaremos BITalino, que es una plataforma de hardware y software de bajo costo y código abierto que permite la adquisición de señales biomédicas, incluyendo EMG. La plataforma BITalino está compuesta por una placa de desarrollo, varios sensores y un software de adquisición y análisis de datos. La placa de desarrollo cuenta con un microcontrolador, conectividad Bluetooth y varios canales analógicos y digitales que permiten conectar una variedad de sensores. Los sensores BITalino incluyen sensores de ECG, EMG, EEG, acelerometría, fotopletismografía (PPG), temperatura, respiración y actividad electrodermal. El software de adquisición y análisis de datos permite visualizar las señales en tiempo real, guardar los datos para su posterior análisis y exportar los datos a diferentes formatos [2]. 
 
+###Conexiones
 Se utilizo el cable de 3 hilos con sus respectivos electrodos. Cada uno de estso electrodos representa positivo (rojo), negativo (negro) y tierra (blanco).
 <p align="center" style="margin-bottom:0">
 <img src="Multimedia/posicion1.jpeg" width="400" height="250"/>
