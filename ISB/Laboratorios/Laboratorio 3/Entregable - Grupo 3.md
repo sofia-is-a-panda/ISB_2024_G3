@@ -89,13 +89,13 @@ Después de posicionar los electrodos, se estableció la conexión Bluetooth ent
 ### VIDEOS DE LA SEÑAL
 En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
 
-## PLOTEO EN OPEN SIGNALS
+### GRÁFICOS OpenSignals
+Señal en reposo:
+Podemos ver que observamos un poco de ruido cuando el músculo se encuntra en reposo.
 
-<img src="multimedia/ploteo_OS_reposo.jpeg"><img>
-
-<img src="multimedia/ploteo_OS_tension.jpeg"><img>
-
-<img src="multimedia/ploteo_OS_oposicion.jpeg"><img>
+<p align="center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5691ea9cc4dcb328cb7d2ba05e4e1b4d08b2d8db/ISB/Laboratorios/Laboratorio%203/Multimedia/ploteo_OS_reposo.jpeg" align="center" width="500" height="300"/>
+</p>
 
 
 ## PLOTEO EN PYTHON
