@@ -89,10 +89,11 @@ Después de posicionar los electrodos, se estableció la conexión Bluetooth ent
 ### VIDEOS DE LA SEÑAL
 En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
 
-
 https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/ed8fcd7f-e6f9-48fb-ae98-fa43f72851b1
 
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/36e0f52f-40ff-4a65-8dae-3484ee3c43c2
 
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/c4f1a116-822b-44a9-a205-c3708c55ebe7
 
 ### GRÁFICOS OpenSignals
 Señal en reposo:
