@@ -118,7 +118,16 @@ Cuando el músculo se enfrenta a una posición, en este caso una fuerza externa 
 </p>
 
 ### PLOTEO EN PYTHON
-Ploteamos los datos en Python
+Las señales obtenidas en la sesión fueron recuperadas y procesadas en Python de 1 alumno, del cual se realizó 
+* Lectura en reposo
+* Lectura durante la tensión
+* Lectura durante oposición
+
+- [Lectura en reposo]![emg_reposo](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/23c4744c-6a88-4d14-ab0b-93058803fe03)
+
+- [Lectura durante la tensión](https://github.com/MauricioCastilloT/Intro-SenalesG8/blob/main/IBS%20/Laboratorios%20/Electrocardiograf%C3%ADa/grafica_pau2.ipynb)
+- [Lectura durante oposición](https://github.com/MauricioCastilloT/Intro-SenalesG8/blob/main/IBS%20/Laboratorios%20/Electrocardiograf%C3%ADa/grafica_pau3.ipynb)
+
 
 ### DISCUSIÓN
 Se llevó a cabo la captura de las señales eléctricas del músculo abductor corto del pulgar, como se mostró en las imágenes. Dado que se utilizaron electrodos superficiales, existe la posibilidad de que se hayan registrado diversos ruidos externos o señales ajenas al segmento mencionado, aunque para evitar dichos ruidos al momento de tomar las mediciones retiramos todos los aparatos electronicos y joyas de la voluntaria. A partir de este punto, se realizaron tres movimientos. El primero fue de relajación, en el cual las señales exhibieron una variación mínima, casi similar al silencio, como se puede observar en la imagen donde la señal permanece cerca de su centro, mostrando una baja amplitud que, a gran escala, parece casi una línea.
