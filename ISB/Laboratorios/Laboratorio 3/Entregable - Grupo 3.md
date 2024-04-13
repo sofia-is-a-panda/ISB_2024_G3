@@ -1,4 +1,15 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+
+
+<body>
+
 # LABORATORIO 3 – USO DE BITALINO PARA ADQUISICIÓN DE EMG
 
 ### Integrantes del grupo 3
@@ -66,4 +77,10 @@ En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution. Este
          <video src="multimedia/videotension.mp4" controls></video>        
         </th>
     </tr>
+
+    
+    
 </table>
+    ![youtube]("multimedia/videotension.mp4")
+</body>
+</html>
