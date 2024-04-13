@@ -86,8 +86,8 @@ Para iniciar colocamos el electrodo positivo (G1) sobre el centro del músculo a
 
 Después de posicionar los electrodos, se estableció la conexión Bluetooth entre el BiTalino y OpenSignals para visualizar la señal deseada. Se llevaron a cabo dos pruebas: una con el músculo en reposo y otra aplicando fuerza. La variación en la fuerza aplicada al músculo se reflejará en el gráfico de la señal de OpenSignals de la siguiente forma:
 
-## VIDEOS DE LA SEÑAL
-poner videos
+### VIDEOS DE LA SEÑAL
+En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
 
 ## PLOTEO EN OPEN SIGNALS
 
