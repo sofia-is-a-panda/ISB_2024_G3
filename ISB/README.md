@@ -35,8 +35,6 @@ Finalmente, para complementar las técnicas y conceptos vistos en las 2 unidades
 <p align="center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Imagenes/PROCESO%20DE%20APRENDIZAJE%20ISB.png" align="center" width="1200" height="1200"/>
 </p>
-<a id = "Tema"></a>
-<h2 style = "text-align: center;">Tema del Proyecto</h2>
 
 <a id = "Integrantes"></a>
 <h2 style = "text-align: center;">Integrantes</h2>
