@@ -69,14 +69,14 @@ En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution (Figura 1
 ## LABORATORIO
 Como mencionamos anteriormente utilizaremos BITalino, que es una plataforma de hardware y software de bajo costo y código abierto que permite la adquisición de señales biomédicas, incluyendo EMG. La plataforma BITalino está compuesta por una placa de desarrollo, varios sensores y un software de adquisición y análisis de datos. La placa de desarrollo cuenta con un microcontrolador, conectividad Bluetooth y varios canales analógicos y digitales que permiten conectar una variedad de sensores. Los sensores BITalino incluyen sensores de ECG, EMG, EEG, acelerometría, fotopletismografía (PPG), temperatura, respiración y actividad electrodermal. El software de adquisición y análisis de datos permite visualizar las señales en tiempo real, guardar los datos para su posterior análisis y exportar los datos a diferentes formatos [2]. 
 
-###Conexiones
+### Conexiones
 Se utilizo el cable de 3 hilos con sus respectivos electrodos. Cada uno de estso electrodos representa positivo (rojo), negativo (negro) y tierra (blanco).
 <p align="center" style="margin-bottom:0">
-<img src="Multimedia/posicion1.jpeg" width="400" height="250"/>
+<img src="Multimedia/posicion1.jpeg" width="250" height="400"/>
 <div align="center"> <i>Figura 2. Vista 1</i></div>
 <p>
 <p align="center" style="margin-bottom:0">
-<img src="Multimedia/posicion2.jpeg" width="400" height="250"/>
+<img src="Multimedia/posicion2.jpeg" width="250" height="400"/>
 <div align="center"> <i>Figura 3. Vista 2</i></div>
 <p>
 
