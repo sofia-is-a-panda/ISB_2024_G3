@@ -118,12 +118,17 @@ Cuando el músculo se enfrenta a una posición, en este caso una fuerza externa 
 </p>
 
 ### PLOTEO EN PYTHON
+Ploteamos los datos en Python
 
 ### DISCUSIÓN
 Se llevó a cabo la captura de las señales eléctricas del músculo abductor corto del pulgar, como se mostró en las imágenes. Dado que se utilizaron electrodos superficiales, existe la posibilidad de que se hayan registrado diversos ruidos externos o señales ajenas al segmento mencionado, aunque para evitar dichos ruidos al momento de tomar las mediciones retiramos todos los aparatos electronicos y joyas de la voluntaria. A partir de este punto, se realizaron tres movimientos. El primero fue de relajación, en el cual las señales exhibieron una variación mínima, casi similar al silencio, como se puede observar en la imagen donde la señal permanece cerca de su centro, mostrando una baja amplitud que, a gran escala, parece casi una línea.
 
 Posteriormente, se procedió a inducir una tensión prolongada del músculo mediante un arqueo del falange, manteniendo la contracción por unos segundos. Y por último, se realizó un movimiento de oposición, en el cual pudimos detectar señales de mayor amplitud.
 
-##BIBLIOGRAFÍA
+## BIBLIOGRAFÍA
+[1] MINSA, GUÍA DE PROCEDIMIENTO DE ELECTROMIOGRAFÍA Y VELOCIDAD DE CONDUCCIÓN DE NERVIOS PERIFÉRICOS UNIDAD DE ATENCIÓN INTEGRAL ESPECIALIZADA
+SUB UNIDAD DE ATENCION INTEGRAL ESPECIALIZADA PEDIÁTRICA Y SUB ESPECIALIDADES NEUROLOGIA PEDIATRICA. Disponible en: https://www.insnsb.gob.pe/docs-trans/resoluciones/archivopdf.php?pdf=2020/RD%20N%C2%B0%20000226-2020-DG-INSNSB%20Gu%C3%ADa%20Proced%20Electromiograf%C3%ADa_2020%203REV%20UGC%20CHN%2019.06.2020.pdf
+
+[2] “BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official,” support.pluxbiosignals.com. https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/
 
 
