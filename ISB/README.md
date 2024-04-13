@@ -7,12 +7,10 @@ Bienvenidos al repositorio del **Grupo 3** del curso *Introducción a Señales B
 
 1. [Bioseñales](#introducción)
 2. [Contenidos del Curso](#Contenido)
-3. [Materiales](#Materiales)
-4. [Metodología](#Metodología)
-5. [Tema del Proyecto](#Tema)
-7. [Integrantes del Grupo](#Integrantes)
-8. [Docentes del Curso](#Docentes)
-9. [Bibliografía](#Bibliografía)
+3. [Metodología](#Metodología)
+4. [Integrantes del Grupo](#Integrantes)
+5. [Docentes del Curso](#Docentes)
+6. [Bibliografía](#Bibliografía)
 
 <a id = "introducción" style></a>
 <h2 style = "text-align: center;">¿Qué son las señales biomédicas?</h2>
@@ -31,11 +29,6 @@ Esta unidad se enfoca en el procesamiento y análisis de las señales anteriorme
 
 ##### 3° Unidad: Introducción al análisis de datos estructurados e inteligencia artificial.
 Finalmente, para complementar las técnicas y conceptos vistos en las 2 unidades previas, esta última unidad se enfoca en la estructuración de la data obtenido de las señales, así como su análisis estadístico y una breve introducción a la inteligencia artifical.
-
-
-<a id = "Materiales"></a>
-<h2 style = "text-align: center;">Materiales</h2>
-
 
 <a id = "Metodología"></a>
 <h2 style = "text-align: center;">Metodología</h2>
