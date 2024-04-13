@@ -47,7 +47,7 @@ En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution. Este
         En reposo
         </th>
         <th>
-        <video src="Multimedia/video_reposo.mp4" controls></video> 
+        <video src="multimedia/videoreposo.mp4" controls></video> 
         </th>
     </tr>
     <tr>
@@ -55,7 +55,7 @@ En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution. Este
         En oposicion
         </th>
         <th>
-         <video src="Multimedia/video_oposicion.mp4" controls></video>        
+         <video src="multimedia/videoyoposicion.mp4" controls></video>        
         </th>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ En la sesión de laboratorio se hizo uso del kit BITalino (r)evolution. Este
         En tensión
         </th>
         <th>
-         <video src="Multimedia/video_tension.mp4" controls></video>        
+         <video src="multimedia/videotension.mp4" controls></video>        
         </th>
     </tr>
 </table>
