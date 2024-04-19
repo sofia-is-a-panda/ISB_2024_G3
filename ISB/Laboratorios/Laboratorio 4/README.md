@@ -3,10 +3,14 @@
 ## Tabla de contenidos:
 * [Introducción](#introducción)
 * [Objetivos](#objetivos)
-* [Materiales y equipos](#materiales-y-equipos)
-* [Metodología](#metodología)
-* [Resultados](#resultados)
-* [Discusión](#discusión)
+* [Laboratorio](#laboratorio)
+  * [Conexiones](#conexiones)
+  * [Metodología](#metodología)
+  * [Video de señal](#video-de-señal)
+  * [Gráficos OpenSignals](#gráficos-opensignals)
+  * [Discusión](#discusión)
+  * [Archivos](#archivos)
+  * [Gráficos en Python](#gráficos-en-python)
 * [Bibliografía](#bibliografía)
 
 
