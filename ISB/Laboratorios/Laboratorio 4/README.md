@@ -23,9 +23,10 @@ El corazón genera pequeñas señales eléctricas cada vez que late. Un ECG mide
 
 Un ECG normal muestra una onda característica en forma de "V". Esta onda se compone de varias partes, cada una de las cuales representa una parte diferente del ciclo cardíaco. [2]
 
-<p align="center">
-<img src="![ecg](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/b353360b-925d-47d6-8532-65d7f0a8ba48)" align="center" width="400" height="300"/>
-</p>
+<p align="center" style="margin-bottom:0">
+<img src="![ecg](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/3fe0dbc8-4437-4c44-aa62-7456db9f43e3)"/>
+<div align="center"> <i>Figura 1: Posición del electrodo positivo y de referencia.</i></div>
+<p>
 
 * La onda P representa la despolarización de las aurículas, las cámaras superiores del corazón.
 * El complejo QRS representa la despolarización de los ventrículos, las cámaras inferiores del corazón.
