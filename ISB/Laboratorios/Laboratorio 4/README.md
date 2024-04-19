@@ -58,5 +58,6 @@ Un ECG normal muestra una onda característica en forma de "V". Esta onda se com
 
 ## Bibliografía
 [1] American Heart Association [Internet]. Dallas (TX): American Heart Association Inc.; c2022. Electrocardiogram (ECG or EKG); [Consultado: 19-abr-2024]. Available from: http://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/electrocardiogram-ecg-or-ekg
+
 [2] Cleveland Clinic: Health Library: Diagnostics & Testing [Internet]. Cleveland (OH): Cleveland Clinic; c2022. Electrocardiogram (EKG); [Consultado: 19-abr-2024]. Available from: https://my.clevelandclinic.org/health/diagnostics/16953-electrocardiogram-ekg
 
