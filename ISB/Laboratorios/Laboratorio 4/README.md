@@ -33,6 +33,10 @@ Un ECG normal muestra una onda característica en forma de "V". Esta onda se com
 * La onda P representa la despolarización de las aurículas, las cámaras superiores del corazón. [2]
 * El complejo QRS representa la despolarización de los ventrículos, las cámaras inferiores del corazón. [2]
 * La onda T representa la repolarización de los ventrículos. [2]
+
+### BITalino
+Como mencionamos anteriormente utilizaremos BITalino, que es una plataforma de hardware y software de bajo costo y código abierto que permite la adquisición de señales biomédicas, incluyendo EMG. La plataforma BITalino está compuesta por una placa de desarrollo, varios sensores y un software de adquisición y análisis de datos. La placa de desarrollo cuenta con un microcontrolador, conectividad Bluetooth y varios canales analógicos y digitales que permiten conectar una variedad de sensores. Los sensores BITalino incluyen sensores de ECG, EMG, EEG, acelerometría, fotopletismografía (PPG), temperatura, respiración y actividad electrodermal. El software de adquisición y análisis de datos permite visualizar las señales en tiempo real, guardar los datos para su posterior análisis y exportar los datos a diferentes formatos [3]. 
+
   
 ## Objetivos
 
