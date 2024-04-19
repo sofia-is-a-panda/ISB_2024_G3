@@ -4,6 +4,7 @@
 * [Introducción](#introducción)
 * [Objetivos](#objetivos)
 * [Laboratorio](#laboratorio)
+  * [Materiales y equipos](#materiales-y-equipos) 
   * [Conexiones](#conexiones)
   * [Metodología](#metodología)
   * [Video de señal](#video-de-señal)
@@ -54,7 +55,9 @@ En el presente laboratorio, utilizaremos la plataforma BITalino para adquirir se
 * Utilizar eficientemente el software OpenSignals 
 * Plotear las señales utilizando Python ara analizar y extraer datos relevantes de las señales ECG, lo que contribuirá a una comprensión más profunda de los patrones y comportamientos cardíacos.
 
-## Materiales y equipos
+## Laboratorio
+
+### Materiales y equipos
 <div align="center">
 
 |  **Modelo**  | **Descripción** | **Cantidad** |
@@ -65,7 +68,7 @@ En el presente laboratorio, utilizaremos la plataforma BITalino para adquirir se
 
 <div align="left">
   
-## Metodología
+### Conexiones
 
 ## Resultados
 
