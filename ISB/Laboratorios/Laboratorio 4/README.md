@@ -26,12 +26,12 @@ Un ECG normal muestra una onda característica en forma de "V". Esta onda se com
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/b9b58d7f882522677eb139213e377c75eb6078a7/ISB/imagenes_multimedia/Multimedia-Lab4/ecg.png"/>
-<div align="center"> <i>Figura 1. Kit Bitalino</i></div>
+<div align="center"> <i>Figura 1: Ondas y picos de un ECG normal [2]</i></div>
 <p>
 
 
-* La onda P representa la despolarización de las aurículas, las cámaras superiores del corazón.
-* El complejo QRS representa la despolarización de los ventrículos, las cámaras inferiores del corazón.
+* La onda P representa la despolarización de las aurículas, las cámaras superiores del corazón. [2]
+* El complejo QRS representa la despolarización de los ventrículos, las cámaras inferiores del corazón. [2]
 * La onda T representa la repolarización de los ventrículos. [2]
   
 ## Objetivos
