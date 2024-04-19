@@ -5,7 +5,7 @@
 * [Objetivos](#objetivos)
 * [Materiales y equipos](#materiales-y-equipos)
 * [Metodología](#metodología)
-* [Resultado](#resultado)
+* [Resultados](#resultados)
 * [Discusión](#discusión)
 * [Bibliografía](#bibliografía)
 
@@ -16,3 +16,22 @@
 
 * Adquisición de señal de ECG en reposo.
 * Adquisición de señal de ECG después de realizar actividad física.
+
+## Materiales y equipos
+<div align="center">
+
+|  **Modelo**  | **Descripción** | **Cantidad** |
+|:------------:|:---------------:|:------------:|
+| (R)EVOLUTION |   Kit BITalino  |       1      |
+|       -      |      Laptop     |       1      |
+
+
+<div align="left">
+  
+## Metodología
+
+## Resultados
+
+## Discusión
+
+## Bibliografía
