@@ -23,7 +23,9 @@ El corazón genera pequeñas señales eléctricas cada vez que late. Un ECG mide
 
 Un ECG normal muestra una onda característica en forma de "V". Esta onda se compone de varias partes, cada una de las cuales representa una parte diferente del ciclo cardíaco. [2]
 
-![ecg](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/e14ffbc9-1b0e-4574-8ad4-97bc516f7847)
+
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/b9b58d7f882522677eb139213e377c75eb6078a7/ISB/imagenes_multimedia/Multimedia-Lab4/ecg.png
 <div align="center"> <i>Figura 1: Posición del electrodo positivo y de referencia.</i></div>
 <p>
 
