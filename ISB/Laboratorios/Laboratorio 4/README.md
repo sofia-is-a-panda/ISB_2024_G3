@@ -42,14 +42,13 @@ Como mencionamos anteriormente utilizaremos BITalino, que es una plataforma de h
 <div align="center"> <i>Figura 2: Kit BITalino</i></div>
 <p>
   
-### Sobre el Laboratorio
+## Objetivos
 En el presente laboratorio, utilizaremos la plataforma BITalino para adquirir señales de ECG utilizando el procedimiento indicado en BITalino (r)evolution Home Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS for ECG [4]. Las señales de ECG serán visualizadas en tiempo real utilizando el software OpenSignals y guardaremos la información de las señales obtenidas para poder plotearlas en Python.
 
-  
-## Objetivos
-
-* Adquisición de señal de ECG en reposo.
-* Adquisición de señal de ECG después de realizar actividad física.
+* Adquirir e interpretar señales biomédicas de electrocardiograma (ECG) en reposo, aguantando la respiración y después de realizar actividad física.
+* Realizar la configuración del BiTalino de manera adecuada para garantizar mediciones fiables.
+* Utilizar eficientemente el software OpenSignals 
+* Plotear las señales utilizando Python ara analizar y extraer datos relevantes de las señales ECG, lo que contribuirá a una comprensión más profunda de los patrones y comportamientos cardíacos.
 
 ## Materiales y equipos
 <div align="center">
