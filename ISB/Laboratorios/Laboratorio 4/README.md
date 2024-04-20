@@ -81,9 +81,16 @@ Para iniciar colocamos el electrodo positivo (color rojo) en el brazo izquierdo 
 
 ### Videos de las señales
 En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
+
 En el primer video podemos ver la toma de datos mientras el voluntario se encuentra en reposo:
 
 https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/74bf5743-b49f-42ba-a7a9-069db939b2e3
+
+En el segundo video podemos ver la toma de datos mientras el voluntario inhala, retiene el aire y exhala en intervalos de 5 segundos y repitiendo el ciclo 3 veces.
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/08f5c110-b067-41a3-b808-52e580c174cb
+
+
 
 
 ## Discusión
