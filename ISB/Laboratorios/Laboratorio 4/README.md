@@ -178,11 +178,11 @@ Para finalizar, plotearemos también las señales que obtuvimos del dispositivo 
 
 Podemos notar que en la primera gráfica podemos observar con precisión la disposición espacial de las ondas PQRST y analizar cada fase:
 
-* Fase 1: ECG 80 lpm: En esta fase, el paciente presenta una frecuencia cardíaca de 80 latidos por minuto (lpm). Esto puede ser un signo de bradicardia, que es una FC lenta anormal. La bradicardia puede ser causada por una variedad de factores, como un bloqueo cardíaco, un ataque cardíaco o el uso de ciertos medicamentos. [6]
+* Fase 1: ECG 80 lpm: En esta fase, podemos decir que el paciente presenta una frecuencia cardíaca normal de 80 latidos por minuto (lpm). Ya que es menor a 100 lpm y mayor a 60 lpm. [6]
   * Onda P: La onda P parece ser normal.
   * Complejo QRS: El complejo QRS parece ser normal.
   * Onda T: La onda T parece ser normal.
-  * 
+   
 * Fase 2: CYP (VI): En esta fase, el paciente presenta una contracción ventricular prematura (CYP) en el ventrículo izquierdo (VI). Una CYP es un tipo de latido cardíaco anormal que se origina fuera del marcapasos natural del corazón. Las CYP pueden ser benignas o pueden ser un signo de una enfermedad cardíaca más grave.[6]
   * Onda P: La onda P parece ser normal.
   * Complejo QRS: Podemos distinguir el complejo QRS pero tiene una morfología diferente a la de un latido normal.
@@ -203,15 +203,24 @@ Podemos notar que en la primera gráfica podemos observar con precisión la disp
   * Complejo QRS: No hay complejos QRS debido a la ausencia de actividad eléctrica en el corazón.
   * Onda T: No hay ondas T debido a la ausencia de actividad eléctrica en el corazón.
 
+### Discusión
+Después de obtener las señales en cuatro condiciones diferentes: en reposo, durante el ciclo de respiración, durante y después de la actividad física. Revisammos la literatura para comparar nuestros resultados. En un estudio realizado acerca de los cambios graduales en la forma de onda del ECG durante y después del ejercicio en sujetos normales podemos encontrar que durante el ejercicio, se observó una disminución en el intervalo entre el pico de la onda P y el inicio del complejo QRS, acompañada de un aumento en la magnitud de la onda P, lo que indica una sobrecarga auricular derecha predominante. No se registraron cambios significativos en la duración del complejo QRS, ni en la magnitud y orientación espacial de los vectores QRS máximos. Sin embargo, el intervalo entre el inicio del QRS y el pico de la onda T se acortó. Durante el ejercicio, los vectores terminales QRS y los vectores ST se desplazaron gradualmente hacia la derecha y hacia arriba. [8]
+
+* Descanso: Durante esta fase, se observaron los picos QRS correspondientes a la despolarización ventricular. La señal fue estable en esta segunda derivada, con una frecuencia cardíaca normal (70 a 80 latidos por minuto). Sin embargo, es notable que los picos no fueron tan intensos como la señal obtenida con el generador de señales fisiológicas. Se sospecha que esto puede deberse a la falta de uso de gel conductor, el cual reduce la resistencia entre la piel y el electrodo, o a una colocación imprecisa de los electrodos en el cuerpo.
+
+* Ciclo de respiración: Se procuró comenzar la medición desde un punto neutral, iniciando la inhalación justo al comienzo. Después de aproximadamente 20 segundos, se realizó la exhalación para observar la reacción de la señal. Durante la fase de inhalación y alrededores, se observó un ligero aumento en la frecuencia cardíaca, lo cual coincide con lo que se estipula en [6]. Durante la fase de contención de la respiración, se comenzó a observar un comportamiento ligeramente sinusoidal entre las zonas T y P de la señal (correspondiente a la repolarización ventricular), que también se expandió hacia algunas ondas QRS, causando una deformación. Este comportamiento sinusoidal podría deberse a que en ocasiones la persona tenía que hacer un esfuerzo adicional al contener la respiración, lo que produciría un resultado similar a la disnea con esfuerzo, y esta característica puede generar sinusoidalidad en la señal.
+
+* Después del ejercicio: La característica principal fue la aceleración del ritmo cardíaco, aproximadamente a más de 120 latidos por minuto (60 por medio minuto, que fue la duración de la adquisición). Este ritmo fue disminuyendo gradualmente, ya que después del ejercicio vigoroso se tomó un tiempo para volver a conectar los electrodos del "Bitalino". Nuevamente, la señal fue similar en frecuencia a la observada con el generador de señales, pero con menor intensidad, atribuida a las mismas causas que en el caso del reposo [8].
+
+
+
+Comparamos estos resultados teóricos con nuestros resultados: 
 
 
 
 
 
 
-
-
-## Discusión
 
 ## Bibliografía
 [1] American Heart Association [Internet]. Dallas (TX): American Heart Association Inc.; c2022. Electrocardiogram (ECG or EKG); [Consultado: 19-abr-2024]. Available from: http://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/electrocardiogram-ecg-or-ekg
@@ -227,6 +236,8 @@ Podemos notar que en la primera gráfica podemos observar con precisión la disp
 [6]	Facultad de Medicina de la Universidad complutense, Guiones para la práctica clínica: Electrocaargiografía Básica. Ucm.es. [En línea]. Disponible en: https://medicina.ucm.es/data/cont/media/www/pag-17227/Electrocardiograf%C3%ADa%20B%C3%A1sica.pdf. [Consultado: 20-abr-2024].
 
 [7]	“Asistolia”, https://www.cun.es. [En línea]. Disponible en: https://www.cun.es/diccionario-medico/terminos/asistolia. [Consultado: 20-abr-2024].
+
+[8]	M. L. Simoons y P. G. Hugenholtz, “Gradual changes of ECG waveform during and after exercise in normal subjects”, Circulation, vol. 52, núm. 4, pp. 570–577, 1975.
 
 
 
