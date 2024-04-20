@@ -239,7 +239,7 @@ Se plotearon los datos en Python de un voluntario, como se mencionó anteriormen
 
 Además ploteamos  las señales que obtuvimos del dispositivo ProSim 4 Vital Signs Patient Simulator l mientras simula una parada cardíaca.
   
-Puede encontrar el códifo utilizado y los resultados [aquí](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/73cdda830ef0088f842043c9f554d41b80db1cde/ISB/Laboratorios/Laboratorio%204/Ploteo_se%C3%B1ales_Py.ipynb)
+Puede encontrar el código utilizado y los resultados [aquí](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/73cdda830ef0088f842043c9f554d41b80db1cde/ISB/Laboratorios/Laboratorio%204/Ploteo_se%C3%B1ales_Py.ipynb)
 
 ## Bibliografía
 [1] American Heart Association [Internet]. Dallas (TX): American Heart Association Inc.; c2022. Electrocardiogram (ECG or EKG); [Consultado: 19-abr-2024]. Available from: http://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/electrocardiogram-ecg-or-ekg
