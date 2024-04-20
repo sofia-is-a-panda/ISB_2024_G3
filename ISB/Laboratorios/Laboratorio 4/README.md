@@ -169,7 +169,19 @@ Después de recopilar los datos, ploteamos en Python para poder analizar mejor l
 
 En las gráficas obtenidas después de plotear en Python podemos apreciar con más claridad la disposición espacial de las ondas PQRST, el intervalo QT, el segmento ST y el complejo QRS. Hemos indicado en cada imágen donde empieza cada onda para un mejor análisis. Al igual que con las gráficas de OpenSignal en los ploteos de las señales en reposo, en el ciclo de respiración se pueden notar mejor los segmentos y en la recuperación después del ejercicio (Figura 8,9,11). A comparación de la Figura 10, donde el voluntario estaba haciendo ejercicio y no se pueden apreciar de manera correcta los segmentos, esto puede deberse al ruido causado por el movimiento del BITalino.
 
-Para finalizar, plotearemos también las señales que obtuvimos del dispositivo ProSim 4 Vital Signs Patient Simulator l mientras simula una parada cardíac.
+Para finalizar, plotearemos también las señales que obtuvimos del dispositivo ProSim 4 Vital Signs Patient Simulator l mientras simula una parada cardíaca.
+
+| Nivel 1: ECG 80 lpm | Nivel 2: CYP (VI) | Nivel 3: Taq. Ventricular 160 lpm | Nivel 4: FiB. Ventricular Severa | Nivel 5: Asistolia |
+| :---      |   :---:  |   :---:  |   :---:  |   :---:  |   
+| ![señal_ecg_rsn_py](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/37b3151d-0174-4024-a453-0848635ad7da) | ![nivel2_py](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/d8a908ac-dd91-4b82-b905-cd67bf596c35) | ![NIVEL3](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/7432f389-bd97-43c4-8970-7c78a4b97f49) | ![NIVEL4](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/f7a40d05-3cbc-45d0-b9e6-ab5bd93627e0) | ![NIVEL 5](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/b4f91027-ce77-414b-a02b-49e77f0eeb09) |
+
+
+
+
+
+
+
+
 
 
 
