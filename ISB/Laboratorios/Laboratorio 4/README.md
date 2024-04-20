@@ -7,7 +7,7 @@
   * [Materiales y equipos](#materiales-y-equipos) 
   * [Conexiones](#conexiones)
   * [Metodología](#metodología)
-  * [Video de señal](#video-de-señal)
+  * [Videos de las señales](#videos-de-las-señales)
   * [Gráficos OpenSignals](#gráficos-opensignals)
   * [Discusión](#discusión)
   * [Archivos](#archivos)
@@ -79,7 +79,11 @@ Para iniciar colocamos el electrodo positivo (color rojo) en el brazo izquierdo 
 <p>
 
 
-## Resultados
+### Videos de las señales
+En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
+
+![electrodos_posicion](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/7fd24bcc-f91e-4fc8-94d6-b89d638e18be)
+
 
 ## Discusión
 
