@@ -90,7 +90,23 @@ En el segundo video podemos ver la toma de datos mientras el voluntario inhala, 
 
 https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/08f5c110-b067-41a3-b808-52e580c174cb
 
+En el tercer video podemos ver la toma de datos mientras el voluntario realiza actividad física por 3 minutos.
 
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/c8472407-25ef-414d-acdf-0da7afba72b0
+
+En el cuarto video podemos ver la toma de datos 30 segundos después de que el voluntario terminara de realizar la actividad física.
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a67f14d2-20e0-4fd5-a7d9-8645a3a4b376
+
+En el quinto video podemos ver  la señal en OpenSignalsFluke resultante del dispositivo ProSim 4 Vital Signs Patient Simulator l mientras simula una parada cardíaca con las siguientes características:
+
+* ECG 80 lpm
+* CYP (VI)
+* Taquicardia ventricular 160 lpm
+* Fibrilación ventricular severa
+* Asistolia
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a93f4b83-0696-41df-8bf7-1c22f4d6ab00
 
 
 ## Discusión
