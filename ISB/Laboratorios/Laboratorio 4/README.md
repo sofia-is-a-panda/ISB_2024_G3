@@ -227,6 +227,19 @@ Comparamos estos resultados teóricos con nuestros resultados:
   * Onda P: La onda P no puede ser distinguida con claridad.
   * Complejo QRS: El complejo QRS parece ser normal y se nota con un poco de dificultad. El pico R es casi 0.4 mV y el S es un poco mayor a 0.4mV.
   * Onda T: La onda T no se puede distinguir con precisión.
+ 
+## Archivos:
+
+Se plotearon los datos en Python de un voluntario, como se mencionó anteriormente, cada uno realizó 4 mediciones:
+
+* Medición en reposo.
+* Medición durante un ciclo de respiración.
+* Medición durante el ejercicio.
+* Medición después del ejercicio.
+
+Además ploteamos  las señales que obtuvimos del dispositivo ProSim 4 Vital Signs Patient Simulator l mientras simula una parada cardíaca.
+  
+Puede encontrar el códifo utilizado y los resultados [aquí](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/73cdda830ef0088f842043c9f554d41b80db1cde/ISB/Laboratorios/Laboratorio%204/Ploteo_se%C3%B1ales_Py.ipynb)
 
 ## Bibliografía
 [1] American Heart Association [Internet]. Dallas (TX): American Heart Association Inc.; c2022. Electrocardiogram (ECG or EKG); [Consultado: 19-abr-2024]. Available from: http://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/electrocardiogram-ecg-or-ekg
