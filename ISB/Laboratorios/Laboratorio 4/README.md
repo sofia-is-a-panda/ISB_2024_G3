@@ -8,9 +8,9 @@
   * [Conexiones](#conexiones)
   * [Videos de las señales](#videos-de-las-señales)
   * [Gráficos OpenSignals](#gráficos-opensignals)
+  * [Gráficos en Python](#gráficos-en-python)
   * [Discusión](#discusión)
   * [Archivos](#archivos)
-  * [Gráficos en Python](#gráficos-en-python)
 * [Bibliografía](#bibliografía)
 
 
@@ -108,6 +108,7 @@ En el quinto video podemos ver  la señal en OpenSignalsFluke resultante del dis
 https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a93f4b83-0696-41df-8bf7-1c22f4d6ab00
 
 ### Gráficos OpenSignals
+En las gráficas obtenidas se aprecia la disposición espacial de las ondas PQRST, el intervalo QT, el segmento ST y el complejo QRS. Hemos indicado en cada imágen donde empieza cada onda para un mejor análisis. En la Figura 4, 5 y 7 se pueden apreciar mejor los segmentos de las ondas PQRST a comparación de la Figura 6, donde el voluntario estaba haciendo ejercicio y esto puede deberse al ruido causado por el movimiento del BITalino.
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_os.png" align="center" width="500" height="300"/>
@@ -129,6 +130,20 @@ https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a93f4b83-0696-4
 <div align="center"> <i>Figura 7: Señal 30 segundos después del ejercicio OpenSignal</i></div>
 <p>
 
+Es importante destacar que significa cada uno de los segmentos de la onda que estamos viendo:
+* Onda P: Representa la despolarización auricular en el ECG. La primera mitad muestra la despolarización de la aurícula derecha, seguida de la despolarización de la aurícula izquierda suele  tener una duración menor a 100ms y una amplitud maxima de 0.25mV. [5]
+* Intervalo PR: Representa el tiempo desde el inicio de la despolarización auricular hasta el comienzo de la despolarización ventricular e incluye el retraso en el nodo AV. Su duración promedio es de 120 a 200 ms. Variaciones en el intervalo PR pueden indicar diversos trastornos. [5]
+* Complejo QRS:Representa la despolarización ventricular a medida que la corriente pasa por el nodo AV. Un complejo QRS estándar tiene una duración generalmente de 60 a 100 ms. [5]
+ * Onda Q: Representa la despolarización del tabique interventricular. Su duración no debe ser mayor a¿a 40 milisegundos. [5]
+ * Onda R:Es la onda más alta del complejo QRS, representando el estímulo eléctrico a medida que pasa por los ventrículos durante la despolarización. [5]
+ * Onda S: Representa la despolarización final de las fibras de Purkinje. Es cualquier deflexión hacia abajo después de la onda R. [5]
+* Onda T: Representa la repolarización ventricular. Su morfología es altamente susceptible a influencias cardíacas y no cardíacas. Usualmente es positiva en derivaciones con ondas R altas (deflexión hacia arriba). [5]
+* Segmento ST: Representa el final de la despolarización ventricular y el comienzo de la repolarización ventricular. La elevación o depresión del segmento ST por 1 mm o más, medido en el punto J, es anormal. [5]
+* Intervalo QT: Representa el inicio de la despolarización hasta el final de la repolarización de los ventrículos. La duración normal del intervalo QT es menos de 400 a 440 milisegundos. Un intervalo QT prolongado presenta un riesgo inminente de arritmias ventriculares graves. [5]
+
+Ahora plotearemos los datos recopilados en Python para poder obtener un mejor analisis. 
+
+### Gráficos en Python
 
 ## Discusión
 
@@ -140,4 +155,7 @@ https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a93f4b83-0696-4
 [3] “BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official,” support.pluxbiosignals.com. https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/. [Accessed: 19-Apr-2024].
 
 [4] “BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official,” support.pluxbiosignals.com. https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/ [Accessed: 19-Apr-2024].
+
+[5]	Y. Sattar y L. Chhabra, Electrocardiogram. StatPearls Publishing, 2023.
+
 
