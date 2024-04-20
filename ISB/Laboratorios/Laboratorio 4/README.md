@@ -81,8 +81,9 @@ Para iniciar colocamos el electrodo positivo (color rojo) en el brazo izquierdo 
 
 ### Videos de las señales
 En los próximos videos se exhiben las conexiones entre los electrodos y el cuerpo, así como la visualización de la señal en OpenSignals.
+En el primer video podemos ver la toma de datos mientras el voluntario se encuentra en reposo:
 
-![electrodos_posicion](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/7fd24bcc-f91e-4fc8-94d6-b89d638e18be)
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/74bf5743-b49f-42ba-a7a9-069db939b2e3
 
 
 ## Discusión
