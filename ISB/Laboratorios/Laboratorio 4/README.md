@@ -218,7 +218,7 @@ Comparamos estos resultados teóricos con nuestros resultados:
   * Complejo QRS: El complejo QRS parece ser normal y se nota con claridad. El pico R es casi 0.4 mV y el S es un poco mayor a 0.2mV.
   * Onda T: La onda T parece ser normal, se puede distinguir con mayor precisión.
 
-*Durante el ejercicio: La principal diferencia que notamos en la aceleración del ritmo cardíaco. Además, no podemos distinguir muy bien los sectores debido al ruido producido por el mmovimiento del BITalino, lo cual está impidiendo que se tomen medidas más precisas.
+* Durante el ejercicio: La principal diferencia que notamos en la aceleración del ritmo cardíaco. Además, no podemos distinguir muy bien los sectores debido al ruido producido por el mmovimiento del BITalino, lo cual está impidiendo que se tomen medidas más precisas.
   * Onda P: No podemos distinguir la onda P.
   * Complejo QRS: El complejo QRS se distingue con un poco de dificultad. El pico R es casi 0.4 mV y el S es mayor a 0.2mV.
   * Onda T: La onda T no se puede distinguir con precisión.
