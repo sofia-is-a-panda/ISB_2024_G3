@@ -148,7 +148,7 @@ Ahora plotearemos los datos recopilados en Python para poder obtener un mejor an
 Después de recopilar los datos, ploteamos en Python para poder analizar mejor las señales obtenidas.
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_py.png" align="center"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_py.png" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 8: Señal en reposo ploteada en Python</i></div>
 <p>
 
