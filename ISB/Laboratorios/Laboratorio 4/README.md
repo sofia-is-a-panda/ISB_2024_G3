@@ -206,21 +206,27 @@ Podemos notar que en la primera gráfica podemos observar con precisión la disp
 ### Discusión
 Después de obtener las señales en cuatro condiciones diferentes: en reposo, durante el ciclo de respiración, durante y después de la actividad física. Revisammos la literatura para comparar nuestros resultados. En un estudio realizado acerca de los cambios graduales en la forma de onda del ECG durante y después del ejercicio en sujetos normales podemos encontrar que durante el ejercicio, se observó una disminución en el intervalo entre el pico de la onda P y el inicio del complejo QRS, acompañada de un aumento en la magnitud de la onda P, lo que indica una sobrecarga auricular derecha predominante. No se registraron cambios significativos en la duración del complejo QRS, ni en la magnitud y orientación espacial de los vectores QRS máximos. Sin embargo, el intervalo entre el inicio del QRS y el pico de la onda T se acortó. Durante el ejercicio, los vectores terminales QRS y los vectores ST se desplazaron gradualmente hacia la derecha y hacia arriba. [8]
 
-* Descanso: Durante esta fase, se observaron los picos QRS correspondientes a la despolarización ventricular. La señal fue estable en esta segunda derivada, con una frecuencia cardíaca normal (70 a 80 latidos por minuto). Sin embargo, es notable que los picos no fueron tan intensos como la señal obtenida con el generador de señales fisiológicas. Se sospecha que esto puede deberse a la falta de uso de gel conductor, el cual reduce la resistencia entre la piel y el electrodo, o a una colocación imprecisa de los electrodos en el cuerpo.
-
-* Ciclo de respiración: Se procuró comenzar la medición desde un punto neutral, iniciando la inhalación justo al comienzo. Después de aproximadamente 20 segundos, se realizó la exhalación para observar la reacción de la señal. Durante la fase de inhalación y alrededores, se observó un ligero aumento en la frecuencia cardíaca, lo cual coincide con lo que se estipula en [6]. Durante la fase de contención de la respiración, se comenzó a observar un comportamiento ligeramente sinusoidal entre las zonas T y P de la señal (correspondiente a la repolarización ventricular), que también se expandió hacia algunas ondas QRS, causando una deformación. Este comportamiento sinusoidal podría deberse a que en ocasiones la persona tenía que hacer un esfuerzo adicional al contener la respiración, lo que produciría un resultado similar a la disnea con esfuerzo, y esta característica puede generar sinusoidalidad en la señal.
-
-* Después del ejercicio: La característica principal fue la aceleración del ritmo cardíaco, aproximadamente a más de 120 latidos por minuto (60 por medio minuto, que fue la duración de la adquisición). Este ritmo fue disminuyendo gradualmente, ya que después del ejercicio vigoroso se tomó un tiempo para volver a conectar los electrodos del "Bitalino". Nuevamente, la señal fue similar en frecuencia a la observada con el generador de señales, pero con menor intensidad, atribuida a las mismas causas que en el caso del reposo [8].
-
-
-
 Comparamos estos resultados teóricos con nuestros resultados: 
 
+* Descanso: Durante esta fase, podemos observar claramente el complejo QRS correspondiente a la despolarización ventricular. Aunque no se puede distinguir nuy bien la onda P debido al ruido pero sí logramos identificaarla. Teoricamnente estamos en una frecuencia cardíaca promedio de 70 a 80 lpm en promedio [9]. Sin embargo, es notable que los picos (casi 0.4 mV) no fueron tan intensos como la señal obtenida con el generador de señales fisiológicas (casi 0.6 mV). Se sospecha que esto puede deberse a una colocación imprecisa de los electrodos.
+  * Onda P: La onda P parece ser normal.
+  * Complejo QRS: El complejo QRS parece ser normal.
+  * Onda T: La onda T parece ser normal.
 
+* Ciclo de respiración: Se procuró iniciar la inhalación justo al comienzo de la medición. Después de aproximadamente 5 segundos de retener el aire, se realizó la exhalación para observar la reacción de la señal. Durante este ciclo de respiración se observó un ligero aumento en la frecuencia cardíaca, lo cual coincide con lo que se estipula teoricamente [9]. 
+  * Onda P: La onda P parece ser normal y podemos notarla con mayor claridad
+  * Complejo QRS: El complejo QRS parece ser normal y se nota con claridad. El pico R es casi 0.4 mV y el S es un poco mayor a 0.2mV.
+  * Onda T: La onda T parece ser normal, se puede distinguir con mayor precisión.
 
+*Durante el ejercicio: La principal diferencia que notamos en la aceleración del ritmo cardíaco. Además, no podemos distinguir muy bien los sectores debido al ruido producido por el mmovimiento del BITalino, lo cual está impidiendo que se tomen medidas más precisas.
+  * Onda P: No podemos distinguir la onda P.
+  * Complejo QRS: El complejo QRS se distingue con un poco de dificultad. El pico R es casi 0.4 mV y el S es mayor a 0.2mV.
+  * Onda T: La onda T no se puede distinguir con precisión.
 
-
-
+* Después del ejercicio: Al igual que durante el ejercicio la característica principal fue la aceleración del ritmo cardíaco, aproximadamente a más de 120 lpm segun la teoría [9]. Este ritmo fue disminuyendo gradualmente, ya que después del ejercicio el voluntario se tomó 30 segundos de descanso. Nuevamente, la señal fue similar en frecuencia a la observada con el generador de señales (casi 0.6mV), pero con menor intensidad (0.4mV), atribuida a las mismas causas que en el caso del reposo.
+  * Onda P: La onda P no puede ser distinguida con claridad.
+  * Complejo QRS: El complejo QRS parece ser normal y se nota con un poco de dificultad. El pico R es casi 0.4 mV y el S es un poco mayor a 0.4mV.
+  * Onda T: La onda T no se puede distinguir con precisión.
 
 ## Bibliografía
 [1] American Heart Association [Internet]. Dallas (TX): American Heart Association Inc.; c2022. Electrocardiogram (ECG or EKG); [Consultado: 19-abr-2024]. Available from: http://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/electrocardiogram-ecg-or-ekg
@@ -238,6 +244,9 @@ Comparamos estos resultados teóricos con nuestros resultados:
 [7]	“Asistolia”, https://www.cun.es. [En línea]. Disponible en: https://www.cun.es/diccionario-medico/terminos/asistolia. [Consultado: 20-abr-2024].
 
 [8]	M. L. Simoons y P. G. Hugenholtz, “Gradual changes of ECG waveform during and after exercise in normal subjects”, Circulation, vol. 52, núm. 4, pp. 570–577, 1975.
+
+[9]	“Relación del electrocardiograma con la respiración y el pulso”, en McGraw Hill Medical.
+
 
 
 
