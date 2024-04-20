@@ -111,22 +111,22 @@ https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a93f4b83-0696-4
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_os.png" align="center" width="500" height="300"/>
-<div align="center"> <i>Figura 4: Señal en reposo OpenSignal [4]</i></div>
+<div align="center"> <i>Figura 4: Señal en reposo OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/ciclo_respiraci%C3%B3n_os.png" align="center" width="500" height="300"/>
-<div align="center"> <i>Figura 5: Señal en los ciclos de respiración OpenSignal [4]</i></div>
+<div align="center"> <i>Figura 5: Señal en los ciclos de respiración OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/ejercicio_os.png" align="center" width="500" height="300"/>
-<div align="center"> <i>Figura 6: Señal mientras el voluntario hace ejercicio OpenSignal [4]</i></div>
+<div align="center"> <i>Figura 6: Señal mientras el voluntario hace ejercicio OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src=https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_os.png" align="center" width="500" height="300"/>
-<div align="center"> <i>Figura 7: Señal 30 segundos después del ejercicio OpenSignal [4]</i></div>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_os.png" align="center" width="500" height="300"/>
+<div align="center"> <i>Figura 7: Señal 30 segundos después del ejercicio OpenSignal</i></div>
 <p>
 
 
