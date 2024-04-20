@@ -145,6 +145,29 @@ Ahora plotearemos los datos recopilados en Python para poder obtener un mejor an
 
 ### Gráficos en Python
 
+Después de recopilar los datos, ploteamos en Python para poder analizar mejor las señales obtenidas.
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_py.png" align="center"/>
+<div align="center"> <i>Figura 8: Señal en reposo ploteada en Python</i></div>
+<p>
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/respiraci%C3%B3n_py.png" align="center" width="500" height="300"/>
+<div align="center"> <i>Figura 9: Señal en los ciclos de respiración ploteada en Python</i></div>
+<p>
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/ejercicio_py.png" align="center" width="500" height="300"/>
+<div align="center"> <i>Figura 10: Señal mientras el voluntario hace ejercicio ploteada en Python</i></div>
+<p>
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_py.png" align="center" width="500" height="300"/>
+<div align="center"> <i>Figura 11: Señal 30 segundos después del ejercicio ploteada en Python</i></div>
+<p>
+
+
 ## Discusión
 
 ## Bibliografía
