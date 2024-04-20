@@ -167,6 +167,12 @@ Después de recopilar los datos, ploteamos en Python para poder analizar mejor l
 <div align="center"> <i>Figura 11: Señal 30 segundos después del ejercicio ploteada en Python</i></div>
 <p>
 
+En las gráficas obtenidas después de plotear en Python podemos apreciar con más claridad la disposición espacial de las ondas PQRST, el intervalo QT, el segmento ST y el complejo QRS. Hemos indicado en cada imágen donde empieza cada onda para un mejor análisis. Al igual que con las gráficas de OpenSignal en los ploteos de las señales en reposo, en el ciclo de respiración se pueden notar mejor los segmentos y en la recuperación después del ejercicio (Figura 8,9,11). A comparación de la Figura 10, donde el voluntario estaba haciendo ejercicio y no se pueden apreciar de manera correcta los segmentos, esto puede deberse al ruido causado por el movimiento del BITalino.
+
+Para finalizar, plotearemos también las señales que obtuvimos del dispositivo ProSim 4 Vital Signs Patient Simulator l mientras simula una parada cardíac.
+
+
+
 
 ## Discusión
 
