@@ -176,7 +176,32 @@ Para finalizar, plotearemos también las señales que obtuvimos del dispositivo 
 | ![señal_ecg_rsn_py](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/37b3151d-0174-4024-a453-0848635ad7da) | ![nivel2_py](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/d8a908ac-dd91-4b82-b905-cd67bf596c35) | ![NIVEL3](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/7432f389-bd97-43c4-8970-7c78a4b97f49) | ![NIVEL4](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/f7a40d05-3cbc-45d0-b9e6-ab5bd93627e0) | ![NIVEL 5](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/b4f91027-ce77-414b-a02b-49e77f0eeb09) |
 
 
+Podemos notar que en la primera gráfica podemos observar con precisión la disposición espacial de las ondas PQRST y analizar cada fase:
 
+* Fase 1: ECG 80 lpm: En esta fase, el paciente presenta una frecuencia cardíaca de 80 latidos por minuto (lpm). Esto puede ser un signo de bradicardia, que es una FC lenta anormal. La bradicardia puede ser causada por una variedad de factores, como un bloqueo cardíaco, un ataque cardíaco o el uso de ciertos medicamentos. [6]
+  * Onda P: La onda P parece ser normal.
+  * Complejo QRS: El complejo QRS parece ser normal.
+  * Onda T: La onda T parece ser normal.
+  * 
+* Fase 2: CYP (VI): En esta fase, el paciente presenta una contracción ventricular prematura (CYP) en el ventrículo izquierdo (VI). Una CYP es un tipo de latido cardíaco anormal que se origina fuera del marcapasos natural del corazón. Las CYP pueden ser benignas o pueden ser un signo de una enfermedad cardíaca más grave.[6]
+  * Onda P: La onda P parece ser normal.
+  * Complejo QRS: Podemos distinguir el complejo QRS pero tiene una morfología diferente a la de un latido normal.
+  * Onda T: La onda T no se puede distinguir muy bien.
+   
+* Fase 3: Taq. Ventricular 160 lpm: En esta fase, el paciente presenta una taquicardia ventricular (TV), que es un ritmo cardíaco rápido y anormal que se origina en los ventrículos. La TV puede ser una condición grave que puede conducir a un paro cardíaco. [6]
+  * Onda P: Notamos que las ondas P son difíciles de distinguir debido a la frecuencia cardíaca rápida.
+  * Complejo QRS: Los complejos QRS son estrechos y regulares y la frecuencia cardíaca es muy alta.
+  * Onda T: Las ondas T son difíciles de distinguir debido a la frecuencia cardíaca rápida.
+
+* Fase 4: FiB. Ventricular Severa: En esta fase, el paciente presenta una fibrilación ventricular (FV), que es un ritmo cardíaco caótico e irregular que se origina en los ventrículos. La FV es una condición mortal que requiere desfibrilación inmediata. [6]
+  * Onda P: Las ondas P no están presentes debido a la actividad eléctrica caótica en los ventrículos.
+  * Complejo QRS: Tampoco hay complejos QRS discernibles, solo una línea ondulada que representa la actividad fibrilacionante.
+  * Onda T: No hay ondas T debido a la actividad eléctrica caótica.
+
+* Fase 5: Asistolia: En esta fase, el paciente presenta asistolia, que es la ausencia de actividad eléctrica en el corazón. [7]
+  * Onda P: No hay ondas P debido a la ausencia de actividad eléctrica en el corazón.
+  * Complejo QRS: No hay complejos QRS debido a la ausencia de actividad eléctrica en el corazón.
+  * Onda T: No hay ondas T debido a la ausencia de actividad eléctrica en el corazón.
 
 
 
@@ -198,5 +223,10 @@ Para finalizar, plotearemos también las señales que obtuvimos del dispositivo 
 [4] “BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official,” support.pluxbiosignals.com. https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/ [Accessed: 19-Apr-2024].
 
 [5]	Y. Sattar y L. Chhabra, Electrocardiogram. StatPearls Publishing, 2023.
+
+[6]	Facultad de Medicina de la Universidad complutense, Guiones para la práctica clínica: Electrocaargiografía Básica. Ucm.es. [En línea]. Disponible en: https://medicina.ucm.es/data/cont/media/www/pag-17227/Electrocardiograf%C3%ADa%20B%C3%A1sica.pdf. [Consultado: 20-abr-2024].
+
+[7]	“Asistolia”, https://www.cun.es. [En línea]. Disponible en: https://www.cun.es/diccionario-medico/terminos/asistolia. [Consultado: 20-abr-2024].
+
 
 
