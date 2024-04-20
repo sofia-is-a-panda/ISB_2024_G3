@@ -69,9 +69,15 @@ En el presente laboratorio, utilizaremos la plataforma BITalino para adquirir se
 <div align="left">
   
 ### Conexiones
-Se utilizo el cable de 3 hilos con sus respectivos electrodos. Cada uno de estso electrodos representa positivo (rojo), tierra (negro) y referencia (blanco). Para realizar las conexiones nos basamos en el protocolo BITalino (r)evolution Home Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS for ECG [4].
+Se utilizo el cable de 3 hilos con sus respectivos electrodos. Cada uno de estos electrodos representa positivo (rojo), tierra (negro) y referencia (blanco). Para realizar las conexiones nos basamos en el protocolo BITalino (r)evolution Home Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS for ECG [4].
 
 Para iniciar colocamos el electrodo positivo (color rojo) en el brazo izquierdo (LA), el electrodo de tierra (color negro) en el brazo derecho (RA) y el electrodo de referencia (color blanco) en la cresta ilíaca. Así como observamos en la Figura 3.
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/2fa317490d28b054b08d5514ffaf15fa897ba176/ISB/imagenes_multimedia/Multimedia-Lab4/electrodos_posicion.jpeg" align="center" width="500" height="300"/>
+<div align="center"> <i>Figura 3: Conexiones de los electrodos [4]</i></div>
+<p>
+
 
 ## Resultados
 
