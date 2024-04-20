@@ -6,7 +6,6 @@
 * [Laboratorio](#laboratorio)
   * [Materiales y equipos](#materiales-y-equipos) 
   * [Conexiones](#conexiones)
-  * [Metodología](#metodología)
   * [Videos de las señales](#videos-de-las-señales)
   * [Gráficos OpenSignals](#gráficos-opensignals)
   * [Discusión](#discusión)
@@ -107,6 +106,8 @@ En el quinto video podemos ver  la señal en OpenSignalsFluke resultante del dis
 * Asistolia
 
 https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a93f4b83-0696-41df-8bf7-1c22f4d6ab00
+
+### Gráficos OpenSignals
 
 
 ## Discusión
