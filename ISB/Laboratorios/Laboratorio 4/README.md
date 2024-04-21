@@ -29,7 +29,7 @@ Un ECG normal muestra una onda característica en forma de "V". Esta onda se com
 
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/b9b58d7f882522677eb139213e377c75eb6078a7/ISB/imagenes_multimedia/Multimedia-Lab4/ecg.png"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/ecg.png"/>
 <div align="center"> <i>Figura 1: Ondas y picos de un ECG normal [2]</i></div>
 <p>
 
@@ -42,7 +42,7 @@ Un ECG normal muestra una onda característica en forma de "V". Esta onda se com
 Como mencionamos anteriormente, utilizaremos BITalino el cual es una plataforma de hardware y software de bajo costo y código abierto que permite la adquisición de señales biomédicas, incluyendo ECG. La plataforma BITalino está compuesta por una placa de desarrollo, varios sensores y un software de adquisición y análisis de datos. La placa de desarrollo cuenta con un microcontrolador, conectividad Bluetooth y varios canales analógicos y digitales que permiten conectar una variedad de sensores. Los sensores BITalino incluyen sensores de ECG, EMG, EEG, acelerometría, fotopletismografía (PPG), temperatura, respiración y actividad electrodermal. El software de adquisición y análisis de datos permite visualizar las señales en tiempo real, guardar los datos para su posterior análisis y exportar los datos a diferentes formatos [3]. 
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a00509f2813c3d4ebdd4ee62013c09907bc469c5/ISB/imagenes_multimedia/Multimedia-Lab4/bitalino%20kit.jpeg" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/bitalino%20kit.jpeg" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 2: Kit BITalino</i></div>
 <p>
   
@@ -73,7 +73,7 @@ Se utilizo el cable de 3 hilos con sus respectivos electrodos. Cada uno de estos
 Para iniciar, colocamos el electrodo positivo (color rojo) en el brazo izquierdo (LA), el electrodo de tierra (color negro) en el brazo derecho (RA) y el electrodo de referencia (color blanco) en la cresta ilíaca. Así como observamos en la Figura 3.
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/2fa317490d28b054b08d5514ffaf15fa897ba176/ISB/imagenes_multimedia/Multimedia-Lab4/electrodos_posicion.jpeg" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/electrodos_posicion.jpeg" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 3: Conexiones de los electrodos [4]</i></div>
 <p>
 
@@ -111,22 +111,22 @@ https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a93f4b83-0696-4
 En las gráficas obtenidas, se aprecia la disposición espacial de las ondas PQRST, el intervalo QT, el segmento ST y el complejo QRS. Hemos indicado en cada imágen dónde empieza cada onda para un mejor análisis. En la Figura 4, 5 y 7 se pueden apreciar mejor los segmentos de las ondas PQRST a comparación de la Figura 6, donde el voluntario estaba haciendo ejercicio y esto puede deberse al ruido causado por el movimiento del BITalino.
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_os.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/ciclo_respiraci%C3%B3n_os.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 4: Señal en reposo OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/ciclo_respiraci%C3%B3n_os.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/ciclo_respiraci%C3%B3n_os.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 5: Señal en los ciclos de respiración OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/ejercicio_os.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/ejercicio_os.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 6: Señal mientras el voluntario hace ejercicio OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_os.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/post_ejercicio_os.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 7: Señal 30 segundos después del ejercicio OpenSignal</i></div>
 <p>
 
@@ -148,22 +148,22 @@ Ahora plotearemos los datos recopilados en Python para poder obtener un mejor an
 Después de recopilar los datos, ploteamos en Python para poder analizar mejor las señales obtenidas.
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_py.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/reposo_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 8: Señal en reposo ploteada en Python</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/respiraci%C3%B3n_py.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/respiraci%C3%B3n_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 9: Señal en los ciclos de respiración ploteada en Python</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/ejercicio_py.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/ejercicio_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 10: Señal mientras el voluntario hace ejercicio ploteada en Python</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_py.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/post_ejercicio_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 11: Señal 30 segundos después del ejercicio ploteada en Python</i></div>
 <p>
 
@@ -173,27 +173,27 @@ Ahora plotearemos también las señales que obtuvimos del simulador de señales 
 
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL1.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/NIVEL1.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 12: Nivel 1 - ECG 80 lpm</i></div><p>
 &nbsp;
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/nivel2_py.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/nivel2_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 13: Nivel 2 - CYP (VI) </i></div><p>
 &nbsp;
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL3.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/NIVEL3.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 14: Nivel 3 - Taquicardia Ventricular 160 lpm</i></div><p>
 &nbsp;
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL4.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/NIVEL4.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 15: Nivel 4 - Fibrilación Ventricular Severa</i></div><p>
 &nbsp;
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL%205.png" align="center" width="900" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab4/NIVEL%205.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 16: Nivel 5 - Asistolia </i></div><p>
 
 Podemos notar que la primera gráfica presenta una alta precisión de la disposición espacial de las ondas P y T, así como del complejo QRS. Ahora procedemos a analizar cada fase:

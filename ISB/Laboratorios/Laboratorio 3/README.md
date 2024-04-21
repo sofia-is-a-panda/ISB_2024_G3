@@ -79,7 +79,7 @@ En la sesión de laboratorio, se hizo uso del kit BITalino (r)evolution (Figura 
 
 &nbsp;
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia_Lab%203/kit_bitalino.jpeg" width="400" height="500"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%203/kit_bitalino.jpeg" width="400" height="500"/>
 <div align="center"> <i>Figura 1. Kit Bitalino</i></div>
 <p>
 
@@ -93,13 +93,13 @@ Se utilizo el cable de 3 hilos con sus respectivos electrodos. Cada uno de estso
 
 Para iniciar colocamos el electrodo positivo (G1) sobre el centro del músculo abductor corto del pulgar y el electrodo de referencia (G2) eN la articulación metacarpo falángico del primer dedo. Así como observamos en la Figura 2. 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia_Lab%203/posicion2.jpeg" width="250" height="400"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%203/posicion2.jpeg" width="250" height="400"/>
 <div align="center"> <i>Figura 2: Posición del electrodo positivo y de referencia.</i></div>
 <p>
 
  Finalmente, colocamos el electrodo de tierra en el dorso de la mano, como observamos en la Figura 3.
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia_Lab%203/posicion1.jpeg" width="250" height="400"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%203/posicion1.jpeg" width="250" height="400"/>
 <div align="center"> <i>Figura 3:Posición del electro de tierra.</i></div>
 <p>
 
@@ -119,7 +119,7 @@ https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/c4f1a116-822b-4
 Podemos ver que observamos un poco de ruido cuando el músculo se encuentra en reposo que es debido a la mala colocación del electrodo de referencia.
 
 <p align="center">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia_Lab%203/ploteo_OS_reposo.jpeg" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%203/ploteo_OS_reposo.jpeg" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 4: Gráfica en OpenSignals músculo en reposo.</i></div>
 <p>
 </p>
@@ -128,7 +128,7 @@ Señal en tensión:
 Cuando el músculo empieza a hacer un poco de tensión, empezamos a notar señales.
 
 <p align="center">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia_Lab%203/ploteo_OS_tension.jpeg" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%203/ploteo_OS_tension.jpeg" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 5: Gráfica en OpenSignals músculo en tensión</i></div>
 <p>
 </p>
@@ -137,7 +137,7 @@ Señal en oposición:
 Cuando el músculo se enfrenta a una oposición, en este caso una fuerza externa aplicada por un compañero, empezamos a notar señales más pronunciadas.
 
 <p align="center">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia_Lab%203/ploteo_OS_oposicion.jpeg" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%203/ploteo_OS_oposicion.jpeg" align="center" width="500" height="300"/>
 <div align="center"> <i>Figura 6: Gráfica en OpenSignals músculo en oposición</i></div>
 <p>
 </p>
