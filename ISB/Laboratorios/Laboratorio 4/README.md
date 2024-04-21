@@ -111,22 +111,22 @@ https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a93f4b83-0696-4
 En las gráficas obtenidas, se aprecia la disposición espacial de las ondas PQRST, el intervalo QT, el segmento ST y el complejo QRS. Hemos indicado en cada imágen dónde empieza cada onda para un mejor análisis. En la Figura 4, 5 y 7 se pueden apreciar mejor los segmentos de las ondas PQRST a comparación de la Figura 6, donde el voluntario estaba haciendo ejercicio y esto puede deberse al ruido causado por el movimiento del BITalino.
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_os.png" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_os.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 4: Señal en reposo OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/ciclo_respiraci%C3%B3n_os.png" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/ciclo_respiraci%C3%B3n_os.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 5: Señal en los ciclos de respiración OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/ejercicio_os.png" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/ejercicio_os.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 6: Señal mientras el voluntario hace ejercicio OpenSignal</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_os.png" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8eff27c4180e70eeab2fd06f877e03ae0a7fd0ea/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_os.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 7: Señal 30 segundos después del ejercicio OpenSignal</i></div>
 <p>
 
@@ -148,29 +148,29 @@ Ahora plotearemos los datos recopilados en Python para poder obtener un mejor an
 Después de recopilar los datos, ploteamos en Python para poder analizar mejor las señales obtenidas.
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_py.png" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/reposo_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 8: Señal en reposo ploteada en Python</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/respiraci%C3%B3n_py.png" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/respiraci%C3%B3n_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 9: Señal en los ciclos de respiración ploteada en Python</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/ejercicio_py.png" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/ejercicio_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 10: Señal mientras el voluntario hace ejercicio ploteada en Python</i></div>
 <p>
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_py.png" align="center" width="500" height="300"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/62b2c775246810dce0b9eafbf1d66b164a0f14ac/ISB/imagenes_multimedia/Multimedia-Lab4/post_ejercicio_py.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 11: Señal 30 segundos después del ejercicio ploteada en Python</i></div>
 <p>
 
 En las gráficas obtenidas después de plotear en Python, podemos apreciar con más claridad la disposición espacial de las ondas PQRST, el intervalo QT, el segmento ST y el complejo QRS. Hemos indicado en cada imagen donde empieza cada onda para un mejor análisis. Al igual que con las gráficas de OpenSignal en los ploteos de las señales en reposo, en el ciclo de respiración se pueden notar mejor los segmentos y en la recuperación después del ejercicio (Figura 8,9,11). A comparación de la Figura 10, donde el voluntario estaba haciendo ejercicio y no se pueden apreciar de manera correcta los segmentos, esto puede deberse al ruido causado por el movimiento del BITalino.
 
 Ahora plotearemos también las señales que obtuvimos del simulador de señales biomédicas *ProSim 4 Vital Signs Patient Simulator l* mientras se encontraba en la opción de parada cardíaca.
-|
+
 ![señal_ecg_rsn_py](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/37b3151d-0174-4024-a453-0848635ad7da)
 <div align="center"> <i>Figura 12: Nivel 1 - ECG 80 lpm</i></div>
 <p>
