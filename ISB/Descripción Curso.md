@@ -27,12 +27,12 @@ También presenta los métodos de adquisición y ploteo de este tipo de señales
 Esta unidad se enfoca en el procesamiento y análisis de las señales anteriormente mencionadas a través del desarrollo de filtros digitales, algoritmos de detección y análisis de señales.
 
 ##### 3° Unidad: Introducción al análisis de datos estructurados e inteligencia artificial.
-Finalmente, para complementar las técnicas y conceptos vistos en las 2 unidades previas, esta última unidad se enfoca en la estructuración de la data obtenido de las señales, así como su análisis estadístico y una breve introducción a la inteligencia artifical.
+Finalmente, para complementar las técnicas y conceptos vistos en las 2 unidades previas, esta última unidad se enfoca en la estructuración de la data obtenida de las señales, así como su análisis estadístico y una breve introducción a la inteligencia artifical.
 
 <a id = "Metodología"></a>
 <h2 style = "text-align: center;">Metodología</h2>
 <p align="center">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Imagenes/PROCESO%20DE%20APRENDIZAJE%20ISB.png" align="center" width="1200" height="1200"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Curso/PROCESO%20DE%20APRENDIZAJE%20ISB.png" align="center" width="1200" height="1200"/>
 </p>
 
 <a id = "Docentes"></a>
