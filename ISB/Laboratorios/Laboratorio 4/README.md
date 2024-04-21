@@ -171,31 +171,29 @@ En las gráficas obtenidas después de plotear en Python, podemos apreciar con m
 
 Ahora plotearemos también las señales que obtuvimos del simulador de señales biomédicas *ProSim 4 Vital Signs Patient Simulator l* mientras se encontraba en la opción de parada cardíaca.
 
-![señal_ecg_rsn_py](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/37b3151d-0174-4024-a453-0848635ad7da)
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL1.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 12: Nivel 1 - ECG 80 lpm</i></div>
 <p>
 
 &nbsp;
-![nivel2_py](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/d8a908ac-dd91-4b82-b905-cd67bf596c35)
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/nivel2_py.png" align="center" width="900" height="300"/>
 
 <div align="center"> <i>Figura 13: Nivel 2 - CYP (VI) </i></div>
 <p>
 &nbsp;
 
-![NIVEL3](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/7432f389-bd97-43c4-8970-7c78a4b97f49)
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL3.png" align="center" width="900" height="300"/>
 
 <div align="center"> <i>Figura 14: Nivel 3 - Taquicardia Ventricular 160 lpm</i></div>
 <p>
 &nbsp;
 
-![NIVEL4](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/f7a40d05-3cbc-45d0-b9e6-ab5bd93627e0)
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL4.png" align="center" width="900" height="300"/>
 
 <div align="center"> <i>Figura 15: Nivel 4 - Fibrilación Ventricular Severa</i></div>
 <p>
 &nbsp;
-
-![NIVEL 5](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/b4f91027-ce77-414b-a02b-49e77f0eeb09) 
-
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL%205.png" align="center" width="900" height="300"/>
 <div align="center"> <i>Figura 16: Nivel 5 - Asistolia </i></div>
 <p>
 
