@@ -171,31 +171,30 @@ En las gráficas obtenidas después de plotear en Python, podemos apreciar con m
 
 Ahora plotearemos también las señales que obtuvimos del simulador de señales biomédicas *ProSim 4 Vital Signs Patient Simulator l* mientras se encontraba en la opción de parada cardíaca.
 
+
+<p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL1.png" align="center" width="900" height="300"/>
-<div align="center"> <i>Figura 12: Nivel 1 - ECG 80 lpm</i></div>
-<p>
-
+<div align="center"> <i>Figura 12: Nivel 1 - ECG 80 lpm</i></div><p>
 &nbsp;
+
+<p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/nivel2_py.png" align="center" width="900" height="300"/>
-
-<div align="center"> <i>Figura 13: Nivel 2 - CYP (VI) </i></div>
-<p>
+<div align="center"> <i>Figura 13: Nivel 2 - CYP (VI) </i></div><p>
 &nbsp;
 
+<p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL3.png" align="center" width="900" height="300"/>
-
-<div align="center"> <i>Figura 14: Nivel 3 - Taquicardia Ventricular 160 lpm</i></div>
-<p>
+<div align="center"> <i>Figura 14: Nivel 3 - Taquicardia Ventricular 160 lpm</i></div><p>
 &nbsp;
 
+<p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL4.png" align="center" width="900" height="300"/>
-
-<div align="center"> <i>Figura 15: Nivel 4 - Fibrilación Ventricular Severa</i></div>
-<p>
+<div align="center"> <i>Figura 15: Nivel 4 - Fibrilación Ventricular Severa</i></div><p>
 &nbsp;
+
+<p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/imagenes_multimedia/Multimedia-Lab4/NIVEL%205.png" align="center" width="900" height="300"/>
-<div align="center"> <i>Figura 16: Nivel 5 - Asistolia </i></div>
-<p>
+<div align="center"> <i>Figura 16: Nivel 5 - Asistolia </i></div><p>
 
 Podemos notar que la primera gráfica presenta una alta precisión de la disposición espacial de las ondas P y T, así como del complejo QRS. Ahora procedemos a analizar cada fase:
 
