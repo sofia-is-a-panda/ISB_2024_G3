@@ -18,5 +18,16 @@
 
 ### ¿Qué es un EEG?
 
+## Objetivos
 
+## Laboratorio 
+
+### Materiales y equipos
+<div align="center">
+
+|  **Modelo**  | **Descripción** | **Cantidad** |
+|:------------:|:---------------:|:------------:|
+| (R)EVOLUTION |   Kit BITalino  |       1      |
+|       -      |      Laptop     |       1      |
+|   MARK IV    |   Ultracortex   |       1      |
 
