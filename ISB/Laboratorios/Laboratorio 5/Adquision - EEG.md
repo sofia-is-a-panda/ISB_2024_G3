@@ -65,22 +65,17 @@ Finalmente, el lóbulo temporal está asociado con el procesamiento de la entrad
 |       -      |      Laptop     |       1      |
 </div>
 
-* Board Kit Bitalino: <br>
+* Board Kit Bitalino [5]: <br>
 El Kit de tarjeta (R)Evolution BITalino consta de una tarjeta all-in-one de obtención de bioseñales que incluye principalmente 1 sensor de EEG, 1 sensor de EKG, 1 sensor de EMG, 1 microcontrolador, 1 módulo Bluetooth, entre otras cosas como actuadores y conversores. Esta tarjeta permite capturar las bioseñales a una frecuencia de sampleo máxima de 1000 Hz a una resolución de 10 bits en los canales de sensado de EEG, EKG, EMG y EDA. <br>
-Para más especificaciones, visitar la página de compra del Kit: https://www.pluxbiosignals.com/collections/bitalino/products/bitalino-revolution-board-kit-ble-bt
 &nbsp;
 
-* UltraCortex MARK IV: <br>
+* UltraCortex MARK IV [6]: <br>
 El UltraCortex MARK IV es un arreglo de 35 electrodos desarrollado por la plataforma OpenBCI y orientado a la obtención de electroencefalograma basado en el sistema 10-20 para el posicionamiento de electrodos. En esta oportunidad, solo se utilizarán 8 electrodos dado que se cuenta únicamente con la tarjeta de biosensado Cyton de 8 canales.<br>
-Para más especificaciones, visitar la página de compra: https://shop.openbci.com/products/ultracortex-mark-iv
 &nbsp;
 
-* Tarjeta Cyton: <br>
+* Tarjeta Cyton [7][8]: <br>
 La tarjeta Cyton es una tarjeta de biosensado desarrollado por la plataforma OpenBCI al igual que el UltraCortex MARK IV. Esta solamente cuenta con 8 canales  de 24 bits y, si se requiere ampliar a 16 canales, es necesario utilizar el módulo Daisy de 8 canales extra. 
 La tarjeta Cyton es compatible con la plataforma OpenBCI GUI y permite capturar las señales de electroencefalograma a una frecuencia de sampleo de 250 Hz en todos sus canales. Además, el kit incluye una llave electrónica para la comunicación Bluetooth entre la tarjeta y una PC o laptop.
-Para más especificaciones, visitar las siguientes páginas de compra: <br>
-Tarjeta Cyton: https://shop.openbci.com/products/cyton-biosensing-board-8-channel <br>
-Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-biosensing-boards-16-channel
 
 ### Metodología
 
@@ -355,7 +350,10 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 
 ### Bibliografia 
 [1] Hahn CD, Emerson RG. Electroencephalography and evoked potentials. In: Jankovic J, Mazziotta JC, Pomeroy SL, Newman NJ, eds. Bradley and Daroff's Neurology in Clinical Practice. 8th ed. Philadelphia, PA: Elsevier; 2022:chap 35. <br>
-[2] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875 <br>
+[2] “Electroencefalografía (EEG) - Mayo Clinic,” www.mayoclinic.org. https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875 <br>
 [3] “BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf <br>
 [4] “EEG (Electroencephalography): The Complete Pocket Guide - iMotions,” iMotions, Aug. 27, 2019. https://imotions.com/blog/learning/best-practice/eeg/ <br>
-[5]
+[5] “BITalino (r)evolution Board Kit BLE/BT,” PLUX Biosignals. https://www.pluxbiosignals.com/collections/bitalino/products/bitalino-revolution-board-kit-ble-bt <br>
+[6] “Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store. https://shop.openbci.com/products/ultracortex-mark-iv
+[7] “Cyton Biosensing Board (8-channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-biosensing-board-8-channel
+[8] “Cyton + Daisy Biosensing Boards (16-Channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-daisy-biosensing-boards-16-channel
