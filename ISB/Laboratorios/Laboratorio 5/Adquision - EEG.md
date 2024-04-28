@@ -380,6 +380,8 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 
 ### Discusión
 
+Durante el laboratorio, se conectaron los electrodos superficiales al cuerpo del voluntario para obtener la señal EEG. Luego, se estableció la conexión vía Bluetooth del BiTalino con la computadora, seleccionando el canal adecuado (en este caso, canal 3). Se midieron las señales EEG utilizando el software OpenSignals y se realizó otra toma de muestras utilizando el Ultracortex EEG Headset y el entorno OpenBCI GUI. Se establecieron diferentes condiciones durante la toma de muestras, incluyendo estado de reposo, ciclos de cerrar y abrir los ojos, resolución de problemas de matemáticas y respuesta a preguntas de historia. Finalmente, los datos de la señal fueron exportados para su análisis utilizando el lenguaje de programación Python.
+
 Para la obtención de valores, se utilizaron frecuencias de muestreo de 250 Hz en OpenBCI GUI y 1000 Hz en Bitalino (Open Signal). Esto se debió al teorema de Nyquist, que indica que para realizar una reconstrucción adecuada de una señal, la frecuencia de muestreo debe ser mayor al doble de la frecuencia máxima. En un electroencefalograma, este rango de frecuencias abarca de 0.1 a 80 Hz [12]. Con lo cual, las frecuencias de muestreo escogidas nos permiten realizar una adecuada reconstrucción de las señales.
 
 <p> <strong>Sobre las señales del OpenBCI GUI</strong>
@@ -393,6 +395,16 @@ Por otro lado, al examinar las señales registradas con el BITalino, se pudo dis
 Durante la fase de preguntas, se observó un cambio en la frecuencia de la señal registrada, lo que podría sugerir una respuesta cognitiva o emocional por parte del voluntario ante los estímulos presentados.
 
 Es importante destacar que todos estos resultados podrían haber sido influenciados por el ruido externo, especialmente considerando que las frecuencias de las señales EEG son generalmente bajas y susceptibles a interferencias. Es necesario implementar técnicas de filtrado y procesamiento de señales para mitigar estos efectos y obtener mediciones más precisas y confiables.
+
+Finalmente teniendo en cuenta la teoría mencionada y los resultados obtenidos podemos decir que:
+
+El texto describe tres fases distintas de actividad cerebral en un voluntario mientras realiza diferentes tareas.
+
+* En la primera fase, con los ojos cerrados y relajado, se observan ondas alfa bajas, similares a la vigilia, pero con una ligera actividad mental concentrada en mantener los ojos cerrados. Las señales indican actividad motora y sensorial, con poca actividad en la corteza visual primaria debido a la falta de estímulos externos.
+
+* En la segunda fase, con ciclos de cinco segundos entre abrir y cerrar los ojos, se notan dos tipos de ondas, con más amplitud y frecuencia durante la fase de ojos cerrados. Al abrir los ojos, las ondas alfa disminuyen, y se observa actividad muscular ocular.
+
+* En la última fase, resolviendo problemas de matemáticas, se registra un aumento significativo en la actividad cerebral, especialmente en ondas theta y amplitud, debido al estrés y la concentración requerida para resolver los problemas. Esta actividad se centra en las regiones frontales corticales y se ve influenciada por la actividad mental previa.
 
 
 ### Bibliografia 
