@@ -380,6 +380,24 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 
 ### Discusión
 
+Para la obtención de valores, se utilizaron frecuencias de muestreo de 250 Hz en OpenBCI GUI y 1000 Hz en Bitalino (Open Signal). Esto se debió al teorema de Nyquist, que indica que para realizar una reconstrucción adecuada de una señal, la frecuencia de muestreo debe ser mayor al doble de la frecuencia máxima. En un electroencefalograma, este rango de frecuencias abarca de 0.1 a 80 Hz [12]. Con lo cual, las frecuencias de muestreo escogidas nos permiten realizar una adecuada reconstrucción de las señales.
+
+Sobre las señales del OpenBCI GUI
+Los canales 0 y 1 son los que se encontraban en la parte frontal de la cabeza del voluntario. 
+
+Las señales obtenidas del fft nos indican que la magnitud de la señal es mayor a frecuencias muy bajas, casi entre 0 a 5 Hz, y luego empieza a decrecer, lo que nos indica que la mayor parte de la señal se encuentra en este rango de frecuencias.
+
+Sobre las señales del BITalino
+
+Durante los ojos cerrados y sin movimiento ocular: Vemos que la amplitud de la señal va de entre -20 a 20 uV en la mayoría del tiempo, y se presenta solo un aumento de la amplitud hasta los 30 uV casi al final de la prueba.
+
+Mientras que durante el ciclo de ojos abiertos - cerrados la amplitud de la señal es mayor ya que va de -40 a 40 uV. En la figura 28, entre el segundo 17 - 17.5  se observa un pico en la amplitud seguido de una caída lo cual se debe al parpadeo, esta señal no es generada por el EEG, además contamina la señal [13] Adicionalmente en la figura 26 se observan picos en la amplitud aproximadamente cada 5 segundos que era el intervalo en el que se realizó el parpadeo
+
+Durante las preguntas: En este caso, lo que más resalta en la señal, es que la frecuencia de es mayor a la de las señales anteriores. 
+
+Todos estos resultados pueden haberse visto afectados por el ruido externo, ya que la frecuencias de las señales del EEG son muy bajas, donde en la mayoria de casos no superan los 30 Hz.
+
+
 ### Bibliografia 
 [1] Hahn CD, Emerson RG. Electroencephalography and evoked potentials. In: Jankovic J, Mazziotta JC, Pomeroy SL, Newman NJ, eds. Bradley and Daroff's Neurology in Clinical Practice. 8th ed. Philadelphia, PA: Elsevier; 2022:chap 35. <br>
 [2] “Electroencefalografía (EEG) - Mayo Clinic,” www.mayoclinic.org. https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875 <br>
@@ -392,3 +410,6 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 [9] “Extracción de características sobre señales EEG para detección de actividades mentalmotoras en sistemas BCI”https://inaoe.repositorioinstitucional.mx/jspui/bitstream/1009/155/1/RosasChG.pdf <br>
 [10] “Cyton data format”, Openbci.com. [En línea]. Disponible en: https://docs.openbci.com/Cyton/CytonDataFormat/. <br>
 [11] “BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
+[12] R. Martinek et al., “Advanced Bioelectrical Signal Processing Methods: Past, Present and Future Approach—Part I: Cardiac Signals,” Sensors, vol. 21, no. 15, p. 5186, Jul. 2021, doi: https://doi.org/10.3390/s21155186.
+[13] A. K. Maddirala and K. C. Veluvolu, “Eye-blink artifact removal from single channel EEG with k-means and SSA,” Scientific Reports, vol. 11, no. 1, May 2021, doi: https://doi.org/10.1038/s41598-021-90437-7.
+
