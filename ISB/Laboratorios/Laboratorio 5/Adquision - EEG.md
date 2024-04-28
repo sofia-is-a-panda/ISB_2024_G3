@@ -354,6 +354,6 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 [3] “BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf <br>
 [4] “EEG (Electroencephalography): The Complete Pocket Guide - iMotions,” iMotions, Aug. 27, 2019. https://imotions.com/blog/learning/best-practice/eeg/ <br>
 [5] “BITalino (r)evolution Board Kit BLE/BT,” PLUX Biosignals. https://www.pluxbiosignals.com/collections/bitalino/products/bitalino-revolution-board-kit-ble-bt <br>
-[6] “Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store. https://shop.openbci.com/products/ultracortex-mark-iv
-[7] “Cyton Biosensing Board (8-channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-biosensing-board-8-channel
-[8] “Cyton + Daisy Biosensing Boards (16-Channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-daisy-biosensing-boards-16-channel
+[6] “Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store. https://shop.openbci.com/products/ultracortex-mark-iv <br>
+[7] “Cyton Biosensing Board (8-channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-biosensing-board-8-channel <br>
+[8] “Cyton + Daisy Biosensing Boards (16-Channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-daisy-biosensing-boards-16-channel <br>
