@@ -155,8 +155,18 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 ### Gráficos en OpenBCI GUI
 
 ### Gráficos en OpenSignals
+A continuacion mostraremos los graficos ploteados en Open Signals.
 
 ### Gráficos en Python
+Asimismo, se realizo el ploteo de las señales de OpenSignals en Python.
+
+Para ello, es importante recordar que, la frecuencia de muestreo utilizada fue de 1000 Hz.
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_1.png" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 7 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<p>
 
 ### Discusión
 
