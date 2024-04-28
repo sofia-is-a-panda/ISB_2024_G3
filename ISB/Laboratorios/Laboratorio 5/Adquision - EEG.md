@@ -382,21 +382,17 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 
 Para la obtención de valores, se utilizaron frecuencias de muestreo de 250 Hz en OpenBCI GUI y 1000 Hz en Bitalino (Open Signal). Esto se debió al teorema de Nyquist, que indica que para realizar una reconstrucción adecuada de una señal, la frecuencia de muestreo debe ser mayor al doble de la frecuencia máxima. En un electroencefalograma, este rango de frecuencias abarca de 0.1 a 80 Hz [12]. Con lo cual, las frecuencias de muestreo escogidas nos permiten realizar una adecuada reconstrucción de las señales.
 
-Sobre las señales del OpenBCI GUI
+<p> <strong>Sobre las señales del OpenBCI GUI</strong>
+ 
+Se observó que los canales 0 y 1, ubicados en la parte frontal de la cabeza del voluntario, presentaban una respuesta significativa en frecuencias bajas, especialmente entre 0 y 5 Hz. Esta predominancia en el espectro de frecuencia podría estar relacionada con actividades cerebrales fundamentales, como el estado de reposo o la actividad basal del sistema nervioso central.
 
-Los canales 0 y 1 son los que se encontraban en la parte frontal de la cabeza del voluntario. 
+<p> <strong>Sobre las señales del BITalino</strong>
 
-Las señales obtenidas del fft nos indican que la magnitud de la señal es mayor a frecuencias muy bajas, casi entre 0 a 5 Hz, y luego empieza a decrecer, lo que nos indica que la mayor parte de la señal se encuentra en este rango de frecuencias.
+Por otro lado, al examinar las señales registradas con el BITalino, se pudo distinguir claramente entre los períodos de ojos cerrados y sin movimiento ocular, y los momentos en los que se solicitó al voluntario realizar el ciclo de ojos abiertos - cerrados. En ambos casos, se evidenció una variación en la amplitud de la señal, siendo más pronunciada durante el ciclo de ojos abiertos - cerrados. Además, se identificaron artefactos relacionados con el parpadeo, los cuales fueron importantes de tener en cuenta durante el análisis de las señales [13].
 
-Sobre las señales del BITalino
+Durante la fase de preguntas, se observó un cambio en la frecuencia de la señal registrada, lo que podría sugerir una respuesta cognitiva o emocional por parte del voluntario ante los estímulos presentados.
 
-Durante los ojos cerrados y sin movimiento ocular: Vemos que la amplitud de la señal va de entre -20 a 20 uV en la mayoría del tiempo, y se presenta solo un aumento de la amplitud hasta los 30 uV casi al final de la prueba.
-
-Mientras que durante el ciclo de ojos abiertos - cerrados la amplitud de la señal es mayor ya que va de -40 a 40 uV. En la figura 28, entre el segundo 17 - 17.5  se observa un pico en la amplitud seguido de una caída lo cual se debe al parpadeo, esta señal no es generada por el EEG, además contamina la señal [13] Adicionalmente en la figura 26 se observan picos en la amplitud aproximadamente cada 5 segundos que era el intervalo en el que se realizó el parpadeo
-
-Durante las preguntas: En este caso, lo que más resalta en la señal, es que la frecuencia de es mayor a la de las señales anteriores. 
-
-Todos estos resultados pueden haberse visto afectados por el ruido externo, ya que la frecuencias de las señales del EEG son muy bajas, donde en la mayoria de casos no superan los 30 Hz.
+Es importante destacar que todos estos resultados podrían haber sido influenciados por el ruido externo, especialmente considerando que las frecuencias de las señales EEG son generalmente bajas y susceptibles a interferencias. Es necesario implementar técnicas de filtrado y procesamiento de señales para mitigar estos efectos y obtener mediciones más precisas y confiables.
 
 
 ### Bibliografia 
