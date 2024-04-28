@@ -29,16 +29,19 @@ El cerebro se puede clasificar en cuatro lóbulos principales (ver Figura 1), qu
 ![image](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/aee1db3c-3ddf-4f9a-82f1-b9449b4bc759)
 <p align="center">Figura 1. El cerebro junto a los lóbulos que lo conforman y las funciones que cumplen. Recuperado de [3]</p>
 
-Lóbulo Frontal:
+Lóbulo Frontal: <br>
 El lóbulo frontal es la región del cerebro donde se originan la mayoría de nuestros pensamientos conscientes y decisiones. 
 &nbsp;
-Lóbulo Parietal:
+
+Lóbulo Parietal: <br>
 El lóbulo parietal se enfoca en integrar información procedente de fuentes externas, así como retroalimentación sensorial interna de los músculos esqueléticos, extremidades, cabeza, ojos, otoconias, etc. 
 &nbsp;
-Lóbulo Occipital:
+
+Lóbulo Occipital: <br>
 El lóbulo occipital es la región del cerebro responsable del procesamiento visual, abarcando desde la elaboración de información visual básica como la orientación y la frecuencia espacial, hasta la diferenciación de colores y la percepción del movimiento. 
 &nbsp;
-Lóbulo Temporal:
+
+Lóbulo Temporal: <br>
 Finalmente, el lóbulo temporal está asociado con el procesamiento de la entrada sensorial para derivar significados superiores utilizando memorias visuales, lenguaje y asociación emocional, y está involucrado en la comprensión del lenguaje escrito y hablado [4].
 
 
@@ -60,46 +63,46 @@ Finalmente, el lóbulo temporal está asociado con el procesamiento de la entrad
 |       -      |      Laptop     |       1      |
 </div>
 
-* Board Kit Bitalino:
-El Kit de tarjeta (R)Evolution BITalino consta de una tarjeta all-in-one de obtención de bioseñales que incluye principalmente 1 sensor de EEG, 1 sensor de EKG, 1 sensor de EMG, 1 microcontrolador, 1 módulo Bluetooth, entre otras cosas como actuadores y conversores. Esta tarjeta permite capturar las bioseñales a una frecuencia de sampleo máxima de 1000 Hz a una resolución de 10 bits en los canales de sensado de EEG, EKG, EMG y EDA.
+* Board Kit Bitalino: <br>
+El Kit de tarjeta (R)Evolution BITalino consta de una tarjeta all-in-one de obtención de bioseñales que incluye principalmente 1 sensor de EEG, 1 sensor de EKG, 1 sensor de EMG, 1 microcontrolador, 1 módulo Bluetooth, entre otras cosas como actuadores y conversores. Esta tarjeta permite capturar las bioseñales a una frecuencia de sampleo máxima de 1000 Hz a una resolución de 10 bits en los canales de sensado de EEG, EKG, EMG y EDA. <br>
 Para más especificaciones, visitar la página de compra del Kit: https://www.pluxbiosignals.com/collections/bitalino/products/bitalino-revolution-board-kit-ble-bt
 &nbsp;
 
-* UltraCortex MARK IV:
-El UltraCortex MARK IV es un arreglo de 35 electrodos desarrollado por la plataforma OpenBCI y orientado a la obtención de electroencefalograma basado en el sistema 10-20 para el posicionamiento de electrodos. En esta oportunidad, solo se utilizarán 8 electrodos dado que se cuenta únicamente con la tarjeta de biosensado Cyton de 8 canales.
+* UltraCortex MARK IV: <br>
+El UltraCortex MARK IV es un arreglo de 35 electrodos desarrollado por la plataforma OpenBCI y orientado a la obtención de electroencefalograma basado en el sistema 10-20 para el posicionamiento de electrodos. En esta oportunidad, solo se utilizarán 8 electrodos dado que se cuenta únicamente con la tarjeta de biosensado Cyton de 8 canales.<br>
 Para más especificaciones, visitar la página de compra: https://shop.openbci.com/products/ultracortex-mark-iv
 &nbsp;
 
-* Tarjeta Cyton:
+* Tarjeta Cyton: <br>
 La tarjeta Cyton es una tarjeta de biosensado desarrollado por la plataforma OpenBCI al igual que el UltraCortex MARK IV. Esta solamente cuenta con 8 canales  de 24 bits y, si se requiere ampliar a 16 canales, es necesario utilizar el módulo Daisy de 8 canales extra. 
 La tarjeta Cyton es compatible con la plataforma OpenBCI GUI y permite capturar las señales de electroencefalograma a una frecuencia de sampleo de 250 Hz en todos sus canales. Además, el kit incluye una llave electrónica para la comunicación Bluetooth entre la tarjeta y una PC o laptop.
-Para más especificaciones, visitar las siguientes páginas de compra: 
-Tarjeta Cyton: https://shop.openbci.com/products/cyton-biosensing-board-8-channel
+Para más especificaciones, visitar las siguientes páginas de compra: <br>
+Tarjeta Cyton: https://shop.openbci.com/products/cyton-biosensing-board-8-channel <br>
 Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-biosensing-boards-16-channel
 
 ### Metodología
 
-* Conexiones y ajustes del UltraCortex MARK IV + Tarjeta Cyton:
--Descarga de la plataforma OpenBCI GUI.
--Alimentación de la tarjeta Cyton utilizando una batería de litio incluida en el kit de compra.
--Conexión del UltraCortex MARK IV con la tarjeta Cyton.
--Ajuste del UltraCortex en la cabeza del voluntario siguiendo el sistema 10-20 de posicionamiento de electrodos.
--Conexión de la laptop y la tarjeta Cyton a través de la llave electrónica (dongle) incluida en el kit de compra.
+* Conexiones y ajustes del UltraCortex MARK IV + Tarjeta Cyton: <br>
+-Descarga de la plataforma OpenBCI GUI. <br>
+-Alimentación de la tarjeta Cyton utilizando una batería de litio incluida en el kit de compra. <br>
+-Conexión del UltraCortex MARK IV con la tarjeta Cyton. <br>
+-Ajuste del UltraCortex en la cabeza del voluntario siguiendo el sistema 10-20 de posicionamiento de electrodos. <br>
+-Conexión de la laptop y la tarjeta Cyton a través de la llave electrónica (dongle) incluida en el kit de compra. <br>
 &nbsp;
-* Conexiones y ajustes del Board Kit BITalino (R)evolution:
--Descarga de la plataforma OpenSignals.
--Alimentación de la tarjeta BITalino utilizando una batería de litio incluida en el kit de compra.
--Conexión de los 3 electrodos (Positivo, Negativo y Referencia) a la placa de sensado a través de un conector hacia el canal de sensado de EEG.
--Conectar por Bluetooth a la tarjeta BITalino con la laptop.
+* Conexiones y ajustes del Board Kit BITalino (R)evolution: <br>
+-Descarga de la plataforma OpenSignals. <br>
+-Alimentación de la tarjeta BITalino utilizando una batería de litio incluida en el kit de compra. <br>
+-Conexión de los 3 electrodos (Positivo, Negativo y Referencia) a la placa de sensado a través de un conector hacia el canal de sensado de EEG. <br>
+-Conectar por Bluetooth a la tarjeta BITalino con la laptop. <br>
 &nbsp;
-* Obtención de señales: 
--Obtención de las señales de electroencefalograma en un estado de reposo (respiración normal, sin movimientos oculares y ojos cerrados) durante 30 segundos.
--Obtención de las señales de electroencefalograma repitiendo 5 ciclos de 10 segundos de ojos abiertos - ojos cerrados.
--Obtención de las señales en reposo durante 30 segundos nuevamente.
--Obtención de las señales en un estado de razonamiento lógico-matemático a través de preguntas leídas por un agente externo.
+* Obtención de señales: <br>
+-Obtención de las señales de electroencefalograma en un estado de reposo (respiración normal, sin movimientos oculares y ojos cerrados) durante 30 segundos. <br>
+-Obtención de las señales de electroencefalograma repitiendo 5 ciclos de 10 segundos de ojos abiertos - ojos cerrados. <br>
+-Obtención de las señales en reposo durante 30 segundos nuevamente. <br>
+-Obtención de las señales en un estado de razonamiento lógico-matemático a través de preguntas leídas por un agente externo. <br>
 
 ### Conexiones
-* UltraCortex MARK IV + Tarjeta Cyton:
+* UltraCortex MARK IV + Tarjeta Cyton: 
 
 ![Image alt](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/UltraCortex%20-%20Cyton.jpg?raw=true)
 <div align="center"> <i>Figura 1 - Conexión entre el UltraCortex MARK IV y la tarjeta Cyton</i></div>
