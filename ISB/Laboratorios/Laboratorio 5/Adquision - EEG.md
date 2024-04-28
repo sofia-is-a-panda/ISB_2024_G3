@@ -383,6 +383,7 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 Para la obtención de valores, se utilizaron frecuencias de muestreo de 250 Hz en OpenBCI GUI y 1000 Hz en Bitalino (Open Signal). Esto se debió al teorema de Nyquist, que indica que para realizar una reconstrucción adecuada de una señal, la frecuencia de muestreo debe ser mayor al doble de la frecuencia máxima. En un electroencefalograma, este rango de frecuencias abarca de 0.1 a 80 Hz [12]. Con lo cual, las frecuencias de muestreo escogidas nos permiten realizar una adecuada reconstrucción de las señales.
 
 Sobre las señales del OpenBCI GUI
+
 Los canales 0 y 1 son los que se encontraban en la parte frontal de la cabeza del voluntario. 
 
 Las señales obtenidas del fft nos indican que la magnitud de la señal es mayor a frecuencias muy bajas, casi entre 0 a 5 Hz, y luego empieza a decrecer, lo que nos indica que la mayor parte de la señal se encuentra en este rango de frecuencias.
