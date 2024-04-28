@@ -110,43 +110,42 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 <p>
 
 <div align = center">
-  <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/10-20.jpg" alt="Texto alternativo" style="max-width: 100%; height: auto;">
+  <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/10-20.jpg" alt="Texto alternativo" style="width: 80%;">
 <div>
 <div align="center"> 
 <i>Figura 2 - Sistema 10 - 20 para el posicionamiento de electrodos. En azul, se observan los 8 electrodos utilizados por el UltraCortex + Tarjeta Cyton. En rojo, se observan los 8 electrodos extra utilizando el UltraCortex + Tarjeta Cyton + Módulo Daisy.</i></div>
 <p>
 
-<div style="text-align: center;">
-<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex-  8 canales.jpg" alt="Texto alternativo" style="max-width: 50%; height: auto;">
+<div align = center">
+<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex-  8 canales.jpg" alt="Texto alternativo" style="width: 50%;">
 <div>
 <div align="center"> <i>Figura 3 - Arreglo físico de los 8 electrodos utilizados del UltraCortex.</i></div>
 <p>
 
-<div style="text-align: center;">
-<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex - Conexion.jpg" alt="Texto alternativo" style="max-width: 70%; height: auto;">
+<div align = center">
+<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex - Conexion.jpg" alt="Texto alternativo" style="width: 60%;">
 <div>
 <div align="center"> <i>Figura 4 - Conexión y ajuste del UltraCortex en la cabeza de la voluntaria. El gancho negro ubicado en el lóbulo de la oreja corresponde a la referencia.</i></div>
 <p>
 
 * BITalino Board + Electrodos:
 
-<div style="text-align: center;">
-<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Adaptador - Bitalino.png" alt="Texto alternativo" style="max-width: 100%; height: auto;">
+<div align = center">
+<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Adaptador - Bitalino.png" alt="Texto alternativo" style="width: 100%;">
 <div>
 <div align="center"> <i>Figura 5 - Cable de conexión entre electrodos y la entrada al sensor EEG. Los terminales rojo, negro y blanco corresponden a los electrodos positivo, negativo y referencia, respectivamente.</i></div>
 <p>
 
 
-<div style="text-align: center;">
-<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Electrodos - Conexion2.jpg" alt="Texto alternativo" style="max-width: 70%; height: auto;">
+<div align = center">
+<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Electrodos - Conexion2.jpg" alt="Texto alternativo" style="width: 60%;">
 <div>
 <div align="center"> <i>Figura 6 - Posicionamiento de los electrodos positivo y negativo en la voluntaria. </i></div>
 <p>
 
-<div style="text-align: center;">
-<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Electrodos - Conexion1.jpg" alt="Texto alternativo" style="max-width: 70%; height: auto;">
+<div align = center">
+<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Electrodos - Conexion1.jpg" alt="Texto alternativo" style="width: 60%;">
 <div>
-
 <div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
 
