@@ -55,6 +55,7 @@ Los diferentes tipos de ondas cerebrales en un EEG se caracterizan por tener una
 * Onda Mu: Presenta rangos de 8Hz a 12Hz y está asociada con actividades motoras. Su actividad disminuye con el movimiento o la intención de movimiento.
 * Onda Tetha: Se localiza entre los 4Hz y 7Hz y suele aparecer en situaciones de estrés emocional, como la frustración y la decepción. Sin embargo, también está asociada con la inspiración creativa y la meditación.
 
+En este laboratorio se empleó ULTRACORTEX "MARK IV" de 8 canales y el dispositivo de adquisición de señales Bitalino para la adquisición, visualización y análisis de señales EEG.
 
 ## Objetivos
 * Obtener señales de electroencefalograma utilizando el arreglo de electrodos UltraCortex MARK IV y la tarjeta  de biosensado Cyton de 8 canales. 
@@ -239,7 +240,7 @@ A continuacion mostraremos los graficos ploteados en Open Signals.
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/ojos.jpeg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 16 - Señal de EEG con los ojos abiertos</i></div>
+<div align="center"> <i>Figura 16 - Señal de EEG con los ojos abiertos - cerrados </i></div>
 <p>
 
 <div align = "center">
@@ -277,7 +278,7 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/9b1f382676c90c247084ccc77a31cd24955ad0fe/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/funcion.jpeg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 21 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 21 - Función de transferencia. Recuperado de [11]</i></div>
 <p>
 
 <div align = "center">
@@ -390,3 +391,4 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 [8] “Cyton + Daisy Biosensing Boards (16-Channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-daisy-biosensing-boards-16-channel <br>
 [9] “Extracción de características sobre señales EEG para detección de actividades mentalmotoras en sistemas BCI”https://inaoe.repositorioinstitucional.mx/jspui/bitstream/1009/155/1/RosasChG.pdf <br>
 [10] “Cyton data format”, Openbci.com. [En línea]. Disponible en: https://docs.openbci.com/Cyton/CytonDataFormat/. <br>
+[11] “BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
