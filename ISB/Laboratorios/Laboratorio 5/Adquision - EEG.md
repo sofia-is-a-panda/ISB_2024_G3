@@ -154,6 +154,43 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 
 ### Gráficos en OpenBCI GUI
 
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/22d2b0f9aab8627ac2f7eb20d71b7ac079ef85be/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Todas_las_se%C3%B1ales.png" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal0.png" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal1.png" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal5.png" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal6.png" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal7.png" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<p>
+
+
 ### Gráficos en OpenSignals
 A continuacion mostraremos los graficos ploteados en Open Signals.
 
@@ -192,7 +229,9 @@ A continuacion mostraremos los graficos ploteados en Open Signals.
 </div>
 <div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
+
 ### Gráficos en Python
+
 Asimismo, se realizo el ploteo de las señales de OpenSignals en Python.
 
 Para ello, es importante recordar que, la frecuencia de muestreo utilizada fue de 1000 Hz.
