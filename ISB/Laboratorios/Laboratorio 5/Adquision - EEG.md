@@ -157,6 +157,41 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 ### Gráficos en OpenSignals
 A continuacion mostraremos los graficos ploteados en Open Signals.
 
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/reposo1.jpeg" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/ojos.jpeg" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/reposo2.jpeg" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/pensamiento%20de%205%20a%208.jpeg" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/pensamiento%20de%2015%20a%2018.jpeg" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<p>
+
+<div align = "center">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/pensamiento%20de%2025%20a%2028.jpeg" alt="Texto alternativo" style="width: 60%;">
+</div>
+<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<p>
 ### Gráficos en Python
 Asimismo, se realizo el ploteo de las señales de OpenSignals en Python.
 
