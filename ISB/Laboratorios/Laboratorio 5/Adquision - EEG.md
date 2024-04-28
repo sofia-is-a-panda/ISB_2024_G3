@@ -139,13 +139,13 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 
 
 <div align = "center">
-<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Electrodos - Conexion2.jpg" alt="Texto alternativo" style="width: 60%;">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/figura6.png" alt="Texto alternativo" style="width: 60%;">
 </div>
 <div align="center"> <i>Figura 6 - Posicionamiento de los electrodos positivo y negativo en la voluntaria. </i></div>
 <p>
 
 <div align = "center">
-<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Electrodos - Conexion1.jpg" alt="Texto alternativo" style="width: 60%;">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/figura7.png" alt="Texto alternativo" style="width: 60%;">
 </div>
 <div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
