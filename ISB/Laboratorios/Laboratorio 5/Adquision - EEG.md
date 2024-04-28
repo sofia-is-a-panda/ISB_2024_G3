@@ -46,6 +46,15 @@ El lóbulo occipital es la región del cerebro responsable del procesamiento vis
 Lóbulo Temporal: <br>
 Finalmente, el lóbulo temporal está asociado con el procesamiento de la entrada sensorial para derivar significados superiores utilizando memorias visuales, lenguaje y asociación emocional, y está involucrado en la comprensión del lenguaje escrito y hablado [4].
 
+### Ondas del EEG
+
+Los diferentes tipos de ondas cerebrales en un EEG se caracterizan por tener una amplitud baja, en el caso del cerebro humano estamos hablando de microvoltios, y también presentan diferentes frecuencias, algunas más rápidas y otras más lentas. Estas ondas pueden clasificarse según su frecuencia [9]:
+
+* Onda delta: Se encuentra en el rango de 0.5Hz a 4Hz y su amplitud varía. Está asociada con el sueño profundo o el despertar, aunque a veces puede confundirse con artefactos del cuello o la mandíbula.
+* Onda Gamma: Se caracteriza por tener una frecuencia más alta, con rangos que van desde 35Hz hasta 200-400Hz. Este tipo de onda refleja cómo se maneja la conciencia.
+* Onda Mu: Presenta rangos de 8Hz a 12Hz y está asociada con actividades motoras. Su actividad disminuye con el movimiento o la intención de movimiento.
+* Onda Tetha: Se localiza entre los 4Hz y 7Hz y suele aparecer en situaciones de estrés emocional, como la frustración y la decepción. Sin embargo, también está asociada con la inspiración creativa y la meditación.
+
 
 ## Objetivos
 * Obtener señales de electroencefalograma utilizando el arreglo de electrodos UltraCortex MARK IV y la tarjeta  de biosensado Cyton de 8 canales. 
@@ -73,7 +82,7 @@ El Kit de tarjeta (R)Evolution BITalino consta de una tarjeta all-in-one de obte
 El UltraCortex MARK IV es un arreglo de 35 electrodos desarrollado por la plataforma OpenBCI y orientado a la obtención de electroencefalograma basado en el sistema 10-20 para el posicionamiento de electrodos. En esta oportunidad, solo se utilizarán 8 electrodos dado que se cuenta únicamente con la tarjeta de biosensado Cyton de 8 canales.<br>
 &nbsp;
 
-* Tarjeta Cyton [7][8]: <br>
+* Tarjeta Cyton [7] [8]: <br>
 La tarjeta Cyton es una tarjeta de biosensado desarrollado por la plataforma OpenBCI al igual que el UltraCortex MARK IV. Esta solamente cuenta con 8 canales  de 24 bits y, si se requiere ampliar a 16 canales, es necesario utilizar el módulo Daisy de 8 canales extra. 
 La tarjeta Cyton es compatible con la plataforma OpenBCI GUI y permite capturar las señales de electroencefalograma a una frecuencia de sampleo de 250 Hz en todos sus canales. Además, el kit incluye una llave electrónica para la comunicación Bluetooth entre la tarjeta y una PC o laptop.
 
@@ -148,6 +157,29 @@ La tarjeta Cyton es compatible con la plataforma OpenBCI GUI y permite capturar 
 <p>
 
 ### Videos de la obtención de las señales
+* Reposo: Primero tomamos las señales de la voluntaria mientras se encuentra en reposo, tiene los ojos cerrados y sin moverse durante 30 segundos.
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a0df66e1-15c4-4b6d-bff8-e3e5eba4d935
+
+* Ciclo de ojos: La segunda medición fue realizada mientras que la voluntaria mantenia los ojos cerrados por 5 segundos y luego los abría durante 5 segundos. Este ciclo se realizó un total de 5 veces.
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/2027559b-710a-42a6-b76c-9dd1d9e6e19b
+
+* Segundo Reposo: Volvemos a tomar las señales de la voluntaria mientras se encuentra en reposo, tiene los ojos cerrados y sin moverse durante 30 segundos.
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/ccaaec57-f907-478b-91c5-de9c86da443f
+
+* Actividad: Por último tomamos las medidas cuando la voluntaria está resolviendo una serie de problemas matemáticos simples.
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/30704235-0047-4abd-afde-5516d22286f7
+
+* En este video podemos observar la toma de medidas en actividad pero utilizando el Ultracortex.
+
+https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/910e2889-25a7-42ee-a660-b6f337fbcebf
+
+
+
+Este protocolo fue extraído de BITalino (r)evolution Home Guide EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS for EEG[3]
 
 ### Gráficos en OpenBCI GUI
 
@@ -156,8 +188,7 @@ Algunas consideraciones que se tomaron antes de realizar el ploteo de las señal
 * La frecuencia de muestreo que se empleó fue de 250 Hz.
 * Se utilizado un factor de conversión de 0.02235 (microvoltios por cuenta).
 
-Esta informacion la encontramos en el siguiente link:
-https://docs.openbci.com/Cyton/CytonDataFormat/
+La información mencionada la encontramos en la referencia [10]:
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/22d2b0f9aab8627ac2f7eb20d71b7ac079ef85be/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Todas_las_se%C3%B1ales.png" alt="Texto alternativo" style="width: 60%;">
@@ -357,3 +388,5 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 [6] “Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store. https://shop.openbci.com/products/ultracortex-mark-iv <br>
 [7] “Cyton Biosensing Board (8-channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-biosensing-board-8-channel <br>
 [8] “Cyton + Daisy Biosensing Boards (16-Channels),” OpenBCI Online Store. https://shop.openbci.com/products/cyton-daisy-biosensing-boards-16-channel <br>
+[9] “Extracción de características sobre señales EEG para detección de actividades mentalmotoras en sistemas BCI”https://inaoe.repositorioinstitucional.mx/jspui/bitstream/1009/155/1/RosasChG.pdf <br>
+[10] “Cyton data format”, Openbci.com. [En línea]. Disponible en: https://docs.openbci.com/Cyton/CytonDataFormat/. <br>
