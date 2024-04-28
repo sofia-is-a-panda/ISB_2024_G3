@@ -103,8 +103,7 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 
 ### Conexiones
 * UltraCortex MARK IV + Tarjeta Cyton: 
-<div style="text-align: center;">
-<img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex - Cyton.jpg" alt="Texto alternativo" style="width: 50%;">
+<div style="text-align: center;"> <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex - Cyton.jpg" alt="Texto alternativo" style="width: 50%;">
 <div>
 <div align="center"> <i>Figura 1 - Conexión entre el UltraCortex MARK IV y la tarjeta Cyton</i></div>
 <p>
