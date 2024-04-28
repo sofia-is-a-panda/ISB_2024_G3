@@ -171,43 +171,43 @@ Para ello, es importante recordar que, la frecuencia de muestreo utilizada fue d
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/f508c9aadf46d4e20525921cd9de2169abdbeef9/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_2.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 9 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 9 - Señal acotada de EEG (5 a 8 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_3.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 10 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 10 - Señal acotada de EEG (15 a 18 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_4.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 11 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 11 - Señal acotada de EEG (25 a 28 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_5.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 12 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 12 - Señal completa de EEG en un ciclo de ojos abiertos y ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_6.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 13 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 13 - Señal acotada de EEG (5 a 8 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_7.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 14 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 14 - Señal acotada de EEG (15 a 18 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_8.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 15 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 15 - Señal acotada de EEG (25 a 28 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
 <p>
 
 <div align = "center">
@@ -219,43 +219,43 @@ Para ello, es importante recordar que, la frecuencia de muestreo utilizada fue d
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_10.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 17 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 17 - Señal acotada de EEG (5 a 8 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_11.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 18 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 18 - Señal acotada de EEG (15 a 18 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_12.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 19 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 19 - Señal acotada de EEG (25 a 28 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_13.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 20 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 20 - Señal completa de EEG durante sesion de preguntas</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_14.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 21 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 21 - Señal acotada de EEG (5 a 8 segundos) durante sesion de preguntas</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_15.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 22 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 22 - Señal acotada de EEG (15 a 18 segundos) durante sesion de preguntas</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_16.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 23 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 23 - Señal acotada de EEG (25 a 28 segundos) durante sesion de preguntas</i></div>
 <p>
 
 
