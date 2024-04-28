@@ -354,8 +354,8 @@ Por otro lado, para realizar la conversión de valor ADC a voltios, se tomo en c
 ### Discusión
 
 ### Bibliografia 
-[1] Hahn CD, Emerson RG. Electroencephalography and evoked potentials. In: Jankovic J, Mazziotta JC, Pomeroy SL, Newman NJ, eds. Bradley and Daroff's Neurology in Clinical Practice. 8th ed. Philadelphia, PA: Elsevier; 2022:chap 35.
-[2] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
-[3] “BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
-[4] “EEG (Electroencephalography): The Complete Pocket Guide - iMotions,” iMotions, Aug. 27, 2019. https://imotions.com/blog/learning/best-practice/eeg/
+[1] Hahn CD, Emerson RG. Electroencephalography and evoked potentials. In: Jankovic J, Mazziotta JC, Pomeroy SL, Newman NJ, eds. Bradley and Daroff's Neurology in Clinical Practice. 8th ed. Philadelphia, PA: Elsevier; 2022:chap 35. <br>
+[2] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875 <br>
+[3] “BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf <br>
+[4] “EEG (Electroencephalography): The Complete Pocket Guide - iMotions,” iMotions, Aug. 27, 2019. https://imotions.com/blog/learning/best-practice/eeg/ <br>
 [5]
