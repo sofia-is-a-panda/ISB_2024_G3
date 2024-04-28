@@ -26,6 +26,10 @@ El EEG se realiza colocando electrodos en el cuero cabelludo. Estos electrodos d
 
 El cerebro se puede clasificar en cuatro lóbulos principales (ver Figura 1), que son el lóbulo frontal (en naranja), el lóbulo parietal (en celeste), el lóbulo occipital (en amarillo) y el lóbulo temporal (en verde). Cada uno de estos lóbulos intervienen en diferentes procesos del cuerpo humano, por lo que cada uno tiene una función diferente y emite una señal distina según la actividad realizada [3].
 
+<div align = "center">
+  <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/aee1db3c-3ddf-4f9a-82f1-b9449b4bc759" alt="Texto alternativo" style="width: 50%;">
+</div>
+
 ![image](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/aee1db3c-3ddf-4f9a-82f1-b9449b4bc759)
 <p align="center">Figura 1. El cerebro junto a los lóbulos que lo conforman y las funciones que cumplen. Recuperado de [3]</p>
 
@@ -107,26 +111,26 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 <div align = "center">
   <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex - Cyton.jpg" alt="Texto alternativo" style="width: 50%;">
 </div>
-<div align="center"> <i>Figura 1 - Conexión entre el UltraCortex MARK IV y la tarjeta Cyton</i></div>
+<div align="center"> <i>Figura 2 - Conexión entre el UltraCortex MARK IV y la tarjeta Cyton</i></div>
 <p>
 
 <div align = "center">
   <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/10-20.jpg" alt="Texto alternativo" style="width: 80%;">
 </div>
 <div align="center"> 
-<i>Figura 2 - Sistema 10 - 20 para el posicionamiento de electrodos. En azul, se observan los 8 electrodos utilizados por el UltraCortex + Tarjeta Cyton. En rojo, se observan los 8 electrodos extra utilizando el UltraCortex + Tarjeta Cyton + Módulo Daisy.</i></div>
+<i>Figura 3 - Sistema 10 - 20 para el posicionamiento de electrodos. En azul, se observan los 8 electrodos utilizados por el UltraCortex + Tarjeta Cyton. En rojo, se observan los 8 electrodos extra utilizando el UltraCortex + Tarjeta Cyton + Módulo Daisy.</i></div>
 <p>
 
 <div align = "center">
 <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex-  8 canales.jpg" alt="Texto alternativo" style="width: 50%;">
 </div>
-<div align="center"> <i>Figura 3 - Arreglo físico de los 8 electrodos utilizados del UltraCortex.</i></div>
+<div align="center"> <i>Figura 4 - Arreglo físico de los 8 electrodos utilizados del UltraCortex.</i></div>
 <p>
 
 <div align = "center">
 <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/UltraCortex - Conexion.jpg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 4 - Conexión y ajuste del UltraCortex en la cabeza de la voluntaria. El gancho negro ubicado en el lóbulo de la oreja corresponde a la referencia.</i></div>
+<div align="center"> <i>Figura 5 - Conexión y ajuste del UltraCortex en la cabeza de la voluntaria. El gancho negro ubicado en el lóbulo de la oreja corresponde a la referencia.</i></div>
 <p>
 
 * BITalino Board + Electrodos:
@@ -134,20 +138,20 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 <div align = "center">
 <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab5/Adaptador - Bitalino.png" alt="Texto alternativo" style="width: 50%;">
 </div>
-<div align="center"> <i>Figura 5 - Cable de conexión entre electrodos y la entrada al sensor EEG. Los terminales rojo, negro y blanco corresponden a los electrodos positivo, negativo y referencia, respectivamente.</i></div>
+<div align="center"> <i>Figura 6 - Cable de conexión entre electrodos y la entrada al sensor EEG. Los terminales rojo, negro y blanco corresponden a los electrodos positivo, negativo y referencia, respectivamente.</i></div>
 <p>
 
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/figura6.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 6 - Posicionamiento de los electrodos positivo y negativo en la voluntaria. </i></div>
+<div align="center"> <i>Figura 7 - Posicionamiento de los electrodos positivo y negativo en la voluntaria. </i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/figura7.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<div align="center"> <i>Figura 8 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
 
 ### Videos de la obtención de las señales
@@ -157,37 +161,37 @@ Tarjeta Cyton + Módulo Daisy: https://shop.openbci.com/products/cyton-daisy-bio
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/22d2b0f9aab8627ac2f7eb20d71b7ac079ef85be/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Todas_las_se%C3%B1ales.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<div align="center"> <i>Figura 9 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal0.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<div align="center"> <i>Figura 10 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal1.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<div align="center"> <i>Figura 11 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal5.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<div align="center"> <i>Figura 12 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal6.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<div align="center"> <i>Figura 13 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/a77bda8006294e78871e6e5e62dc82651f26490f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/Canal7.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 7 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
+<div align="center"> <i>Figura 14 - Posicionamiento del electrodo de referencia en la voluntaria.</i></div>
 <p>
 
 
@@ -197,37 +201,37 @@ A continuacion mostraremos los graficos ploteados en Open Signals.
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/reposo1.jpeg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 15 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/ojos.jpeg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 16 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/reposo2.jpeg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 17 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/pensamiento%20de%205%20a%208.jpeg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 18 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/pensamiento%20de%2015%20a%2018.jpeg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 19 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/8356a06ea1b9e45714050c259e6741be9808fa0d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/pensamiento%20de%2025%20a%2028.jpeg" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 20 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 ### Gráficos en Python
@@ -239,97 +243,97 @@ Para ello, es importante recordar que, la frecuencia de muestreo utilizada fue d
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_1.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 8 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 21 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/f508c9aadf46d4e20525921cd9de2169abdbeef9/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_2.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 9 - Señal acotada de EEG (5 a 8 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 22 - Señal acotada de EEG (5 a 8 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_3.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 10 - Señal acotada de EEG (15 a 18 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 23 - Señal acotada de EEG (15 a 18 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_4.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 11 - Señal acotada de EEG (25 a 28 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 24 - Señal acotada de EEG (25 a 28 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_5.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 12 - Señal completa de EEG en un ciclo de ojos abiertos y ojos cerrados</i></div>
+<div align="center"> <i>Figura 25 - Señal completa de EEG en un ciclo de ojos abiertos y ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_6.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 13 - Señal acotada de EEG (5 a 8 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
+<div align="center"> <i>Figura 26 - Señal acotada de EEG (5 a 8 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_7.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 14 - Señal acotada de EEG (15 a 18 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
+<div align="center"> <i>Figura 27 - Señal acotada de EEG (15 a 18 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_8.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 15 - Señal acotada de EEG (25 a 28 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
+<div align="center"> <i>Figura 28 - Señal acotada de EEG (25 a 28 segundos) en un ciclo de ojos abiertos y ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_9.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 16 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 29 - Señal completa de EEG sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_10.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 17 - Señal acotada de EEG (5 a 8 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 30 - Señal acotada de EEG (5 a 8 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_11.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 18 - Señal acotada de EEG (15 a 18 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 31 - Señal acotada de EEG (15 a 18 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_12.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 19 - Señal acotada de EEG (25 a 28 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
+<div align="center"> <i>Figura 32 - Señal acotada de EEG (25 a 28 segundos) sin movimientos oculares y con los ojos cerrados</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_13.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 20 - Señal completa de EEG durante sesion de preguntas</i></div>
+<div align="center"> <i>Figura 33 - Señal completa de EEG durante sesion de preguntas</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_14.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 21 - Señal acotada de EEG (5 a 8 segundos) durante sesion de preguntas</i></div>
+<div align="center"> <i>Figura 34 - Señal acotada de EEG (5 a 8 segundos) durante sesion de preguntas</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_15.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 22 - Señal acotada de EEG (15 a 18 segundos) durante sesion de preguntas</i></div>
+<div align="center"> <i>Figura 35 - Señal acotada de EEG (15 a 18 segundos) durante sesion de preguntas</i></div>
 <p>
 
 <div align = "center">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/694f01c3327e9642220980f09f06cd02efa830ce/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab5/BITalino_16.png" alt="Texto alternativo" style="width: 60%;">
 </div>
-<div align="center"> <i>Figura 23 - Señal acotada de EEG (25 a 28 segundos) durante sesion de preguntas</i></div>
+<div align="center"> <i>Figura 36 - Señal acotada de EEG (25 a 28 segundos) durante sesion de preguntas</i></div>
 <p>
 
 
