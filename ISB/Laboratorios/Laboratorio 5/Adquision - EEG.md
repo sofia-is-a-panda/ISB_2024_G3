@@ -419,6 +419,6 @@ El texto describe tres fases distintas de actividad cerebral en un voluntario mi
 [9] “Extracción de características sobre señales EEG para detección de actividades mentalmotoras en sistemas BCI”https://inaoe.repositorioinstitucional.mx/jspui/bitstream/1009/155/1/RosasChG.pdf <br>
 [10] “Cyton data format”, Openbci.com. [En línea]. Disponible en: https://docs.openbci.com/Cyton/CytonDataFormat/. <br>
 [11] “BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf <br>
-[12] R. Martinek et al., “Advanced Bioelectrical Signal Processing Methods: Past, Present and Future Approach—Part I: Cardiac Signals,” Sensors, vol. 21, no. 15, p. 5186, Jul. 2021, doi: https://doi.org/10.3390/s21155186.https://www.mdpi.com/1424-8220/21/19/6343 <br>
+[12] R. Martinek et al., “Advanced Bioelectrical Signal Processing Methods: Past, Present and Future Approach—Part II: Brain Signals,” Sensors, vol. 21, no. 19, p. 6343, Sep. 2021, doi: https://doi.org/10.3390/s21196343.<br>
 [13] A. K. Maddirala and K. C. Veluvolu, “Eye-blink artifact removal from single channel EEG with k-means and SSA,” Scientific Reports, vol. 11, no. 1, May 2021, doi: https://doi.org/10.1038/s41598-021-90437-7. <br>
 
