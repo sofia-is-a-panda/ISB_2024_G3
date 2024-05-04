@@ -19,6 +19,8 @@ En este laboratorio, nos enfocaremos en el diseño de filtros FIR e IIR, herrami
 Este tipo de filtro depende únicamente de los valores de entrada, por lo que se le considera como un filtro no recursivo. La salida de este filtro es la siguiente:
 $$y[n]=\sum_{k=0}^{M} b_k x[n-k]$$
 
+![image](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Laboratorios/Laboratorio%206%20Filtros/Imagenes/Diagrama_de_bloques_FIR.png)   
+<center><i>Fig. 1 Diagrama de bloques de filtro FIR. Recuperado de [3]</i></center>
 
 
 
