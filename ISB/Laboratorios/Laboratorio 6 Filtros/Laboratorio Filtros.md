@@ -1,4 +1,4 @@
-# LABORATORIO 6 - FILTROS FIR E IIR
+![image](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/159934376/95d8208f-7d6c-41fb-af46-4c5760fe9f40)# LABORATORIO 6 - FILTROS FIR E IIR
 ## TABLA DE CONTENIDO
 
 * [Introducción](#introducción)
@@ -14,9 +14,15 @@
 En el ámbito de la ingeniería biomédica, filtrar señales es de suma relevancia. Las señales biomédicas, como las obtenidas durante los laboratorios, es decir la electromiografía (EMG), electrocardiografía (ECG) y electroencefalografía (EEG), suelen ser afectadas por ruido, lo cual puede llevar a un diagnóstico erróneo [1]. Por lo tanto, el filtrado de señales se convierte en un paso fundamental para eliminar el ruido no deseado y corregir posibles distorsiones, permitiendo así un análisis más preciso y fiable de los datos biomédicos. 
 En este laboratorio, nos enfocaremos en el diseño de filtros FIR e IIR, herramientas fundamentales para abordar estos desafíos y mejorar la calidad de las señales biomédicas procesadas.
 
-### Filtros FIR
+### Filtros FIR (Finite Impulse Response)
 
-### Filtros IIR
+Este tipo de filtro depende únicamente de los valores de entrada, por lo que se le considera como un filtro no recursivo. La salida de este filtro es la siguiente:
+$$y[n]=\sum_{k=0}^{M} b_k x[n-k]$$
+
+
+
+
+### Filtros IIR (Infinite Impulse Response)
 
 ## Objetivos
 * Diseñar filtros 3 FIR e IIR para señales de EMG, ECG, EEG
