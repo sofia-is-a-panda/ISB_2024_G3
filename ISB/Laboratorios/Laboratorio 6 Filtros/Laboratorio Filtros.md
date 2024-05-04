@@ -1,4 +1,4 @@
-![image](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/159934376/95d8208f-7d6c-41fb-af46-4c5760fe9f40)# LABORATORIO 6 - FILTROS FIR E IIR
+# LABORATORIO 6 - FILTROS FIR E IIR
 ## TABLA DE CONTENIDO
 
 * [Introducción](#introducción)
@@ -38,3 +38,7 @@ $$y[n]=\sum_{k=0}^{M} b_k x[n-k]$$
 
 ## Bibliografía
 [1] Y. Zhou, Bingo Wing-Kuen Ling, and X. Zhou, “Biomedical Signal Denoising Via Permutating, Thresholding and Averaging Noise Components Obtained from Hierarchical Multiresolution Analysis-Based Empirical Mode Decomposition,” Circuits, systems, and signal processing, vol. 42, no. 2, pp. 943–970, Sep. 2022, doi: https://doi.org/10.1007/s00034-022-02142-z. <br>
+
+[2]G. Ellis, “Chapter 9 - Filters in Control Systems,” ScienceDirect, Jan. 01, 2012. https://www.sciencedirect.com/science/article/abs/pii/B9780123859204000096 <br>
+
+[3]N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, 2020, doi: https://doi.org/10.1016/b978-0-12-818946-7.00001-9. <br>
