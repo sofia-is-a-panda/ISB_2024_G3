@@ -22,13 +22,16 @@ $$y[n]=\sum_{k=0}^{M} b_k x[n-k]$$
 De forma gráfica, se puede apreciar en el diagrama de bloques que las entradas pasadas tienen un valor de peso el cual varía
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Laboratorios/Laboratorio%206%20Filtros/Imagenes/Diagrama_de_bloques_FIR.png" align="center" width="600" height="200"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Diagrama_de_bloques_FIR.png" align="center" width="400" height="100"/>
 <div align="center"> <i>Fig. 1 Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [3]</i></div>
 <p>
 
 Uno de los métodos existentes para el diseño de filtros FIR es el método de las ventanas. 
 
-
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Ventanas.png" align="center" width="600" height="200"/>
+<div align="center"> <i>Fig. 2 Ejemplos de ventanas. Recuperado de [3]</i></div>
+<p>
 
 ### Filtros IIR (Infinite Impulse Response)
 
@@ -51,4 +54,4 @@ $$y[n]=\sum_{k=0}^{\infty} b_k x[n-k]$$
 
 [2]G. Ellis, “Chapter 9 - Filters in Control Systems,” ScienceDirect, Jan. 01, 2012. https://www.sciencedirect.com/science/article/abs/pii/B9780123859204000096 <br>
 
-[3]N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, 2020, doi: https://doi.org/10.1016/b978-0-12-818946-7.00001-9. <br>
+[3]“FIR Filters by Windowing - The Lab Book Pages,” www.labbookpages.co.uk. http://www.labbookpages.co.uk/audio/firWindowing.html <br>
