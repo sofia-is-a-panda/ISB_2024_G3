@@ -16,17 +16,24 @@ En este laboratorio, nos enfocaremos en el diseño de filtros FIR e IIR, herrami
 
 ### Filtros FIR (Finite Impulse Response)
 
-Este tipo de filtro depende únicamente de los valores de entrada, por lo que se le considera como un filtro no recursivo. La salida de este filtro es la siguiente:
+Este tipo de filtro depende únicamente de los valores de entrada, por lo que se le considera como un filtro no recursivo [2]. La ecuación que representa la salida del filtro es la siguiente:
 $$y[n]=\sum_{k=0}^{M} b_k x[n-k]$$
+
+De forma gráfica, se puede apreciar en el diagrama de bloques que las entradas pasadas tienen un valor de peso el cual varía
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Laboratorios/Laboratorio%206%20Filtros/Imagenes/Diagrama_de_bloques_FIR.png" align="center" width="600" height="200"/>
-<div align="center"> <i>Fig. 1 Diagrama de bloques de filtro FIR. Recuperado de [3]</i></div>
+<div align="center"> <i>Fig. 1 Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [3]</i></div>
 <p>
+
+Uno de los métodos existentes para el diseño de filtros FIR es el método de las ventanas. 
+
 
 
 ### Filtros IIR (Infinite Impulse Response)
 
+A diferencia de los filtros IIR, la salida del filtro es calculada haciendo uso de la entrada y además de valores pasados de la salida. La ecuación que representa la salida es la siguiente:
+$$y[n]=\sum_{k=0}^{\infty} b_k x[n-k]$$
 ## Objetivos
 * Diseñar filtros 3 FIR e IIR para señales de EMG, ECG, EEG
 * Filtrar señales de EMG, ECG, EEG que se obtuvieron de forma experimental en los laboratorios
