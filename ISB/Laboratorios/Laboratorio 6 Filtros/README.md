@@ -170,7 +170,7 @@ En segundo lugar, para realizar el filtrado de las señales con un filtro FIR, d
 Como se sabe, el rango de frecuencias para esta señal se encuentra de 0 a 500 Hz aproximadamente, para ellos se decidieron eliminar frecuencias alejadas a estos valores. Mediante el uso de un filtro pasabajas y haciendo uso de una frecuencias de corte fue posible filtrar la señal del ruido. La frecuencia de corte empleada fue de 400Hz debido a que la mayor parte de la energía de la señal se encuentra hasta 350 Hz [12]
 
 ### EKG:
-Para el ploteo de las señales, se utilizó en el caso del filtro FIR una frecuencia de corte de 30 Hz, mientras que en el caso del filtro IIR se hizo uso de un filtro Butterworth pasabajas.
+Para el ploteo de las señales, se utilizó en el caso del filtro FIR una ventana tipo Hamming y una frecuencia de corte de 30 Hz, mientras que en el caso del filtro IIR se hizo uso de un filtro Butterworth pasabajas con una atenuación de la banda de paso de 3 dB y una atenuación de la banda de rechazo de 40 dB.
 
 La onda P de un ECG se encuentra dentro de un rango de frecuencias de entre 0 a 5 Hz. Los complejos QRS entre 10 a 20 Hz. Y también tenemos a las ondas T, las cuales tienen un rango de frecuencias que va de entre 0.5 a 7 Hz [13].
 
