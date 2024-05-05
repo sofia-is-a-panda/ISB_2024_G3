@@ -78,6 +78,18 @@ Los métodos de desarrollo de estos filtros para establecer los coeficientes $b_
 * Filtrar señales de EMG, ECG, EEG que se obtuvieron de forma experimental en los laboratorios.
 
 ## Filtrado de EMG
+| Filtros|
+| :---:  |
+![filtros emg](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Filtros.png)
+
+
+
+| Señales                               |
+| :-----------------------------------: |
+| ![Señal 1](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alReposo.png)        |
+| ![Señal 2](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alOposici%C3%B3n.png)        |
+| ![Señal 3](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alTensi%C3%B3n.png)        |
+
 
 ## Filtrado de ECG
 
