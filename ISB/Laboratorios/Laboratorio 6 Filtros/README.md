@@ -99,6 +99,14 @@ Los métodos de desarrollo de estos filtros para establecer los coeficientes $b_
 | ![Señal 5](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5fc379c6565f3b6fae136db10cdbe91b48f2012f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/senalfiltrada_fir.png)        |
 | ![Señal 6](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5fc379c6565f3b6fae136db10cdbe91b48f2012f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/senalfiltrada_iir.png)        |
 
+Para el ploteo de las señales se utilizó en el caso del filtro FIR una frecuencia de corte de 30 Hz, mientras que en el caso del filtro IIR se hizo uso de un filtro Butterworth pasabajas.
+
+La onda P de un ECG se encuentra dentro de un rango de frecuencias de entre 0 a 5 Hz. Los complejos QRS entre 10 a 20 Hz. Y también tenemos a las ondas T, las cuales tienen un rango de frecuencias que va de entre 0.5 a 7 Hz.[12]
+
+Es por ello que hicimos uso de un filtro pasa bajas y una frecuencia de corte de 30 Hz. Ya que la mayor parte de la señal esta entre ese rango de frecuencias. Asimismo, nos aseguramos de eliminar ruidos de alta frecuencia.
+
+Por otro lado, el filtro Butterworth nos permitía suprimir de mejor manera el ruido a comparación de otros tipos de ruido.[13]
+
 
 ## Filtrado de EEG
 Para plotear las señales utilizamos el procedimiento señalado en una investigación realizada acerca del método de estimulación sonora y el análisis de cambios en el EEG para el desarrollo de terapias digitales que puedan estimular el sistema nervioso: Activación cortical y potencial de sustitución de medicamentos [10]. En dicha investigación se señala que podemos aplicar un filtro Butterworth de 1 a 40 Hz y un filtro notch de 50 Hz con un factor de calidad de 30. Después de eso, se subdividen los EEG en bandas delta (0.5-4 Hz), theta (4-8 Hz), alpha (8-13 Hz), beta (13-30 Hz) y gamma (30-45 Hz) para poder analizarlas. 
@@ -186,3 +194,6 @@ En segundo lugar, para realizar el filtrado de las señales con un filtro FIR, d
 [11] C. S. Nayak y A. C. Anilkumar, EEG Normal Waveforms. StatPearls Publishing, 2023. <br>
 
 
+[12] R. Martinek et al., “Advanced bioelectrical signal processing methods: Past, present and future approach—part I: Cardiac signals”, Sensors (Basel), vol. 21, núm. 15, p. 5186, 2021
+
+[13] M. Choudhary y R. P. Narwaria, “Suppression of noise in ECG signal using Low pass IIR filters”, Psu.edu. [En línea]. Disponible en: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a361a547eedcc1f37ac007cc03ad7b93073aaf3a. [Consultado: 05-may-2024].
