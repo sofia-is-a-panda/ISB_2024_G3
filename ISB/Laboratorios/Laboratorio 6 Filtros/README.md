@@ -141,6 +141,9 @@ DFT DE SEÑALES REALIZANDO PROBLEMAS MATEMÁTICOS Y SEPARACIÓN POR BANDAS UTILI
 
 ## Discusiones
 
+
+
+
 ### EEG:
 Como mencionamos anteriormente para plotear las señales utilizamos  un filtro Butterworth de 1 a 40 Hz y un filtro notch de 50 Hz con un factor de calidad de 30. Después de eso, se subdividen los EEG en bandas delta (0.5-4 Hz), theta (4-8 Hz), alpha (8-13 Hz), beta (13-30 Hz) y gamma (30-45 Hz) para poder analizarlas [10]. 
 
@@ -161,6 +164,11 @@ En segundo lugar, para realizar el filtrado de las señales con un filtro FIR, d
 * Ciclo de abrir y cerrar ojos: En este caso, no se pueden apreciar las DFT de manera correcta por ende no podemos realizar un analisis de las frecuencias obtenidas.
 
 * Respuestas a problemas matemáticos: En este caso, podemos observar que el filtro disminuyó los ruidos pero no podemos identificar las frecuncias en cada una de las bandas correspondientes.
+
+### EMG:
+
+Como se sabe, el rango de frecuencias para esta señal se encuentra de 0 a 500 Hz aproximadamente, para ellos se decidieron eliminar frecuencias alejadas a estos valores. Mediante el uso de un filtro pasabajas y haciendo uso de una frecuencias de corte fue posible filtrar la señal del ruido. La frecuencia de corte empleada fue de 400Hz debido a que la mayor parte de la energía de la señal se encuentra hasta 350 Hz [12]
+
 
 ## Bibliografía
 [1] Y. Zhou, Bingo Wing-Kuen Ling, and X. Zhou, “Biomedical Signal Denoising Via Permutating, Thresholding and Averaging Noise Components Obtained from Hierarchical Multiresolution Analysis-Based Empirical Mode Decomposition,” Circuits, systems, and signal processing, vol. 42, no. 2, pp. 943–970, Sep. 2022, doi: https://doi.org/10.1007/s00034-022-02142-z. <br>
@@ -185,4 +193,4 @@ En segundo lugar, para realizar el filtrado de las señales con un filtro FIR, d
 
 [11] C. S. Nayak y A. C. Anilkumar, EEG Normal Waveforms. StatPearls Publishing, 2023. <br>
 
-
+[12]M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing Noise, Artifacts and Interference in Single-Channel EMG Signals: A Review,” Sensors, vol. 23, no. 6, p. 2927, Jan. 2023, doi: https://doi.org/10.3390/s23062927. <br>
