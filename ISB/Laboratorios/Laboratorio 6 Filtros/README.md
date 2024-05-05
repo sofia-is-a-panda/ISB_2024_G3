@@ -169,6 +169,14 @@ En segundo lugar, para realizar el filtrado de las señales con un filtro FIR, d
 
 Como se sabe, el rango de frecuencias para esta señal se encuentra de 0 a 500 Hz aproximadamente, para ellos se decidieron eliminar frecuencias alejadas a estos valores. Mediante el uso de un filtro pasabajas y haciendo uso de una frecuencias de corte fue posible filtrar la señal del ruido. La frecuencia de corte empleada fue de 400Hz debido a que la mayor parte de la energía de la señal se encuentra hasta 350 Hz [12]
 
+### EKG:
+Para el ploteo de las señales, se utilizó en el caso del filtro FIR una frecuencia de corte de 30 Hz, mientras que en el caso del filtro IIR se hizo uso de un filtro Butterworth pasabajas.
+
+La onda P de un ECG se encuentra dentro de un rango de frecuencias de entre 0 a 5 Hz. Los complejos QRS entre 10 a 20 Hz. Y también tenemos a las ondas T, las cuales tienen un rango de frecuencias que va de entre 0.5 a 7 Hz [13].
+
+Es por ello que hicimos uso de un filtro pasa bajas y una frecuencia de corte de 30 Hz. Ya que la mayor parte de la señal esta entre ese rango de frecuencias. Asimismo, nos aseguramos de eliminar ruidos de alta frecuencia.
+
+Por otro lado, el filtro Butterworth nos permitía suprimir de mejor manera el ruido a comparación de otros tipos de ruido [14].
 
 ## Bibliografía
 [1] Y. Zhou, Bingo Wing-Kuen Ling, and X. Zhou, “Biomedical Signal Denoising Via Permutating, Thresholding and Averaging Noise Components Obtained from Hierarchical Multiresolution Analysis-Based Empirical Mode Decomposition,” Circuits, systems, and signal processing, vol. 42, no. 2, pp. 943–970, Sep. 2022, doi: https://doi.org/10.1007/s00034-022-02142-z. <br>
@@ -194,3 +202,7 @@ Como se sabe, el rango de frecuencias para esta señal se encuentra de 0 a 500 H
 [11] C. S. Nayak y A. C. Anilkumar, EEG Normal Waveforms. StatPearls Publishing, 2023. <br>
 
 [12]M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing Noise, Artifacts and Interference in Single-Channel EMG Signals: A Review,” Sensors, vol. 23, no. 6, p. 2927, Jan. 2023, doi: https://doi.org/10.3390/s23062927. <br>
+
+[13] R. Martinek et al., “Advanced bioelectrical signal processing methods: Past, present and future approach—part I: Cardiac signals”, Sensors (Basel), vol. 21, núm. 15, p. 5186, 2021. <br>
+
+[14] M. Choudhary y R. P. Narwaria, “Suppression of noise in ECG signal using Low pass IIR filters”, Psu.edu. [En línea]. Disponible en: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a361a547eedcc1f37ac007cc03ad7b93073aaf3a. <br>
