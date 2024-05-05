@@ -93,6 +93,13 @@ Los métodos de desarrollo de estos filtros para establecer los coeficientes $b_
 
 ## Filtrado de ECG
 
+| Señales                               |
+| :-----------------------------------: |
+| ![Señal 4](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5fc379c6565f3b6fae136db10cdbe91b48f2012f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/senalnormal.png)        |
+| ![Señal 5](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5fc379c6565f3b6fae136db10cdbe91b48f2012f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/senalfiltrada_fir.png)        |
+| ![Señal 6](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5fc379c6565f3b6fae136db10cdbe91b48f2012f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/senalfiltrada_iir.png)        |
+
+
 ## Filtrado de EEG
 
 ## Discusiones
