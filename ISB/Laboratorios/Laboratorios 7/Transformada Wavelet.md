@@ -25,6 +25,30 @@ Nuestro trabajo siguió el enfoque propuesto en el artículo "Automated Classifi
 
 Comenzamos aplicando WMA a las señales EEG registradas con el fin de mantener solo las bandas de frecuencia de interés. Cada canal de la señal se descompuso utilizando la Transformada Discreta de Wavelet (DWT) en 8 niveles utilizando la wavelet madre db8. Durante este proceso, eliminamos los detalles en los niveles D1 y D2, que representan el rango de frecuencia de 32 a 128 Hz, y también la wavelet madre A8, que cubre el rango de frecuencia de 0 a 0.5 Hz. Esto nos permitió conservar los detalles relevantes de D8 a D3, que corresponden al rango de frecuencia de interés para las señales EEG, es decir, de 0.5 a 32 Hz. Estos detalles de la wavelet representan las bandas de frecuencia tradicionales de las señales EEG, como las bandas delta, theta, alpha y beta.
 
+A continuación presentamos los resultados obtenidos después de realizar el procedimiento mencionado con la ayuda de un código de Python, el cual pueden encontrar aquí. Recordar que realizamos el procedimiento para tres casos de tomas de señales distintas:
+
+* Reposo: Tomamos una señal de 30 segundos mientras el voluntario estaba en reposo con los ojos cerrados.
+* Ciclo de abrir y cerrar ojos: El voluntario realizó un ciclo de abrir y cerrar los ojos con una duración de 5 segundos cada acción.
+* Resolviendo problemas matemáticos: El voluntario resolvió problemas matemáticos de baja dificultad que se le dictaron en voz alta. Todos los cálculos los realizó mentalmente.
+
+REPOSO NIVELS
+![reposo_niveles](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/5b147606-5616-4ed4-b3a1-380e2fc5f023)
+
+RESULTADOS REPOSO
+![REPOSO_RESULTADOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/9bf9e9dc-e97f-450b-bd89-a21fb550a9ae)
+
+CICLO ABRIR Y CERRAR OJO NIVELES
+![OJOS_NIVELES](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a18493d5-70cc-492c-88a2-be785ad3d5e0)
+
+OJOS RESULTADOS
+
+![OJOS_RESULTADOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/1ff3a2c1-afb6-4d8d-9d71-5c2768b02dcb)
+
+RESOLVIENDO PROBLEMAS MATEMATICOS
+![MAT_NIVELES](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/69b607f3-a285-4a0a-abd6-ada0a4919829)
+
+MAT REUSLTADOS
+![MAT_RESULTDOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/8448107a-1fbc-479c-9fd9-3cff8796674b)
 
 
 ## Discusiones
