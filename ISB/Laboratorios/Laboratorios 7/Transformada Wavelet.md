@@ -20,7 +20,7 @@ La transformada Wavelet...
 ## Filtrado de ECG
 
 ## Filtrado de EEG
-Nuestro trabajo siguió el enfoque propuesto en el artículo "Automated Classification and Removal of EEG Artifacts with SVM and Wavelet-ICA", específicamente en la sección B, que describe el "Procedure for Wavelet Multiresolution Analysis". [1]
+Nuestro trabajo siguió el enfoque propuesto en el artículo "Automated Classification and Removal of EEG Artifacts with SVM and Wavelet-ICA", específicamente en la sección B, que describe el Procedimiento para el Análisis Multirresolución con Wavelet, WMA. [1]
 
 Comenzamos aplicando WMA a las señales EEG registradas con el fin de mantener solo las bandas de frecuencia de interés. Cada canal de la señal se descompuso utilizando la Transformada Discreta de Wavelet (DWT) en 8 niveles utilizando la wavelet madre db8. Durante este proceso, eliminamos los detalles en los niveles D1 y D2, que representan el rango de frecuencia de 32 a 128 Hz, y también la wavelet madre A8, que cubre el rango de frecuencia de 0 a 0.5 Hz. Esto nos permitió conservar los detalles relevantes de D8 a D3, que corresponden al rango de frecuencia de interés para las señales EEG, es decir, de 0.5 a 32 Hz. Estos detalles de la wavelet representan las bandas de frecuencia tradicionales de las señales EEG, como las bandas delta, theta, alpha y beta. [1]
 
