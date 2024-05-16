@@ -32,28 +32,52 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 * Resolviendo problemas matemáticos: El voluntario resolvió problemas matemáticos de baja dificultad que se le dictaron en voz alta. Todos los cálculos los realizó mentalmente.
 
 <div align="center">
+  
 *Niveles de Wavelet para la señal EEG en reposo*
+
 </div>
 
 ![reposo_niveles](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/5b147606-5616-4ed4-b3a1-380e2fc5f023)
 
 <div align="center">
-*Resultados de las señal EEG en reposo original y filtrada*
+  
+*Resultados de la señal EEG en reposo original y filtrada*
+
 </div>
 
 ![REPOSO_RESULTADOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/9bf9e9dc-e97f-450b-bd89-a21fb550a9ae)
 
-CICLO ABRIR Y CERRAR OJO NIVELES
+<div align="center">
+  
+*Niveles de Wavelet para la señal EEG en el ciclo de abrir y cerrar ojos*
+
+</div>
+
 ![OJOS_NIVELES](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/a18493d5-70cc-492c-88a2-be785ad3d5e0)
 
-OJOS RESULTADOS
+<div align="center">
+  
+*Resultados de la señal EEG en el ciclo de abrir y cerrar ojos original y filtrada*
+
+</div>
+
 
 ![OJOS_RESULTADOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/1ff3a2c1-afb6-4d8d-9d71-5c2768b02dcb)
 
-RESOLVIENDO PROBLEMAS MATEMATICOS
+<div align="center">
+  
+*Niveles de Wavelet para la señal EEG resolviendo problemas matemáticos*
+
+</div>
+
 ![MAT_NIVELES](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/69b607f3-a285-4a0a-abd6-ada0a4919829)
 
-MAT REUSLTADOS
+<div align="center">
+  
+*Resultados de la señal EEG resolviendo problemas matemáticos original y filtrada*
+
+</div>
+
 ![MAT_RESULTDOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/8448107a-1fbc-479c-9fd9-3cff8796674b)
 
 
