@@ -15,7 +15,7 @@
 La transformada Wavelet...
 
 ## Objetivos
-
+* Usar la transformada Wavelet para filtrar señales de EMG, ECG, EEG.
 ## Filtrado de EMG
 
 ## Filtrado de ECG
