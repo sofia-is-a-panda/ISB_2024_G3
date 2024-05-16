@@ -31,7 +31,12 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 * Ciclo de abrir y cerrar ojos: El voluntario realizó un ciclo de abrir y cerrar los ojos con una duración de 5 segundos cada acción.
 * Resolviendo problemas matemáticos: El voluntario resolvió problemas matemáticos de baja dificultad que se le dictaron en voz alta. Todos los cálculos los realizó mentalmente.
 
-REPOSO NIVELS
+<div align="center">
+
+*Niveles de Wavelet para la señal en reposo*
+
+</div>
+
 ![reposo_niveles](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/5b147606-5616-4ed4-b3a1-380e2fc5f023)
 
 RESULTADOS REPOSO
