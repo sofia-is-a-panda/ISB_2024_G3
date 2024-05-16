@@ -149,6 +149,9 @@ DFT DE SEÑALES REALIZANDO PROBLEMAS MATEMÁTICOS Y SEPARACIÓN POR BANDAS UTILI
 
 ## Discusiones
 
+
+
+
 ### EEG:
 Como mencionamos anteriormente para plotear las señales utilizamos  un filtro Butterworth de 1 a 40 Hz y un filtro notch de 50 Hz con un factor de calidad de 30. Después de eso, se subdividen los EEG en bandas delta (0.5-4 Hz), theta (4-8 Hz), alpha (8-13 Hz), beta (13-30 Hz) y gamma (30-45 Hz) para poder analizarlas [10]. 
 
@@ -169,6 +172,19 @@ En segundo lugar, para realizar el filtrado de las señales con un filtro FIR, d
 * Ciclo de abrir y cerrar ojos: En este caso, no se pueden apreciar las DFT de manera correcta por ende no podemos realizar un analisis de las frecuencias obtenidas.
 
 * Respuestas a problemas matemáticos: En este caso, podemos observar que el filtro disminuyó los ruidos pero no podemos identificar las frecuncias en cada una de las bandas correspondientes.
+
+### EMG:
+
+Como se sabe, el rango de frecuencias para esta señal se encuentra de 0 a 500 Hz aproximadamente, para ellos se decidieron eliminar frecuencias alejadas a estos valores. Mediante el uso de un filtro pasabajas y haciendo uso de una frecuencias de corte fue posible filtrar la señal del ruido. La frecuencia de corte empleada fue de 400Hz debido a que la mayor parte de la energía de la señal se encuentra hasta 350 Hz [12]
+
+### EKG:
+Para el ploteo de las señales, se utilizó en el caso del filtro FIR una ventana tipo Hamming y una frecuencia de corte de 30 Hz, mientras que en el caso del filtro IIR se hizo uso de un filtro Butterworth pasabajas con una atenuación de la banda de paso de 3 dB y una atenuación de la banda de rechazo de 40 dB.
+
+La onda P de un ECG se encuentra dentro de un rango de frecuencias de entre 0 a 5 Hz. Los complejos QRS entre 10 a 20 Hz. Y también tenemos a las ondas T, las cuales tienen un rango de frecuencias que va de entre 0.5 a 7 Hz [13].
+
+Es por ello que hicimos uso de un filtro pasa bajas y una frecuencia de corte de 30 Hz. Ya que la mayor parte de la señal esta entre ese rango de frecuencias. Asimismo, nos aseguramos de eliminar ruidos de alta frecuencia.
+
+Por otro lado, el filtro Butterworth nos permitía suprimir de mejor manera el ruido a comparación de otros tipos de ruido [14].
 
 ## Bibliografía
 [1] Y. Zhou, Bingo Wing-Kuen Ling, and X. Zhou, “Biomedical Signal Denoising Via Permutating, Thresholding and Averaging Noise Components Obtained from Hierarchical Multiresolution Analysis-Based Empirical Mode Decomposition,” Circuits, systems, and signal processing, vol. 42, no. 2, pp. 943–970, Sep. 2022, doi: https://doi.org/10.1007/s00034-022-02142-z. <br>
@@ -193,7 +209,8 @@ En segundo lugar, para realizar el filtrado de las señales con un filtro FIR, d
 
 [11] C. S. Nayak y A. C. Anilkumar, EEG Normal Waveforms. StatPearls Publishing, 2023. <br>
 
+[12]M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing Noise, Artifacts and Interference in Single-Channel EMG Signals: A Review,” Sensors, vol. 23, no. 6, p. 2927, Jan. 2023, doi: https://doi.org/10.3390/s23062927. <br>
 
-[12] R. Martinek et al., “Advanced bioelectrical signal processing methods: Past, present and future approach—part I: Cardiac signals”, Sensors (Basel), vol. 21, núm. 15, p. 5186, 2021
+[13] R. Martinek et al., “Advanced bioelectrical signal processing methods: Past, present and future approach—part I: Cardiac signals”, Sensors (Basel), vol. 21, núm. 15, p. 5186, 2021. <br>
 
-[13] M. Choudhary y R. P. Narwaria, “Suppression of noise in ECG signal using Low pass IIR filters”, Psu.edu. [En línea]. Disponible en: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a361a547eedcc1f37ac007cc03ad7b93073aaf3a. [Consultado: 05-may-2024].
+[14] M. Choudhary y R. P. Narwaria, “Suppression of noise in ECG signal using Low pass IIR filters”, Psu.edu. [En línea]. Disponible en: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a361a547eedcc1f37ac007cc03ad7b93073aaf3a. <br>
