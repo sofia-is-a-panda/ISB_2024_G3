@@ -32,14 +32,15 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 * Resolviendo problemas matemáticos: El voluntario resolvió problemas matemáticos de baja dificultad que se le dictaron en voz alta. Todos los cálculos los realizó mentalmente.
 
 <div align="center">
-
-*Niveles de Wavelet para la señal en reposo*
-
+*Niveles de Wavelet para la señal EEG en reposo*
 </div>
 
 ![reposo_niveles](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/5b147606-5616-4ed4-b3a1-380e2fc5f023)
 
-RESULTADOS REPOSO
+<div align="center">
+*Resultados de las señal EEG en reposo original y filtrada*
+</div>
+
 ![REPOSO_RESULTADOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/9bf9e9dc-e97f-450b-bd89-a21fb550a9ae)
 
 CICLO ABRIR Y CERRAR OJO NIVELES
