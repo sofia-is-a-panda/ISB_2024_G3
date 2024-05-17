@@ -23,6 +23,8 @@ Se comienza aplicando la Transformada Discreta de Wavelet (Symlet 8 - Sym8) debi
 
 WMA demostró ser efectivo al filtrar la mayoría de los artefactos fuera del rango de frecuencia de interés
 
+<div align="center"> <i>Fig. 1. Coeficientes de Wavelet para la señal EMG. </i></div>
+
 ## Filtrado de ECG
 
 
