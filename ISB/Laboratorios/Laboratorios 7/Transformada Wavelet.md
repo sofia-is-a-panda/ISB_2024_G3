@@ -23,32 +23,32 @@ La transformada Wavelet...
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_reposo.png" align="center" width="400" height="100"/>
 <div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
-<p>
+</p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_reposo.png" align="center" width="400" height="100"/>
 <div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
-<p>
+</p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/decomp_respiracion.png" align="center" width="400" height="100"/>
 <div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
-<p>
+</p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_respiracion.png" align="center" width="400" height="100"/>
 <div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
-<p>
+</p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_ejercicio.png" align="center" width="400" height="100"/>
 <div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
-<p>
+</p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_ejercicio.png" align="center" width="400" height="100"/>
 <div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
-<p>
+</p>
 
 ## Filtrado de EEG
 Nuestro trabajo siguió el enfoque propuesto en el artículo "Automated Classification and Removal of EEG Artifacts with SVM and Wavelet-ICA", específicamente en la sección B, que describe el Procedimiento para el Análisis Multirresolución con Wavelet, WMA. [1]
