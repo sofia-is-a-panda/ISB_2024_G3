@@ -23,6 +23,12 @@ Se comienza aplicando la Transformada Discreta de Wavelet (Symlet 8 - Sym8) debi
 
 WMA demostró ser efectivo al filtrar la mayoría de los artefactos fuera del rango de frecuencia de interés
 
+A continuación presentamos los resultados obtenidos después de realizar el procedimiento mencionado en cual fue implementado en un [notebook](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/df1e5a4322037259225f096a596b8ed1e24f184e/ISB/Laboratorios/Laboratorios%207/WAVELET_EEG%20(1).ipynb).. Recordar que realizamos el procedimiento las tomas de la señal:
+
+Reposo: Tomamos una señal de 6 segundos mientras el voluntario estaba en reposo.
+Tensión: El voluntario se encontraba inicialmente en reposo, luego realizó una fuerza de tensión por aproximadamente 8 segundos.
+Oposición: El voluntario se encontraba inicialmente en reposo, luego realizó una fuerza de oposición respecto a otra persona por aproximadamente 4 segundos.
+
 <div align="center"> <i>Fig. 1. Coeficientes de Wavelet para la señal EMG. </i></div>
 
 ## Filtrado de ECG
