@@ -126,5 +126,10 @@ El procedimiento demostró ser efectivo al filtrar la mayoría de los artefactos
 
 
 ## Bibliografía
+
+[1] Z. Sun, X. Xi, C. Yuan, Y. Yang, and X. Hua, “Surface electromyography signal denoising via EEMD and improved wavelet thresholds,” Mathematical Biosciences and Engineering, vol. 17, no. 6, pp. 6945–6962, 2020, doi: https://doi.org/10.3934/mbe.2020359.
+
+[2]
+
 [3] T. Olund, J. Duun-Henriksen, T. W. Kjaer, y H. B. D. Sorensen, “Automatic detection and classification of artifacts in single-channel EEG”, en 2014 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, 2014, vol. 2014.
 
