@@ -17,7 +17,11 @@ La transformada Wavelet...
 * Usar la transformada Wavelet para filtrar señales de EMG, ECG, EEG.
 ## Filtrado de EMG
 
+Se siguió la metodología que presenta en el artículo: "Surface electromyography signal denoising via EEMD and improved wavelet thresholds", específicamente la sección 2.2 "Extract the useful component from the first IMF and Remove the noise" [1].
 
+Se comienza aplicando la Transformada Discreta de Wavelet (Symlet 8 - Sym8) debido a que es la wavelet que presenta el mejor efecto de eliminación de ruido. Luego se procede a elegir el nivel de descomposición, esta se realizó de la siguiente manera:
+
+WMA demostró ser efectivo al filtrar la mayoría de los artefactos fuera del rango de frecuencia de interés
 
 ## Filtrado de ECG
 
