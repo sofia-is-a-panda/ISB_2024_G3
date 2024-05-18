@@ -87,35 +87,35 @@ Se utilizaron las 3 señales de ECG, las cuales fueron tomadas durante momentos 
 * Tercera Señal de ECG : Actividad física seguido de descanso
 
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_reposo.png" align="center"/>
-<div align="center"> <i>Fig. 3. Niveles de descomposición de los coeficientes de la señal ECG en reposo</i></div>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_reposo.png" align="center" width=400 heigth=600/>
+<div align="center"> <i>Fig. 5. Niveles de descomposición de los coeficientes de la señal ECG en reposo</i></div>
 </p>
 
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_reposo.png" align="center"/>
-<div align="center"> <i>Fig. 3. Comparación de un tramo entre la señal ECG en reposo original y filtrada</i></div>
+<div align="center"> <i>Fig. 6. Comparación de un tramo entre la señal ECG en reposo original y filtrada</i></div>
 </p>
 
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/decomp_respiracion.png" align="center" />
-<div align="center"> <i>Fig. 3. Niveles de descomposición de los coeficientes de la señal ECG en ciclos de respiración</i></div>
+<div align="center"> <i>Fig. 7. Niveles de descomposición de los coeficientes de la señal ECG en ciclos de respiración</i></div>
 </p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_respiracion.png" align="center" />
-<div align="center"> <i>Fig. 3. Comparación de un tramo entre la señal ECG en ciclos de respiración original y filtrada</i></div>
+<div align="center"> <i>Fig. 8. Comparación de un tramo entre la señal ECG en ciclos de respiración original y filtrada</i></div>
 </p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_ejercicio.png" align="center" />
-<div align="center"> <i>Fig. 3. Niveles de descomposición de los coeficientes de la señal ECG en ciclos de respiración</i></div>
+<div align="center"> <i>Fig. 9. Niveles de descomposición de los coeficientes de la señal ECG en ciclos de respiración</i></div>
 </p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_ejercicio.png" align="center" />
-<div align="center"> <i>Comparación de un tramo entre la señal ECG en ejercicio original y filtrada</i></div>
+<div align="center"> <i>Fig 10. Comparación de un tramo entre la señal ECG en ejercicio original y filtrada</i></div>
 </p>
 
 ## Filtrado de EEG
@@ -129,17 +129,11 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 * Ciclo de abrir y cerrar ojos: El voluntario realizó un ciclo de abrir y cerrar los ojos con una duración de 5 segundos cada acción.
 * Resolviendo problemas matemáticos: El voluntario resolvió problemas matemáticos de baja dificultad que se le dictaron en voz alta. Todos los cálculos los realizó mentalmente.
 
-<div align="center">
-  
-*Niveles de Wavelet para la señal EEG en reposo*
-
-</div>
 
 ![reposo_niveles](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/5b147606-5616-4ed4-b3a1-380e2fc5f023)
-
 <div align="center">
   
-*Resultados de la señal EEG en reposo original y filtrada*
+*Fig 11. Niveles de Wavelet para la señal EEG en reposo*
 
 </div>
 
@@ -147,7 +141,7 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 
 <div align="center">
   
-*Niveles de Wavelet para la señal EEG en el ciclo de abrir y cerrar ojos*
+*Fig 12. Resultados de la señal EEG en reposo original y filtrada*
 
 </div>
 
@@ -155,16 +149,15 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 
 <div align="center">
   
-*Resultados de la señal EEG en el ciclo de abrir y cerrar ojos original y filtrada*
+*Fig 13. Niveles de Wavelet para la señal EEG en el ciclo de abrir y cerrar ojos*
 
 </div>
-
 
 ![OJOS_RESULTADOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/1ff3a2c1-afb6-4d8d-9d71-5c2768b02dcb)
 
 <div align="center">
   
-*Niveles de Wavelet para la señal EEG resolviendo problemas matemáticos*
+*Fig 14. Resultados de la señal EEG en el ciclo de abrir y cerrar ojos original y filtrada*
 
 </div>
 
@@ -172,12 +165,17 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 
 <div align="center">
   
-*Resultados de la señal EEG resolviendo problemas matemáticos original y filtrada*
+*Fig 15. Niveles de Wavelet para la señal EEG resolviendo problemas matemáticos*
 
 </div>
 
 ![MAT_RESULTDOS](https://github.com/sofia-is-a-panda/ISB_2024_G3/assets/111579919/8448107a-1fbc-479c-9fd9-3cff8796674b)
 
+<div align="center">
+  
+*Fig 16. Resultados de la señal EEG resolviendo problemas matemáticos original y filtrada*
+
+</div>
 
 ## Discusiones
 
