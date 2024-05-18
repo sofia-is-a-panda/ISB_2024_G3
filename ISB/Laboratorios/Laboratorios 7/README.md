@@ -46,9 +46,27 @@ Se determina si los coeficientes de la wavelet presentan ruido mediante la compa
 Se halla el nivel de descomposición máximo, luego se calcula si estos coeficientes son mayoritariamente ruido, si esto se cumple se disminuye en uno el nivel de descomposición y se vuelve iterar hasta llegar a un nivel.
 
 
-A continuación presentamos los resultados obtenidos después de realizar el procedimiento mencionado en cual fue implementado en un [notebook](). Recordar que realizamos el procedimiento las tomas de la señal:
+A continuación presentamos los resultados obtenidos después de realizar el procedimiento mencionado en cual fue implementado en un [notebook](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Laboratorios/Laboratorios%207/EMG_WAVELET.ipynb). Recordar que realizamos el procedimiento las tomas de la señal:
+* Primera Señal (Reposo): Tomamos una señal de 6 segundos mientras el voluntario estaba en reposo. 
 
+* Segunda Señal (Tensión): El voluntario se encontraba inicialmente en reposo, luego realizó una fuerza de tensión por aproximadamente 8 segundos. 
 
+* Tercera Señal (Oposición): El voluntario se encontraba inicialmente en reposo, luego realizó una fuerza de oposición respecto a otra persona por aproximadamente 4 segundos.
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/Wavelet_Se%C3%B1alReposo.png" align="center"/>
+<div align="center"> <i>Fig. 2. Señal EMG original vs filtrada en Reposo</i></div>
+</p>
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/Wavelet_Se%C3%B1alTensi%C3%B3n.png" align="center"/>
+<div align="center"> <i>Fig. 3. Señal EMG original vs filtrada en Tensión</i></div>
+</p>
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/Wavelet_Se%C3%B1alOposici%C3%B3n.png" align="center"/>
+<div align="center"> <i>Fig. 4. Señal EMG original vs filtrada en Oposición</i></div>
+</p>
 
 ## Filtrado de ECG
 
@@ -162,6 +180,12 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 
 
 ## Discusiones
+
+### EMG
+
+Nuestro código reflejó fielmente este procedimiento. Utilizamos la biblioteca pywt (PyWavelets) y PyEMD de Python para aplicar la DWT. De la librería pywt se emplearon “wavedec”, “threshold”, “waverec”. Mientras, que de la librería PyEMD se empleó EEMD para la eliminación de ruido utilizando el modo empírico de conjunto descomposición el cual correspondió al método empleado en la literatura [1]. La visualización de los resultados mostró claramente la señal EMG original y la señal filtrada.
+
+Los gráficos obtenidos evidenciaron que la señal filtrada conservaba las características de interés mientras se atenuaron picos bruscos y la señal se tenía más suavizada, lo que indica que el método implementado fue efectivo. 
 
 
 ### ECG
