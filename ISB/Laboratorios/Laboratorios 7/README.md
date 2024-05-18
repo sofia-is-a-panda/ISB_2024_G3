@@ -86,8 +86,9 @@ Se utilizaron las 3 señales de ECG, las cuales fueron tomadas durante momentos 
 * Segunda señal de ECG : Ciclos de respiración
 * Tercera Señal de ECG : Actividad física seguido de descanso
 
+### ECG EN REPOSO
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_reposo.png" align="center" width=800 heigth=400/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_reposo.png" align="center" width=500 heigth=100/>
 <div align="center"> <i>Fig. 5. Niveles de descomposición de los coeficientes de la señal ECG en reposo</i></div>
 </p>
 
@@ -97,9 +98,9 @@ Se utilizaron las 3 señales de ECG, las cuales fueron tomadas durante momentos 
 <div align="center"> <i>Fig. 6. Comparación de un tramo entre la señal ECG en reposo original y filtrada</i></div>
 </p>
 
-
+### ECG EN CICLOS DE RESPIRACION
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/decomp_respiracion.png" align="center" width=800 heigth=400 />
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/decomp_respiracion.png" align="center" width=500 heigth=100 />
 <div align="center"> <i>Fig. 7. Niveles de descomposición de los coeficientes de la señal ECG en ciclos de respiración</i></div>
 </p>
 
@@ -108,8 +109,9 @@ Se utilizaron las 3 señales de ECG, las cuales fueron tomadas durante momentos 
 <div align="center"> <i>Fig. 8. Comparación de un tramo entre la señal ECG en ciclos de respiración original y filtrada</i></div>
 </p>
 
+### ECG DURANTE Y TRAS EJERCICIO
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_ejercicio.png" align="center" width=800 heigth=400/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_ejercicio.png" align="center" width=500 heigth=100/>
 <div align="center"> <i>Fig. 9. Niveles de descomposición de los coeficientes de la señal ECG en ciclos de respiración</i></div>
 </p>
 
