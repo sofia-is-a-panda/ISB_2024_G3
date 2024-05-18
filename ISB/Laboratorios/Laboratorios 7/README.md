@@ -23,7 +23,7 @@ Sin embargo, se puede demostrar matemáticamente que, mientras más pequeña sea
 
 <p align="center" style="margin-bottom:0">
 <img src="/ISB/Imágenes - Multimedia/Multimedia - Lab7/Heisenberg Principle.png" align="center"/>
-<div align="center"> <i>Fig. 3. Principio de Incertidumbre de Heisenberg. La integral de la izquierda representa el dominio del tiempo y la integral de la derecha el dominio de la frecuencia. Ambas integrales expresan la dispersión del tiempo y frecuencia, respectivamente. [5]</i></div>
+<div align="center"> <i>Fig. 1. Principio de Incertidumbre de Heisenberg. La integral de la izquierda representa el dominio del tiempo y la integral de la derecha el dominio de la frecuencia. Ambas integrales expresan la dispersión del tiempo y frecuencia, respectivamente. [5]</i></div>
 </p>
 
 Por tanto, siempre se tiene un intercambio entre resolución temporal y resolución frecuencial que se desean. Dado que la Transformada en Tiempo Corto de Fourier utiliza ventanas de una misma duración temporal, entonces la distinción de frecuencias altas, en caso se utilicen ventanas amplias, se dificulta [6]. 
@@ -43,43 +43,58 @@ La Transformada de Wavelet, a diferencia de la Transformada en Tiempo Corto de F
 
 ## Filtrado de ECG
 
+Para el filtrado de la señal, se usó como base el trabajo “Simulation for Design the Compressed ECG Signal Transmission System with Baseline Wander Noise”.[9] 
+
+Para el análisis de la señal se utilizó una DWT Daubechie de tipo “db6”, se escogieron 6 niveles de descomposición, y el umbral seleccionado fue de 0.22, ya que era, tal como indicaba el artículo mencionado anteriormente.[9] 
+
+Con ello, luego de haber realizado la descomposición de coeficientes, el umbral se encargará de eliminar todos aquellos coeficientes inferiores al valor de umbral establecido.
+
+Una vez eliminados los coeficientes, se hará la reconstrucción mediante IDWT de múltiple niveles.
+
+Para el desarrollo del código, se utilizó Google Colab, donde también fue necesaria la implementación de la librería “pywt” (PyWavelets - Wavelet Transforms in Python). 
+
+Se utilizaron las 3 señales de ECG, las cuales fueron tomadas durante momentos y actividades distintas del voluntario:
+
+* Primera señal de ECG : Estado de Reposo
+* Segunda señal de ECG : Ciclos de respiración
+* Tercera Señal de ECG : Actividad física seguido de descanso
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_reposo.png" align="center"/>
-<div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
+<div align="center"> <i>Fig. 3. Niveles de descomposición de los coeficientes de la señal ECG en reposo</i></div>
 </p>
 
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_reposo.png" align="center"/>
-<div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
+<div align="center"> <i>Fig. 3. Comparación de un tramo entre la señal ECG en reposo original y filtrada</i></div>
 </p>
 
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/decomp_respiracion.png" align="center" />
-<div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
+<div align="center"> <i>Fig. 3. Niveles de descomposición de los coeficientes de la señal ECG en ciclos de respiración</i></div>
 </p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_respiracion.png" align="center" />
-<div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
+<div align="center"> <i>Fig. 3. Comparación de un tramo entre la señal ECG en ciclos de respiración original y filtrada</i></div>
 </p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/descomp_ejercicio.png" align="center" />
-<div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
+<div align="center"> <i>Fig. 3. Niveles de descomposición de los coeficientes de la señal ECG en ciclos de respiración</i></div>
 </p>
 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/4563ed79b720d716c675f407ee061e73e6505320/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab7/ecg_ejercicio.png" align="center" />
-<div align="center"> <i>Fig. 3. Diagrama de bloques de filtro FIR de quinto orden. Recuperado de [7]</i></div>
+<div align="center"> <i>Comparación de un tramo entre la señal ECG en ejercicio original y filtrada</i></div>
 </p>
 
 ## Filtrado de EEG
-Nuestro trabajo siguió el enfoque propuesto en el artículo "Automated Classification and Removal of EEG Artifacts with SVM and Wavelet-ICA", específicamente en la sección B, que describe el Procedimiento para el Análisis Multirresolución con Wavelet, WMA. [3]
+Nuestro trabajo siguió el enfoque propuesto en el artículo "Automated Classification and Removal of EEG Artifacts with SVM and Wavelet-ICA", específicamente en la sección B, que describe el Procedimiento para el Análisis Multirresolución con Wavelet, WMA. [11]
 
-Comenzamos aplicando WMA a las señales EEG registradas con el fin de mantener solo las bandas de frecuencia de interés. Cada canal de la señal se descompuso utilizando la Transformada Discreta de Wavelet (DWT) en 8 niveles utilizando la wavelet madre db8. Durante este proceso, eliminamos los detalles en los niveles D1 y D2, que representan el rango de frecuencia de 32 a 128 Hz, y también la wavelet madre A8, que cubre el rango de frecuencia de 0 a 0.5 Hz. Esto nos permitió conservar los detalles relevantes de D8 a D3, que corresponden al rango de frecuencia de interés para las señales EEG, es decir, de 0.5 a 32 Hz. Estos detalles de la wavelet representan las bandas de frecuencia tradicionales de las señales EEG, como las bandas delta, theta, alpha y beta. [3]
+Comenzamos aplicando WMA a las señales EEG registradas con el fin de mantener solo las bandas de frecuencia de interés. Cada canal de la señal se descompuso utilizando la Transformada Discreta de Wavelet (DWT) en 8 niveles utilizando la wavelet madre db8. Durante este proceso, eliminamos los detalles en los niveles D1 y D2, que representan el rango de frecuencia de 32 a 128 Hz, y también la wavelet madre A8, que cubre el rango de frecuencia de 0 a 0.5 Hz. Esto nos permitió conservar los detalles relevantes de D8 a D3, que corresponden al rango de frecuencia de interés para las señales EEG, es decir, de 0.5 a 32 Hz. Estos detalles de la wavelet representan las bandas de frecuencia tradicionales de las señales EEG, como las bandas delta, theta, alpha y beta. [11]
 
 A continuación presentamos los resultados obtenidos después de realizar el procedimiento mencionado con la ayuda de un código de Python, el cual pueden encontrar [aquí](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/df1e5a4322037259225f096a596b8ed1e24f184e/ISB/Laboratorios/Laboratorios%207/WAVELET_EEG%20(1).ipynb). Recordar que realizamos el procedimiento para tres casos de tomas de señales distintas:
 
@@ -139,10 +154,25 @@ A continuación presentamos los resultados obtenidos después de realizar el pro
 
 ## Discusiones
 
-### EEG
-Es importante destacar que las señales EEG suelen estar contaminadas por artefactos biológicos y ambientales en entornos prácticos. Los artefactos biológicos provienen de fuentes no cerebrales en el cuerpo humano, como la actividad cardíaca, ocular o muscular, mientras que los artefactos ambientales provienen de fuentes externas, como el movimiento de electrodos o la interferencia de dispositivos externos. Estos artefactos pueden distorsionar las señales EEG, dificultando el diagnóstico clínico o las aplicaciones de interfaz cerebro-computadora (BCI). [3]
 
-Los métodos tradicionales para eliminar artefactos EEG, como los filtros lineales o las regresiones, pueden causar una pérdida significativa de la actividad cerebral observada debido a la superposición espectral entre la actividad neurológica y los artefactos de señal. Por el contrario, el análisis multirresolución con wavelets utilizando la DWT ha demostrado ser más efectivo para eliminar artefactos mientras se preservan las características esenciales de las señales EEG en los dominios de tiempo y frecuencia. [3]
+### ECG
+
+En una señal de electrocardiograma (ECG), existen varios tipos de ruido que afectan su calidad, y por ende, hacen que su análisis e interpretación sea mucho más complicada. De los ruidos y/o artefactos que pueden perjudicar la señal existen los siguientes [10]:
+
+- <strong>Desplazamiento de línea de base:</strong> Se trata de un ruido que puede ser ocasionado por movimientos de la persona evaluada, movimiento de extremidades y el ritmo de respiración. Este tipo de ruido suele tener una baja frecuencia, de alrededor de 0.1 Hz.
+
+- <strong>Interferencia de red eléctrica:</strong> Uno de los ruidos más conocidos es el ocasionado por la red eléctrica. Esta señal suele tener una frecuencia de 50 Hz o 60 Hz dependiendo de donde se encuentre. Afectan la señal medida ya que disminuyen el ratio señal a ruido (SNR).
+
+- <strong>Ruido electromiográfico:</strong> Ocasionado por la actividad de las fibras musculares, este tipo de ruidos son de alta frecuencia y no tienen una amplitud ni frecuencia determinada, lo que hace que los métodos de cancelación de ruido convencionales difícilmente ayuden a eliminarlo.
+
+En cuanto a los niveles de descomposición, tenemos que todos aquellos coeficientes que tengan un valor menor a 0.22, serán atenuados hasta tener un valor de 0, que es lo que se le conoce como “soft thresholding”. Estos coeficientes podemos observarlos en los niveles de descomposición 4 a 6, en las señales de reposo y respiración, mientras que abarca los niveles 5 y 6 de la señal en ejercicio. 
+
+Respecto a las gráficas comparativas entre la señal original y la señal filtrada, podemos observar que, en los 3 casos evaluados de ECG el filtrado ha resultado efectivo, lo que indica que el método y procedimiento utilizado fueron los adecuados.
+
+### EEG
+Es importante destacar que las señales EEG suelen estar contaminadas por artefactos biológicos y ambientales en entornos prácticos. Los artefactos biológicos provienen de fuentes no cerebrales en el cuerpo humano, como la actividad cardíaca, ocular o muscular, mientras que los artefactos ambientales provienen de fuentes externas, como el movimiento de electrodos o la interferencia de dispositivos externos. Estos artefactos pueden distorsionar las señales EEG, dificultando el diagnóstico clínico o las aplicaciones de interfaz cerebro-computadora (BCI). [11]
+
+Los métodos tradicionales para eliminar artefactos EEG, como los filtros lineales o las regresiones, pueden causar una pérdida significativa de la actividad cerebral observada debido a la superposición espectral entre la actividad neurológica y los artefactos de señal. Por el contrario, el análisis multirresolución con wavelets utilizando la DWT ha demostrado ser más efectivo para eliminar artefactos mientras se preservan las características esenciales de las señales EEG en los dominios de tiempo y frecuencia. [11]
 
 En el caso de nuestro trabajo, el código reflejó fielmente este procedimiento. Utilizamos la biblioteca pywt de Python para aplicar la DWT y filtrar los coeficientes de la wavelet según lo descrito en el artículo. Hicimos uso de la wavelet madre db8 y ajustamos los parámetros según las especificaciones del estudio. La visualización de los resultados mostró claramente la señal EEG original, los niveles de wavelet y la señal filtrada.
 
@@ -163,9 +193,13 @@ El procedimiento demostró ser efectivo al filtrar la mayoría de los artefactos
 
 [6] Daubechies, "The wavelet transform, time-frequency localization and signal analysis," in IEEE Transactions on Information Theory, vol. 36, no. 5, pp. 961-1005, Sept. 1990, doi: 10.1109/18.57199 <br>
 
-[1] Z. Sun, X. Xi, C. Yuan, Y. Yang, and X. Hua, “Surface electromyography signal denoising via EEMD and improved wavelet thresholds,” Mathematical Biosciences and Engineering, vol. 17, no. 6, pp. 6945–6962, 2020, doi: https://doi.org/10.3934/mbe.2020359 <br>
+[7] Z. Sun, X. Xi, C. Yuan, Y. Yang, and X. Hua, “Surface electromyography signal denoising via EEMD and improved wavelet thresholds,” Mathematical Biosciences and Engineering, vol. 17, no. 6, pp. 6945–6962, 2020, doi: https://doi.org/10.3934/mbe.2020359 <br>
 
-[2] Ali Abdrhman Ukasha, Mousa Hasan Omar, and Mabrouka Idrees Fadel, “Simulation for Design the Compressed ECG Signal Transmission System with Baseline Wander Noise,” May 2023, doi: https://doi.org/10.1109/iecres57315.2023.10209428 <br>
+[8]
 
-[3] T. Olund, J. Duun-Henriksen, T. W. Kjaer, y H. B. D. Sorensen, “Automatic detection and classification of artifacts in single-channel EEG”, en 2014 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, 2014, vol. 2014. 
+[9] Ali Abdrhman Ukasha, Mousa Hasan Omar, and Mabrouka Idrees Fadel, “Simulation for Design the Compressed ECG Signal Transmission System with Baseline Wander Noise,” May 2023, doi: https://doi.org/10.1109/iecres57315.2023.10209428 <br>
+
+[10]  F. Shi, "A review of noise removal techniques in ECG signals," 2022 IEEE Conference on Telecommunications, Optics and Computer Science (TOCS), Dalian, China, 2022, pp. 237-240, doi: 10.1109/TOCS56154.2022.10015982. keywords: {Noise reduction;Interference;Electrocardiography;White noise;Wavelet analysis;Optics;Electromyography;ECG;Denoising;Wavelet threshold;modal decomposition;threshold},
+
+[11] T. Olund, J. Duun-Henriksen, T. W. Kjaer, y H. B. D. Sorensen, “Automatic detection and classification of artifacts in single-channel EEG”, en 2014 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, 2014, vol. 2014. 
 
