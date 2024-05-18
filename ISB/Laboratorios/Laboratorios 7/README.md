@@ -36,8 +36,17 @@ La Transformada de Wavelet, a diferencia de la Transformada en Tiempo Corto de F
 
 ## Objetivos
 * Usar la transformada Wavelet para filtrar señales de EMG, ECG, EEG.
+  
 ## Filtrado de EMG
 
+Se siguió la metodología que presenta en el artículo: "Surface electromyography signal denoising via EEMD and improved wavelet thresholds", específicamente la sección 2.2 "Extract the useful component from the first IMF and Remove the noise"  para la selección de la Transformada Discreta de Wavelet (Sym8) que se empleó [7]. Adicionalmente, para la selección del threshold o umbral, se hizo uso de “Adaptive Wavelet Thresholding for Image Denoising and Compression” donde se detalla que este valor es la mediana de los coeficientes de primer nivel de la transformada de Wavelet entre 0.6745 [8].
+Se comienza aplicando la Transformada Discreta de Wavelet (Symlet 8 - Sym8) debido a que es la wavelet que presenta el mejor efecto de eliminación de ruido. Luego se procede a elegir el nivel de descomposición, esta se realizó de la siguiente manera:
+Se calcula la relación de señal-ruido (SNR) donde se emplea la potencia de la señal
+Se determina si los coeficientes de la wavelet presentan ruido mediante la comparación respecto a un umbral.
+Se halla el nivel de descomposición máximo, luego se calcula si estos coeficientes son mayoritariamente ruido, si esto se cumple se disminuye en uno el nivel de descomposición y se vuelve iterar hasta llegar a un nivel.
+
+
+A continuación presentamos los resultados obtenidos después de realizar el procedimiento mencionado en cual fue implementado en un [notebook](). Recordar que realizamos el procedimiento las tomas de la señal:
 
 
 
@@ -195,7 +204,7 @@ El procedimiento demostró ser efectivo al filtrar la mayoría de los artefactos
 
 [7] Z. Sun, X. Xi, C. Yuan, Y. Yang, and X. Hua, “Surface electromyography signal denoising via EEMD and improved wavelet thresholds,” Mathematical Biosciences and Engineering, vol. 17, no. 6, pp. 6945–6962, 2020, doi: https://doi.org/10.3934/mbe.2020359 <br>
 
-[8]
+[8]S. G. Chang, Bin Yu, and M. Vetterli, “Adaptive wavelet thresholding for image denoising and compression,” IEEE Transactions on Image Processing, vol. 9, no. 9, pp. 1532–1546, 2000, doi: https://doi.org/10.1109/83.862633. <br>
 
 [9] Ali Abdrhman Ukasha, Mousa Hasan Omar, and Mabrouka Idrees Fadel, “Simulation for Design the Compressed ECG Signal Transmission System with Baseline Wander Noise,” May 2023, doi: https://doi.org/10.1109/iecres57315.2023.10209428 <br>
 
