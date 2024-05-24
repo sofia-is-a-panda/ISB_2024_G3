@@ -4,7 +4,7 @@
 * [Introducción](#introducción)
 * [Objetivos](#objetivos)
 * [Filtrado](#filtrado)
-* [Preprocesamiento](#preprocesamiento)
+* [Extracción de características](#extracción-de-características)
 * [Discusiones](#discusiones)
 * [Bibliografía](#bibliografía)
 
@@ -16,7 +16,7 @@
 
 ## Filtrado
 
-## Preprocesamiento
+## Extracción de características
 
 ## Discusiones
 
