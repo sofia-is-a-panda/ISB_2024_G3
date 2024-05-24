@@ -4,6 +4,7 @@
 * [Introducción](#introducción)
 * [Objetivos](#objetivos)
 * [Filtrado](#filtrado)
+* [Segmentación](#segmentación)
 * [Extracción de características](#extracción-de-características)
 * [Discusiones](#discusiones)
 * [Bibliografía](#bibliografía)
@@ -16,10 +17,26 @@
 
 ## Filtrado
 
+Para el filtrado, se hizo uso de la Transformada Wavelet
+
+## Segmentación
+
+### Reposo
+
+### Tensión
+
+### Oposición
+
 ## Extracción de características
+
+### Reposo
+
+### Tensión
+
+### Oposición
 
 ## Discusiones
 
-### Comparación entre oposición y tensión
+### Comparación entre tensión y oposición
 
 ## Bibliografía
