@@ -12,10 +12,14 @@
 
 ## Objetivos
 
+* Extraer características de la señal EMG adquirida en el laboratorio
+
 ## Filtrado
 
 ## Preprocesamiento
 
 ## Discusiones
+
+### Comparación entre oposición y tensión
 
 ## Bibliografía
