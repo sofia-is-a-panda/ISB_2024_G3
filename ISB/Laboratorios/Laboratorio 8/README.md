@@ -185,15 +185,15 @@ Tras el filtrado, se procedió a la extracción de las características de la se
 ## Discusión
 
 Wavelet SNR Post-filtrado: 
-Un SNR de 1.32 dB post-filtrado sugiere que hay una mejora en la relación señal/ruido después de aplicar el filtro, pero esta mejora aún sigue siendo limitada. En términos prácticos, esto significa que el filtrado ha reducido algo de ruido, pero no de manera significativa.
+Un SNR de 1.32 dB post-filtrado sugiere que hay una mejora en la relación señal/ruido después de aplicar el filtro, pero esta mejora aún sigue siendo limitada. En términos prácticos, esto significa que el filtrado ha reducido algo de ruido, pero no de manera significativa. <br>
 
-Posibles efectos adversos:
+Posibles efectos adversos: <br>
 Parámetros del Filtro: Los parámetros del filtro (umbral de wavelet, selección de IMFs) pueden no estar optimizados.
-Método de Filtrado: El método de filtrado utilizado (EEMD y wavelet denoising) puede no ser el más adecuado para el tipo de ruido presente en la señal.
-Calidad de la señal original: Si la señal original tiene un nivel de ruido extremadamente alto, puede ser necesario un filtrado más agresivo o una combinación de varios métodos de filtrado.
-Recomendaciones:
-Wavelet Denoising: Experimenta con diferentes niveles de descomposición y umbrales. Un umbral más alto puede eliminar más ruido pero también puede afectar la señal útil.
-Selección de IMFs: Revisa el umbral utilizado para seleccionar los IMFs. Puede que necesites un umbral diferente para distinguir mejor entre IMFs ruidosos y aquellos que contienen la señal útil.
+Método de Filtrado: El método de filtrado utilizado (EEMD y wavelet denoising) puede no ser el más adecuado para el tipo de ruido presente en la señal. <br>
+Calidad de la señal original: Si la señal original tiene un nivel de ruido extremadamente alto, puede ser necesario un filtrado más agresivo o una combinación de varios métodos de filtrado. <br>
+Recomendaciones: <br>
+Wavelet Denoising: Experimenta con diferentes niveles de descomposición y umbrales. Un umbral más alto puede eliminar más ruido pero también puede afectar la señal útil. <br>
+Selección de IMFs: Revisa el umbral utilizado para seleccionar los IMFs. Puede que necesites un umbral diferente para distinguir mejor entre IMFs ruidosos y aquellos que contienen la señal útil. <br>
 
 ## Bibliografía
 [1] R. Pal, “Comparison of the design of FIR and IIR filters for a given specification and removal of phase distortion from IIR filters,” 2017 International Conference on Advances in Computing, Communication and Control (ICAC3). IEEE, Dec. 2017. doi: 10.1109/icac3.2017.8318772. <br>
