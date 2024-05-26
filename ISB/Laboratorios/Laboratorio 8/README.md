@@ -23,9 +23,39 @@ Una vez establecido el tipo de filtro más adecuado y habiendo filtrado la seña
 * Comparar los filtros FIR, IIR y Wavelet en el caso de EMG.
 * Extraer características de la señal EMG adquirida en el laboratorio
 
-## Comparación de Filtros:
+## Filtros:
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/reposo_filtro.png" align="center"/>
+<div align="center"> <i>Fig. 2. Senal en reposo luego de aplicar filtro </i></div>
+</p>
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/tension_filtrado.png" align="center"/>
+<div align="center"> <i>Fig. 3. Senal en tension luego de aplicar filtro </i></div>
+</p>
+
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/oposicion_filtrado.png" align="center"/>
+<div align="center"> <i>Fig. 4. Senal en oposicion luego de aplicar filtro </i></div>
+</p>
+
+Luego de haber filtrado las senales, calculamos el SNR (Signal Noise Ratio) de las mismas.
+
+Con ello obtuvimos los siguientes valores:
+
+* SNR Senal en Reposo filtrada: 1.64 dB
+* SNR Senal en Tension fitlrada : 3.82 dB
+* SNR Senal en Oposicion filtrada : 2.15 dB
+
+
 ## Extracción de características:
 A continuación mostraremos la extracción de las características de la señal filtrada.
+
+
+
+
+
 
 
 ### Reposo
