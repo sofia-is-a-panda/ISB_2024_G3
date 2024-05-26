@@ -22,7 +22,7 @@ Una vez establecido el tipo de filtro más adecuado y habiendo filtrado la seña
 * Comparar los filtros FIR, IIR y Wavelet en el caso de EMG.
 * Extraer características de la señal EMG adquirida en el laboratorio
 
-## Filtrado de las senales:
+## Filtrado de las seÑales:
 
 #### Reposo
 En este caso, no consideraremos la extracción de parámetros para esta señal, ya que al estar en reposo no debería ocurrir ningún evento que defina valores para los parámetro que deseamos calcular.
@@ -49,22 +49,22 @@ En este caso, no consideraremos la extracción de parámetros para esta señal, 
 #### Reposo
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/365ba95fd4c1e5236c147ba0bc043ae0dbf4de09/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alReposo.png" align="center"/>
-<div align="center"> <i>Fig. 5. Comparacion de senal en reposo luego de aplicar filtros IIR y FIR </i></div>
+<div align="center"> <i>Fig. 5. Comparacion de señal en reposo luego de aplicar filtros IIR y FIR </i></div>
 </p>
 
 #### Tension 
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/365ba95fd4c1e5236c147ba0bc043ae0dbf4de09/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alTensi%C3%B3n.png" align="center"/>
-<div align="center"> <i>Fig. 6. Comparacion de senal en tension luego de aplicar filtros IIR y FIR </i></div>
+<div align="center"> <i>Fig. 6. Comparacion de señal en tensión luego de aplicar filtros IIR y FIR </i></div>
 </p>
 
 #### Oposicion
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/365ba95fd4c1e5236c147ba0bc043ae0dbf4de09/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alOposici%C3%B3n.png" align="center"/>
-<div align="center"> <i>Fig. 7. Comparacion de senal en oposicion luego de aplicar filtros IIR y FIR </i></div>
+<div align="center"> <i>Fig. 7. Comparacion de señal en oposición luego de aplicar filtros IIR y FIR </i></div>
 </p>
 
-Luego de haber filtrado las senales, calculamos el SNR (Signal Noise Ratio) de las mismas a través de la adquisición del componente de ruido a través de la sustracción de la señal filtrada de la señal original en los 3 casos.
+Luego de haber filtrado las señales, calculamos el SNR (Signal Noise Ratio) de las mismas a través de la adquisición del componente de ruido a través de la sustracción de la señal filtrada de la señal original en los 3 casos.
 
 Asimismo, obtuvimos los siguientes valores de SNR para los filtros utilizados:
 
