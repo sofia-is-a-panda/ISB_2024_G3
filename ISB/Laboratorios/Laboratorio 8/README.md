@@ -22,7 +22,9 @@ Una vez establecido el tipo de filtro más adecuado y habiendo filtrado la seña
 * Comparar los filtros FIR, IIR y Wavelet en el caso de EMG.
 * Extraer características de la señal EMG adquirida en el laboratorio
 
-## Filtrado de las seÑales:
+## Filtrado de las Señales:
+
+El código utilizado para este primer filtro, lo puede encontrar  [aqui](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/972a1c58f5028fa9a80cda5ece371c25f7ee801d/ISB/Laboratorios/Laboratorio%208/EXTRACCION_EMG.ipynb)
 
 #### Reposo
 En este caso, no consideraremos la extracción de parámetros para esta señal, ya que al estar en reposo no debería ocurrir ningún evento que defina valores para los parámetro que deseamos calcular.
@@ -39,12 +41,14 @@ En este caso, no consideraremos la extracción de parámetros para esta señal, 
 
 ### Oposición
 <p align="center" style="margin-bottom:0">
-<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/oposicion.png" align="center"/>
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/972a1c58f5028fa9a80cda5ece371c25f7ee801d/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/oposicion.png" align="center"/>
 <div align="center"> <i>Fig. 4. Senal en oposición luego de aplicar el filtro Wavelet </i></div>
 </p>
 
 
 ### Filtros IIR y FIR
+
+En este apartado se utilizaron Filtros FIR e IIR para el procesamiento de la senal. El codigo utilizado lo puede encontrar [aqui](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/972a1c58f5028fa9a80cda5ece371c25f7ee801d/ISB/Laboratorios/Laboratorio%208/EXTRACCION_EMG.ipynb)
 
 #### Reposo
 <p align="center" style="margin-bottom:0">
@@ -64,9 +68,9 @@ En este caso, no consideraremos la extracción de parámetros para esta señal, 
 <div align="center"> <i>Fig. 7. Comparacion de señal en oposición luego de aplicar filtros IIR y FIR </i></div>
 </p>
 
-Luego de haber filtrado las señales, calculamos el SNR (Signal Noise Ratio) de las mismas a través de la adquisición del componente de ruido a través de la sustracción de la señal filtrada de la señal original en los 3 casos.
+Luego de haber filtrado las señales, calculamos el SNR (Signal Noise Ratio) de las mismas a través de la adquisición del componente de ruido a través de la sustracción de la señal filtrada de la señal original en los 3 casos. El codigo empleado para calcular el SNR en las senales filtradas por [FIR e IIR](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/972a1c58f5028fa9a80cda5ece371c25f7ee801d/ISB/Laboratorios/Laboratorio%208/SNR_IIR_FIR.ipynb) y por [Wavelets](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/972a1c58f5028fa9a80cda5ece371c25f7ee801d/ISB/Laboratorios/Laboratorio%208/SNR_EMG.ipynb).
 
-Asimismo, obtuvimos los siguientes valores de SNR para los filtros utilizados:
+Con ello, obtuvimos los siguientes valores de SNR para los filtros utilizados:
 
 ### Usando filtro Wavelet
 
@@ -87,7 +91,9 @@ Asimismo, obtuvimos los siguientes valores de SNR para los filtros utilizados:
 * SNR Senal en Oposicion filtrada : -3.06 dB
 
 ## Extracción de características:
-Tras el filtrado, se procedió a la extracción de las características de la señal filtrada.
+Tras el filtrado, se procedió a la extracción de las características de la señal filtrada por el metodo de Wavelets.
+
+El codigo utilizado para esta primera parte de la extraccion de las caracteristicas es [este](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/972a1c58f5028fa9a80cda5ece371c25f7ee801d/ISB/Laboratorios/Laboratorio%208/EXTRACCION_EMG.ipynb)
 
 <table>
         <tr>
@@ -182,6 +188,10 @@ Tras el filtrado, se procedió a la extracción de las características de la se
         </tr>
     </table>
 
+Asimismo, tambien obtuvimos el valor de Zero - Crossings de las senales de Tension y Oposicion, utilizando el siguiente [codigo](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/972a1c58f5028fa9a80cda5ece371c25f7ee801d/ISB/Laboratorios/Laboratorio%208/Segmentaci%C3%B3n_EMG.ipynb).
+
+* Zeros-Crossing de Senal EMG en Tension : 1257
+* Zeros-Crossing de Senal EMG en Oposicion : 2351
 ## Discusión
 
 Wavelet SNR Post-filtrado: 
@@ -195,9 +205,27 @@ Recomendaciones: <br>
 Wavelet Denoising: Experimenta con diferentes niveles de descomposición y umbrales. Un umbral más alto puede eliminar más ruido pero también puede afectar la señal útil. <br>
 Selección de IMFs: Revisa el umbral utilizado para seleccionar los IMFs. Puede que necesites un umbral diferente para distinguir mejor entre IMFs ruidosos y aquellos que contienen la señal útil. <br>
 
+Por otra parte, como se puede observar gracias a la librería utilizada en el código fue posible extraer múltiples características del EMG. Sin embargo, está claro que debemos enfocar el análisis de estos resultados en parámetros específicos.
+
+Los parametros que deseamos analizar fueron los siguientes:
+* Zeros - Crossing
+* Median Frequency
+* Minimum Sample Value
+* Maximum Sample Value
+
+Los cuales son caracteristicas que son mencionadas tambien en la siguiente publicacion. [4]
+Ahora compararemos los valores de los parámetros obtenidos de las 3 señales analizadas (Reposo, Tension, Oposicion).
+
+El valor de "Median Frequency" es mayor en la señal "Oposicion" y menor en la señal "Tension", lo cual puede ocurrir por el aumento de los valores de frecuencia registrados de ambas señales, es decir, la señal "Oposición" presentaría una mayor frecuencia que la señal "Tensión". En el caso de la señal "Reposo", no se tomó en cuenta para este apartado debido a que la mayor parte de la señal corresponde a ruido.
+El valor de "Maximum Value" para la señal "Oposición" es mayor que para la señal "Tensión", lo que indica que dicha señal presenta picos más altos. Análogamente, para el caso de "Minimum Value", el valor de este parámetro es menor para la señal "Oposición" respecto a la señal "Tensión", indicando que los picos de la señal "Oposición" resultan más negativos que la señal "Tensión".
+
+Los valores obtenido de "Zeros - Crossing" tambien nos dan una idea acerca de cuantas veces pasa por 0 determinada senal. En este caso, podemos comparar los valores de estos parametros, y como podemos observar, el valor es mayor en la senal "Oposicion" que en la de "Tension".
 ## Bibliografía
 [1] R. Pal, “Comparison of the design of FIR and IIR filters for a given specification and removal of phase distortion from IIR filters,” 2017 International Conference on Advances in Computing, Communication and Control (ICAC3). IEEE, Dec. 2017. doi: 10.1109/icac3.2017.8318772. <br>
 
 [2] É. Thibault, F. L. Désilets, B. Poulin, M. Chioua, and P. Stuart, “Comparison of signal processing methods considering their optimal parameters using synthetic signals in a heat exchanger network simulation,” Computers &amp; Chemical Engineering, vol. 178. Elsevier BV, p. 108380, Oct. 2023. doi: 10.1016/j.compchemeng.2023.108380. <br>
 
 [3] T. Oo and P. Phukpattaranont, “Signal-to-Noise Ratio Estimation in Electromyography Signals Contaminated with Electrocardiography Signals,” Fluctuation and Noise Letters, vol. 19, no. 03. World Scientific Pub Co Pte Lt, p. 2050027, Feb. 17, 2020. doi: 10.1142/s0219477520500273.
+
+[4] S. Inam et al., "A Brief Review of Strategies Used for EMG Signal Classification," 2021 International Conference on Artificial Intelligence (ICAI), Islamabad, Pakistan, 2021, pp. 140-145, doi: 10.1109/ICAI52203.2021.9445257. keywords: {Time-frequency analysis;Pattern classification;Machine learning;Muscles;Electromyography;Time-domain analysis;Signal analysis;EMG;features;surface electrodes;males and females},
+
