@@ -25,16 +25,25 @@ Una vez establecido el tipo de filtro más adecuado y habiendo filtrado la seña
 
 ## Comparación de Filtros:
 ## Extracción de características:
+A continuación mostraremos la extracción de las características de la señal filtrada.
+
 
 ### Reposo
-
+En este caso, no consideraremos la extracción de parámetros para esta señal, ya que al estar en reposo no debería ocurrir ningún evento que defina valores para los parámetro que deseamos calcular.
 ### Tensión
+
 
 ### Oposición
 
 ## Discusiones
 
+Luego de haber obtenido los valores de SNR (Signal Noise Ratio), para las señales correspondientes. 
+
+SNR de Señal Filtrada en Tensión:
+
+
 ### Comparación entre tensión y oposición
+
 
 ## Bibliografía
 [1] R. Pal, “Comparison of the design of FIR and IIR filters for a given specification and removal of phase distortion from IIR filters,” 2017 International Conference on Advances in Computing, Communication and Control (ICAC3). IEEE, Dec. 2017. doi: 10.1109/icac3.2017.8318772. <br>
