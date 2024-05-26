@@ -3,10 +3,8 @@
 
 * [Introducción](#introducción)
 * [Objetivos](#objetivos)
-* [Filtrado](#filtrado)
-* [Segmentación](#segmentación)
+* [Filtros](#filtrado)
 * [Extracción de características](#extracción-de-características)
-* [Discusiones](#discusiones)
 * [Bibliografía](#bibliografía)
 
 ## Introducción
@@ -18,29 +16,34 @@ Anteriormente, se utilizaron 3 tipos distintos distintos de filtros para consegu
 </p>
 
 
-Una vez establecido el tipo de filtro más adecuado y habiendo filtrado la señal correspondiente, finalmente se puede realizar la extracción de características más importantes de la señal, entre las cuales podemos encontrar los valores Root Mean Square, Mean Absolute Value, Kurtosis y Zero Crossing [3].
+Una vez establecido el tipo de filtro más adecuado y habiendo filtrado la señal correspondiente, finalmente se puede realizar la extracción de características más importantes de la señal, entre las cuales podemos encontrar los valores Root Mean Square, Mean Absolute Value, Kurtosis, Zero Crossing, etc [3].
 ## Objetivos
 * Comparar los filtros FIR, IIR y Wavelet en el caso de EMG.
 * Extraer características de la señal EMG adquirida en el laboratorio
 
 ## Filtros:
 
+### Reposo
+En este caso, no consideraremos la extracción de parámetros para esta señal, ya que al estar en reposo no debería ocurrir ningún evento que defina valores para los parámetro que deseamos calcular.
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/reposo_filtro.png" align="center"/>
-<div align="center"> <i>Fig. 2. Senal en reposo luego de aplicar filtro </i></div>
+<div align="center"> <i>Fig. 2. Señal en reposo luego de aplicar el filtro Wavelet </i></div>
 </p>
 
+### Tensión
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/tension_filtrado.png" align="center"/>
-<div align="center"> <i>Fig. 3. Senal en tension luego de aplicar filtro </i></div>
+<div align="center"> <i>Fig. 3. Senal en tensión luego de aplicar el filtro Wavelet </i></div>
 </p>
 
+
+### Oposición
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/oposicion_filtrado.png" align="center"/>
-<div align="center"> <i>Fig. 4. Senal en oposicion luego de aplicar filtro </i></div>
+<div align="center"> <i>Fig. 4. Senal en oposición luego de aplicar el filtro Wavelet </i></div>
 </p>
 
-Luego de haber filtrado las senales, calculamos el SNR (Signal Noise Ratio) de las mismas.
+Luego de haber filtrado las senales, calculamos el SNR (Signal Noise Ratio) de las mismas a través de la adquisición del componente de ruido a través de la sustracción de la señal filtrada de la señal original en los 3 casos.
 
 Con ello obtuvimos los siguientes valores:
 
@@ -50,10 +53,7 @@ Con ello obtuvimos los siguientes valores:
 
 
 ## Extracción de características:
-A continuación mostraremos la extracción de las características de la señal filtrada.
-
-
-
+Tras el filtrado, se procedió a la extracción de las características de la señal filtrada.
 
 <table>
         <tr>
@@ -147,24 +147,6 @@ A continuación mostraremos la extracción de las características de la señal 
             <td>113.28125</td>
         </tr>
     </table>
-
-
-### Reposo
-En este caso, no consideraremos la extracción de parámetros para esta señal, ya que al estar en reposo no debería ocurrir ningún evento que defina valores para los parámetro que deseamos calcular.
-### Tensión
-
-
-### Oposición
-
-## Discusiones
-
-Luego de haber obtenido los valores de SNR (Signal Noise Ratio), para las señales correspondientes. 
-
-SNR de Señal Filtrada en Tensión:
-
-
-### Comparación entre tensión y oposición
-
 
 ## Bibliografía
 [1] R. Pal, “Comparison of the design of FIR and IIR filters for a given specification and removal of phase distortion from IIR filters,” 2017 International Conference on Advances in Computing, Communication and Control (ICAC3). IEEE, Dec. 2017. doi: 10.1109/icac3.2017.8318772. <br>
