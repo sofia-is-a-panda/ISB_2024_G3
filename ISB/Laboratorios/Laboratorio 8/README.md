@@ -55,7 +55,98 @@ A continuación mostraremos la extracción de las características de la señal 
 
 
 
-
+<table>
+        <tr>
+            <th>Parameter</th>
+            <th>Senal EMG en Reposo</th>
+            <th>Senal EMG en Tension</th>
+            <th>Senal EMG en Oposicion</th>
+        </tr>
+        <tr>
+            <td>Number of Muscular Activations</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Maximum Muscular Activation Duration</td>
+            <td>6.0499379748798265</td>
+            <td>4.917555656006327</td>
+            <td>9.453643104973128</td>
+        </tr>
+        <tr>
+            <td>Minimum Muscular Activation Duration</td>
+            <td>6.0499379748798265</td>
+            <td>4.917555656006327</td>
+            <td>9.453643104973128</td>
+        </tr>
+        <tr>
+            <td>Average Muscular Activation Duration</td>
+            <td>6.0499379748798265</td>
+            <td>4.917555656006327</td>
+            <td>9.453643104973128</td>
+        </tr>
+        <tr>
+            <td>Standard Deviation of Muscular Activation Duration</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Maximum Sample Value</td>
+            <td>0.044714754707631366</td>
+            <td>0.7026604311199208</td>
+            <td>1.3318609080773043</td>
+        </tr>
+        <tr>
+            <td>Minimum Sample Value</td>
+            <td>-0.057490398909811787</td>
+            <td>-0.6355882990584738</td>
+            <td>-1.255207042864222</td>
+        </tr>
+        <tr>
+            <td>Average Sample Value</td>
+            <td>-0.016568227882199745</td>
+            <td>-0.016024050232231954</td>
+            <td>-0.01649122739098117</td>
+        </tr>
+        <tr>
+            <td>Standard Deviation Sample Value</td>
+            <td>0.02642526322805102</td>
+            <td>0.0909902158935363</td>
+            <td>0.18601376405757442</td>
+        </tr>
+        <tr>
+            <td>RMS</td>
+            <td>0.031189753314643038</td>
+            <td>0.09239041927709515</td>
+            <td>0.18674335597211486</td>
+        </tr>
+        <tr>
+            <td>Area</td>
+            <td>-106.88423330648733</td>
+            <td>-141.79687499999793</td>
+            <td>-242.3236283603801</td>
+        </tr>
+        <tr>
+            <td>Total Power Spect</td>
+            <td>0.0007000399299170216</td>
+            <td>0.008355839629936957</td>
+            <td>0.033161401354944164</td>
+        </tr>
+        <tr>
+            <td>Median Frequency</td>
+            <td>62.5</td>
+            <td>25</td>
+            <td>117.1875</td>
+        </tr>
+        <tr>
+            <td>Maximum Power Frequency</td>
+            <td>58.59375</td>
+            <td>109.375</td>
+            <td>113.28125</td>
+        </tr>
+    </table>
 
 
 ### Reposo
