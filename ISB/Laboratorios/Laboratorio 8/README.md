@@ -104,21 +104,21 @@ Tras el filtrado, se procedió a la extracción de las características de la se
         </tr>
         <tr>
             <td>Maximum Muscular Activation Duration</td>
-            <td>6.0499379748798265</td>
-            <td>4.917555656006327</td>
-            <td>9.453643104973128</td>
+            <td>6.049</td>
+            <td>4.917</td>
+            <td>9.453</td>
         </tr>
         <tr>
             <td>Minimum Muscular Activation Duration</td>
-            <td>6.0499379748798265</td>
-            <td>4.917555656006327</td>
-            <td>9.453643104973128</td>
+            <td>6.049</td>
+            <td>4.917</td>
+            <td>9.453</td>
         </tr>
         <tr>
             <td>Average Muscular Activation Duration</td>
-            <td>6.0499379748798265</td>
-            <td>4.917555656006327</td>
-            <td>9.453643104973128</td>
+            <td>6.049</td>
+            <td>4.917</td>
+            <td>9.453</td>
         </tr>
         <tr>
             <td>Standard Deviation of Muscular Activation Duration</td>
@@ -128,45 +128,45 @@ Tras el filtrado, se procedió a la extracción de las características de la se
         </tr>
         <tr>
             <td>Maximum Sample Value</td>
-            <td>0.044714754707631366</td>
-            <td>0.7026604311199208</td>
-            <td>1.3318609080773043</td>
+            <td>0.044</td>
+            <td>0.702</td>
+            <td>1.331</td>
         </tr>
         <tr>
             <td>Minimum Sample Value</td>
-            <td>-0.057490398909811787</td>
-            <td>-0.6355882990584738</td>
-            <td>-1.255207042864222</td>
+            <td>-0.057</td>
+            <td>-0.635</td>
+            <td>-1.255</td>
         </tr>
         <tr>
             <td>Average Sample Value</td>
-            <td>-0.016568227882199745</td>
-            <td>-0.016024050232231954</td>
-            <td>-0.01649122739098117</td>
+            <td>-0.016</td>
+            <td>-0.016</td>
+            <td>-0.016</td>
         </tr>
         <tr>
             <td>Standard Deviation Sample Value</td>
-            <td>0.02642526322805102</td>
-            <td>0.0909902158935363</td>
-            <td>0.18601376405757442</td>
+            <td>0.026</td>
+            <td>0.090</td>
+            <td>0.186</td>
         </tr>
         <tr>
             <td>RMS</td>
-            <td>0.031189753314643038</td>
-            <td>0.09239041927709515</td>
-            <td>0.18674335597211486</td>
+            <td>0.031</td>
+            <td>0.092</td>
+            <td>0.186</td>
         </tr>
         <tr>
             <td>Area</td>
-            <td>-106.88423330648733</td>
-            <td>-141.79687499999793</td>
-            <td>-242.3236283603801</td>
+            <td>-106.884</td>
+            <td>-141.796</td>
+            <td>-242.323</td>
         </tr>
         <tr>
             <td>Total Power Spect</td>
-            <td>0.0007000399299170216</td>
-            <td>0.008355839629936957</td>
-            <td>0.033161401354944164</td>
+            <td>0.00070</td>
+            <td>0.00835</td>
+            <td>0.03316</td>
         </tr>
         <tr>
             <td>Median Frequency</td>
@@ -176,9 +176,9 @@ Tras el filtrado, se procedió a la extracción de las características de la se
         </tr>
         <tr>
             <td>Maximum Power Frequency</td>
-            <td>58.59375</td>
+            <td>58.5938</td>
             <td>109.375</td>
-            <td>113.28125</td>
+            <td>113.2813</td>
         </tr>
     </table>
 
