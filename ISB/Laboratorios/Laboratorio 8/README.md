@@ -21,21 +21,20 @@ Una vez establecido el tipo de filtro más adecuado y habiendo filtrado la seña
 * Comparar los filtros FIR, IIR y Wavelet en el caso de EMG.
 * Extraer características de la señal EMG adquirida en el laboratorio
 
-## Filtros:
+## Filtrado de las senales:
 
-### Reposo
+#### Reposo
 En este caso, no consideraremos la extracción de parámetros para esta señal, ya que al estar en reposo no debería ocurrir ningún evento que defina valores para los parámetro que deseamos calcular.
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/reposo_filtro.png" align="center"/>
 <div align="center"> <i>Fig. 2. Señal en reposo luego de aplicar el filtro Wavelet </i></div>
 </p>
 
-### Tensión
+#### Tensión
 <p align="center" style="margin-bottom:0">
 <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5bd77fbb06dd660484f1389c28c29380f8e35a1e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab_8/tension_filtrado.png" align="center"/>
 <div align="center"> <i>Fig. 3. Senal en tensión luego de aplicar el filtro Wavelet </i></div>
 </p>
-
 
 ### Oposición
 <p align="center" style="margin-bottom:0">
@@ -43,14 +42,48 @@ En este caso, no consideraremos la extracción de parámetros para esta señal, 
 <div align="center"> <i>Fig. 4. Senal en oposición luego de aplicar el filtro Wavelet </i></div>
 </p>
 
+
+### Filtros IIR y FIR
+
+#### Reposo
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/365ba95fd4c1e5236c147ba0bc043ae0dbf4de09/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alReposo.png" align="center"/>
+<div align="center"> <i>Fig. 5. Comparacion de senal en reposo luego de aplicar filtros IIR y FIR </i></div>
+</p>
+
+#### Tension 
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/365ba95fd4c1e5236c147ba0bc043ae0dbf4de09/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alTensi%C3%B3n.png" align="center"/>
+<div align="center"> <i>Fig. 6. Comparacion de senal en tension luego de aplicar filtros IIR y FIR </i></div>
+</p>
+
+#### Oposicion
+<p align="center" style="margin-bottom:0">
+<img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/365ba95fd4c1e5236c147ba0bc043ae0dbf4de09/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%206/Se%C3%B1alOposici%C3%B3n.png" align="center"/>
+<div align="center"> <i>Fig. 7. Comparacion de senal en oposicion luego de aplicar filtros IIR y FIR </i></div>
+</p>
+
 Luego de haber filtrado las senales, calculamos el SNR (Signal Noise Ratio) de las mismas a través de la adquisición del componente de ruido a través de la sustracción de la señal filtrada de la señal original en los 3 casos.
 
-Con ello obtuvimos los siguientes valores:
+Asimismo, obtuvimos los siguientes valores de SNR para los filtros utilizados:
+
+### Usando filtro Wavelet
 
 * SNR Senal en Reposo filtrada: 1.64 dB
 * SNR Senal en Tension fitlrada : 3.82 dB
 * SNR Senal en Oposicion filtrada : 2.15 dB
 
+### Usando filtro IIR
+
+* SNR Senal en Reposo filtrada: 11.14 dB
+* SNR Senal en Tension fitlrada : 5.46 dB
+* SNR Senal en Oposicion filtrada : 6.89 dB
+
+### Usando filtro FIR
+
+* SNR Senal en Reposo filtrada: -1.44 dB
+* SNR Senal en Tension fitlrada : -2.88 dB
+* SNR Senal en Oposicion filtrada : -3.06 dB
 
 ## Extracción de características:
 Tras el filtrado, se procedió a la extracción de las características de la señal filtrada.
