@@ -14,7 +14,7 @@
 
 ## Filtrado
 
-## Extracción de características
+## HRV - Heart Rate Variability
 
 ## Discusión
 
