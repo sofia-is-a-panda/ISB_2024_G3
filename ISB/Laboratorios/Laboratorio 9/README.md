@@ -76,7 +76,33 @@ A continuacion, mostramos una breve comparativa entre las senales filtradas y si
     </tr>
 </table>
 
+### COMPARACION DE LAS DIFERENCIAS ENTRE PICOS R
+
+<div align="center">
+    <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/749bac511724ddc1c06244b4be181948bb9360b7/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/picos_R_diff.png">
+    <div>Figura 1. Grafico de diferencia entre picos R</div>
+</div>
+
 ### VALORES DE RMSSD
+
+<table>
+    <tr>
+        <th>ESTADO DEL SUJETO</th>
+        <th>VALOR DE RMSSD</th>
+    </tr>
+    <tr>
+        <th>REPOSO</th>
+        <td>48.42</td> 
+    </tr>
+    <tr>
+        <th>RESPIRACION</th>
+        <td>30.65</td>
+    </tr>
+    <tr>
+        <th>EJERCICIO</th>
+        <td>13.79</td>
+    </tr>
+</table>
 
 ## Discusión
 
