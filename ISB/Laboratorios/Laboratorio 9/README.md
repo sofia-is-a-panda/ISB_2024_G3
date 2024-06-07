@@ -14,92 +14,91 @@
 
 ## Filtrado
 
-Antes de extraer las características del ECG, vimos conveniente realizar el filtrado correspondiente de la señal.
-A continuacion, mostramos una breve comparativa entre las senales filtradas y sin filtrar.
+Antes de extraer las características del ECG, se vio conveniente realizar el filtrado correspondiente de la señal.
+A continuación, mostramos una breve comparativa entre las señales filtradas, usando el filtro Wavelet del [laboratorio 7](lhttps://github.com/sofia-is-a-panda/ISB_2024_G3/tree/main/ISB/Laboratorios/Laboratorio%207), y sin filtrar.
 <table>
     <tr>
         <th>Estado del sujeto</th>
-        <th>Senal</th>
+        <th>Señal</th>
     </tr>
     <tr>
-        <th>REPOSO</th>
-        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/filtro_reposo.png"></td>
+        <th>Reposo</th>
+        <td><img src= "/ISB/Imágenes - Multimedia/Multimedia_Lab9/filtro_reposo.png" ></td>
     </tr>
     <tr>
-        <th>RESPIRACION</th>
-        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/filtro_respiracion.png"></td>
+        <th>Respiración</th>
+        <td><img src= "/ISB/Imágenes - Multimedia/Multimedia_Lab9/filtro_respiracion.png"></td>
     </tr>
     <tr>
-        <th>EJERCICIO</th>
-        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/filtro_ejercicio.png"></td>
+        <th>Ejercicio</th>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/filtro_ejercicio.png"></td>
     </tr>
 
 </table>
 
 ## HRV - Heart Rate Variability
 
-
-### UBICACION DE PICO R-R
+### Ubicación de Picos R
 
 <table>
     <tr>
         <th>Estado del sujeto</th>
-        <th>Estado de la senal</th>
-        <th>Ploteo de la senal</th>
+        <th>Estado de la señal</th>
+        <th>Ploteo de la señal</th>
     </tr>
     <tr>
-        <td rowspan="2">REPOSO</td>
-        <td>SIN FILTRAR</td>
-        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/picos_nofilter_reposo.png"></td>
+        <td rowspan="2">Reposo</td>
+        <td>Sin Filtrar</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_nofilter_reposo.png"></td>
     </tr>
     <tr>
-        <td>FILTRADA</td>
-        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/picos_filter_reposo.png"></td>
+        <td>Filtrada</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_filter_reposo.png"></td>
     </tr>
     <tr>
-        <td rowspan="2">RESPIRACION</td>
-        <td>SIN FILTRAR</td>
-        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/picos_nofilter_respiracion.png"></td>
+        <td rowspan="2">Respiración</td>
+        <td>Sin Filtrar</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_nofilter_respiracion.png"></td>
     </tr>
     <tr>
-        <td>FILTRADA</td>
-        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/picos_filter_respiracion.png"></td>
+        <td>Filtrada</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/filtro_respiracion.png"></td>
     </tr>
     <tr>
-        <td rowspan="2">EJERCICIO</td>
-        <td>SIN FILTRAR</td>
-         <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/picos_nofilter_ejercicio.png"></td>       
+        <td rowspan="2">Ejercicio</td>
+        <td>Sin Filtrar</td>
+         <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_nofilter_ejercicio.png"></td>       
     </tr>
     <tr>
-        <td>FILTRADA</td>
-        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/d894851771a7567fd40d6ceb55f7eb9100b73bcf/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/picos_filter_ejercicio.png"></td>
+        <td>Filtrada</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_filter_ejercicio.png"></td>
     </tr>
 </table>
 
-### COMPARACION DE LAS DIFERENCIAS ENTRE PICOS R
+### Comparación de la Diferencia Entre Picos R
 
 <div align="center">
-    <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/749bac511724ddc1c06244b4be181948bb9360b7/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab9/picos_R_diff.png">
-    <div>Figura 1. Grafico de diferencia entre picos R</div>
+    <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_R_diff.png">
+    <div>Figura 1. Gráfico de diferencia entre picos R</div>
 </div>
 
-### VALORES DE RMSSD
+### Valores de RMSSD
 
 <table>
     <tr>
-        <th>ESTADO DEL SUJETO</th>
-        <th>VALOR DE RMSSD</th>
+        <th>Estado</th>
+        <th>Valor de RMSSD</th>
     </tr>
     <tr>
-        <th>REPOSO</th>
+        <th>Reposo</th>
         <td>48.42</td> 
     </tr>
     <tr>
-        <th>RESPIRACION</th>
+        <th>Respiración</th>
         <td>30.65</td>
     </tr>
     <tr>
-        <th>EJERCICIO</th>
+        <th>Ejercicio</th>
         <td>13.79</td>
     </tr>
 </table>
