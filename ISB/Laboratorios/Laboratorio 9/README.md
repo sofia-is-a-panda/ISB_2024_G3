@@ -22,13 +22,13 @@ El análisis de la variabilidad de la frecuencia cardíaca (HRV por sus en ingl�
 
 <div align="center">
     <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/HRV_Characteristics.png">
-    <div>Figura 2. Parámetros estadísticos de la variabilidad de la frecuencia cardíaca en el dominio del tiempo [7]</div>
+    <div>Figura 2. Parámetros estadísticos de la variabilidad de la frecuencia cardíaca en el dominio del tiempo. [7]</div>
 </div>
 <br>
 
 <div align="center">
     <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/rMSSD.png">
-    <div>Figura 3. Cálculo del rMSSD [9]</div>
+    <div>Figura 3. Cálculo del rMSSD. [9]</div>
 </div>
 
 ## Objetivos 
@@ -101,7 +101,7 @@ Antes de extraer las características del ECG, se vio conveniente realizar el fi
 
 <div align="center">
     <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_R_diff.png">
-    <div>Figura 2. Gráfico de diferencia entre picos R</div>
+    <div>Figura 4. Gráfico de diferencia entre picos R</div>
 </div>
 
 ### Valores de RMSSD
