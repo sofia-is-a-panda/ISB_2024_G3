@@ -168,7 +168,7 @@ Un dato a considerar es que la cantidad de picos fue menor cuando el sujeto se e
 [8] C. A. Calvert, “Heart Rate Variability,” Veterinary Clinics of North America: Small Animal Practice, vol. 28, no. 6. Elsevier BV, pp. 1409–1427, Nov. 1998. doi: 10.1016/s0195-5616(98)50129-5 <br>
 [9] C. Wang and J. Guo, “A data-driven framework for learners’ cognitive load detection using ECG-PPG physiological feature fusion and XGBoost classification,” Procedia Computer Science, vol. 147. Elsevier BV, pp. 338–348, 2019. doi: 10.1016/j.procs.2019.01.234
 
-[10] M. Gusev, S. Tudjarski and A. Anagelevska, "Sampling Rate Impact on Heart Rate Variability," 2022 30th Telecommunications Forum (TELFOR), Belgrade, Serbia, 2022, pp. 1-4, doi: 10.1109/TELFOR56187.2022.9983696. keywords: {Time-frequency analysis;Databases;Benchmark testing;Telecommunications;Heart rate variability;Time-domain analysis;Standards;ECG;HRV;heart rate variability;sampling rate},
+[10] M. Gusev, S. Tudjarski and A. Anagelevska, "Sampling Rate Impact on Heart Rate Variability," 2022 30th Telecommunications Forum (TELFOR), Belgrade, Serbia, 2022, pp. 1-4, doi: 10.1109/TELFOR56187.2022.9983696. 
 
-[11]R. Aishwarya, S. P. Preejith and M. Sivaprakasam, "Normative Values of Heart Rate Variability During Sleep in Indian Population," 2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Jeju, Korea, Republic of, 2023, pp. 1-5, doi: 10.1109/MeMeA57477.2023.10171932. keywords: {Sociology;Electrocardiography;Watches;Time measurement;Heart rate variability;Statistics;Time-domain analysis;Heart Rate Variability;Time-domain;Heart Rate Monitor;Wearable},
+[11]R. Aishwarya, S. P. Preejith and M. Sivaprakasam, "Normative Values of Heart Rate Variability During Sleep in Indian Population," 2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Jeju, Korea, Republic of, 2023, pp. 1-5, doi: 10.1109/MeMeA57477.2023.10171932. 
 
