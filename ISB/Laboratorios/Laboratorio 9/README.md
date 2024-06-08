@@ -60,6 +60,7 @@ Antes de extraer las características del ECG, se vio conveniente realizar el fi
 
 ## HRV - Heart Rate Variability
 
+A continuacion, se muestran los resultados obtenido luego de realizar la extraccion de los parametros que caraacterizan el HRV. El codigo utilizado para ello lo puede ecnontrar [aqui]()
 ### Ubicación de Picos R
 
 <table>
@@ -128,11 +129,10 @@ Antes de extraer las características del ECG, se vio conveniente realizar el fi
 
 ## Discusión
 
-### DIFERENCIA ENTRE PICOS R
+### VARIACION DE LA DURACION DEL INTERVALO RR
+De acuerdo a la Figura 1, podemos decir que los valores de diferencia entre picos R varían más cuando el sujeto se encontraba en reposo y respiración, mientras que cuando se encontraba realizando ejercicio, habia menos variacion entre los intervalos RR. El hecho de que haya mayor variacion de los intervalos RR, nos indica tambien un aumento de la Variabilidad de la Frecuencia Cardiaca y viceversa, es decir, que una menor variacion de la longitud del intervalos RR, una menor Variabilidad de Frecuencia Cardiaca. [10]
 
-De acuerdo a la Figura 1, podemos decir que los valores de diferencia entre picos R varían más cuando el sujeto se encontraba en reposo y respiración, mientras que cuando se encontraba realizando ejercicio, el valor de diferencia entre picos R era más constante que en los otros 2 casos. Asimismo, podemos observar que el valor de la diferencia entre picos R es menor cuando se encuentra realizando ejercicio.  Esto se debe a que durante el ejercicio la frecuencia cardíaca aumenta, y por ello la la distancia entre picos R disminuye. [10]
-
-VALOR DEL INTERVALO R-R
+### VALOR DEL INTERVALO R-R
 
 En cuanto al intervalo R-R, en la Figura 1. también podemos observar lo siguiente:
 
@@ -140,7 +140,7 @@ En cuanto al intervalo R-R, en la Figura 1. también podemos observar lo siguien
 * En respiración: De 800 milisegundos a 700 milisegundos aproximadamente.
 * En ejercicio: Entre 450 a 575 milisegundos.
 
-De acuerdo a ello vemos que el valor del intervalo R-R es menor cuando el sujeto se encontraba en ejercicio. Esto tiene sentido ya que el ritmo cardíaco aumenta cuando se realiza actividad física, es por ello que la duración del intervalo R-R es menor, ya que el tiempo entre latido disminuye.
+De acuerdo a ello vemos que el valor del intervalo R-R es menor cuando el sujeto se encontraba en ejercicio. Esto tiene sentido ya que el ritmo cardíaco aumenta cuando se realiza actividad física, es por ello que la duración del intervalo R-R es menor, ya que el tiempo entre latido disminuye.[10]
 
 Los valores de reposo y respiración están en rangos de valores similares, y son mayores a los valores registrados cuando el sujeto se encontraba realizando ejercicio, dando a entender que el ritmo cardiaco disminuye cuando se está en reposo o respiracion.
 
@@ -151,6 +151,9 @@ En cuanto a los valores de RMSSD que pudimos obtener, podemos observar que este 
 Este valor es uno de los parámetros que son considerados al momento de querer evaluar la Variabilidad de Frecuencia Cardiaca. Este valor suele ser mayor cuando la longitud del intervalo R-R varía más, y es menor cuando la longitud de este intervalo se mantiene de forma casi constante.
 
 Es por ello que el valor es mayor cuando el sujeto se encontraba en reposo, ya que como pudimos observar en la Figura 1, la longitud del intervalo RR variaba más, en comparación a los otros 2 casos. De forma análoga, la señal obtenida cuando el sujeto realizaba ejercicio proporcionaba un valor de RMSSD bastante menor, ya que la longitud del intervalo R-R era casi constante.
+
+En resumen, el HRV (Variabilidad de la Frecuencia Cardiaca) era mayor cuando el sujeto estaba en respiracion y reposo, y menor cuando se encontraba haciendo ejercicio.
+De acuerdo a lo mencionado en "Normative Values of Heart Rate Variability During Sleep in Indian Population"[11], el HRV refleja la actividad conjunta de las 2 partes del Sistema Nervioso Autonomo, el Sistema Nervioso Simpatico y el Sistema Nervioso Parasimpatico. Se menciona tambien que el incremento de la frecuencia cardiaca es una de las respuestas del cuerpo humano ante situaciones de estres o esfuerzo, siendo esta tambien una causa de la disminucion del HRV. Por otra parte, se pone tambien de ejemplo al cuerpo humano en un estado de reposo, donde predomina el Sistema Nervioso Parasimpatico, lo que genera el aumento del HRV.
 
 Un dato a considerar es que la cantidad de picos fue menor cuando el sujeto se encontraba en ejercicio, por lo que hubo un mayor número de muestra utilizados para calcular el RMSSD a diferencia de los 2 casos anteriores.
 
@@ -166,3 +169,5 @@ Un dato a considerar es que la cantidad de picos fue menor cuando el sujeto se e
 [9] C. Wang and J. Guo, “A data-driven framework for learners’ cognitive load detection using ECG-PPG physiological feature fusion and XGBoost classification,” Procedia Computer Science, vol. 147. Elsevier BV, pp. 338–348, 2019. doi: 10.1016/j.procs.2019.01.234
 
 [10] M. Gusev, S. Tudjarski and A. Anagelevska, "Sampling Rate Impact on Heart Rate Variability," 2022 30th Telecommunications Forum (TELFOR), Belgrade, Serbia, 2022, pp. 1-4, doi: 10.1109/TELFOR56187.2022.9983696. keywords: {Time-frequency analysis;Databases;Benchmark testing;Telecommunications;Heart rate variability;Time-domain analysis;Standards;ECG;HRV;heart rate variability;sampling rate},
+[11]R. Aishwarya, S. P. Preejith and M. Sivaprakasam, "Normative Values of Heart Rate Variability During Sleep in Indian Population," 2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Jeju, Korea, Republic of, 2023, pp. 1-5, doi: 10.1109/MeMeA57477.2023.10171932. keywords: {Sociology;Electrocardiography;Watches;Time measurement;Heart rate variability;Statistics;Time-domain analysis;Heart Rate Variability;Time-domain;Heart Rate Monitor;Wearable},
+
