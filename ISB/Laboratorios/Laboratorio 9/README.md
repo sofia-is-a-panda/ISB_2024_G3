@@ -32,7 +32,7 @@ El análisis de la variabilidad de la frecuencia cardíaca (HRV por sus en ingl�
 </div>
 
 ## Objetivos 
-* Ubicar los picos R de los electrocardiogramas obtenidos previamente utilizando la librería [scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html)de Python.
+* Ubicar los picos R de los electrocardiogramas obtenidos previamente utilizando la librería [scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html) de Python.
 * Realizar el cálculo del rMSSD a partir de los picos R obtenidos.
 * Discutir los resultados obtenidos.
 ## Filtrado
@@ -129,12 +129,12 @@ Antes de extraer las características del ECG, se vio conveniente realizar el fi
 ## Discusión
 
 ## Bibliografía
-[1] Bhyri C, Hamde ST, Waghmare LM. ECG feature extraction and disease diagnosis. J Med Eng Technol. 2011 Aug-Oct;35(6-7):354-61. doi: 10.3109/03091902.2011.595530. 
-[2] I. Patel, A. Sandhya, V. S. Raja, and S. Saravanan, “Extraction of Features from ECG Signal,” International Journal of Current Research and Review, vol. 13, no. 08. Radiance Research Academy, pp. 103–109, 2021. doi: 10.31782/ijcrr.2021.13806.
-[3] B. Lenka, "Time-frequency analysis of non-stationary electrocardiogram signals using Hilbert-Huang Transform," 2015 International Conference on Communications and Signal Processing (ICCSP), Melmaruvathur, India, 2015, pp. 1156-1159, doi: 10.1109/ICCSP.2015.7322686
-[4] Singh, A.K., Krishnan, S. ECG signal feature extraction trends in methods and applications. BioMed Eng OnLine 22, 22 (2023). doi: https://doi.org/10.1186/s12938-023-01075-1
-[5] J. D. Peshave and R. Shastri, "Feature extraction of ECG signal," 2014 International Conference on Communication and Signal Processing, Melmaruvathur, India, 2014, pp. 1864-1868, doi: 10.1109/ICCSP.2014.6950168
-[6] Yun, Donghwan, et al. “Robust R-Peak Detection in an Electrocardiogram with Stationary Wavelet Transformation and Separable Convolution.” Scientific Reports, vol. 12, no. 1, 16 Nov. 2022, p. 19638, www.nature.com/articles/s41598-022-19495-9#Sec16, https://doi.org/10.1038/s41598-022-19495-9.
-[7] Pham T, Lau ZJ, Chen SHA, Makowski D. Heart Rate Variability in Psychology: A Review of HRV Indices and an Analysis Tutorial. Sensors (Basel). 2021 Jun 9;21(12):3998. doi: 10.3390/s21123998
-[8] C. A. Calvert, “Heart Rate Variability,” Veterinary Clinics of North America: Small Animal Practice, vol. 28, no. 6. Elsevier BV, pp. 1409–1427, Nov. 1998. doi: 10.1016/s0195-5616(98)50129-5
+[1] Bhyri C, Hamde ST, Waghmare LM. ECG feature extraction and disease diagnosis. J Med Eng Technol. 2011 Aug-Oct;35(6-7):354-61. doi: 10.3109/03091902.2011.595530. <br> 
+[2] I. Patel, A. Sandhya, V. S. Raja, and S. Saravanan, “Extraction of Features from ECG Signal,” International Journal of Current Research and Review, vol. 13, no. 08. Radiance Research Academy, pp. 103–109, 2021. doi: 10.31782/ijcrr.2021.13806. <br>
+[3] B. Lenka, "Time-frequency analysis of non-stationary electrocardiogram signals using Hilbert-Huang Transform," 2015 International Conference on Communications and Signal Processing (ICCSP), Melmaruvathur, India, 2015, pp. 1156-1159, doi: 10.1109/ICCSP.2015.7322686 <br>
+[4] Singh, A.K., Krishnan, S. ECG signal feature extraction trends in methods and applications. BioMed Eng OnLine 22, 22 (2023). doi: https://doi.org/10.1186/s12938-023-01075-1 <br>
+[5] J. D. Peshave and R. Shastri, "Feature extraction of ECG signal," 2014 International Conference on Communication and Signal Processing, Melmaruvathur, India, 2014, pp. 1864-1868, doi: 10.1109/ICCSP.2014.6950168 <br>
+[6] Yun, Donghwan, et al. “Robust R-Peak Detection in an Electrocardiogram with Stationary Wavelet Transformation and Separable Convolution.” Scientific Reports, vol. 12, no. 1, 16 Nov. 2022, p. 19638, www.nature.com/articles/s41598-022-19495-9#Sec16, https://doi.org/10.1038/s41598-022-19495-9. <br>
+[7] Pham T, Lau ZJ, Chen SHA, Makowski D. Heart Rate Variability in Psychology: A Review of HRV Indices and an Analysis Tutorial. Sensors (Basel). 2021 Jun 9;21(12):3998. doi: 10.3390/s21123998 <br>
+[8] C. A. Calvert, “Heart Rate Variability,” Veterinary Clinics of North America: Small Animal Practice, vol. 28, no. 6. Elsevier BV, pp. 1409–1427, Nov. 1998. doi: 10.1016/s0195-5616(98)50129-5 <br>
 [9] C. Wang and J. Guo, “A data-driven framework for learners’ cognitive load detection using ECG-PPG physiological feature fusion and XGBoost classification,” Procedia Computer Science, vol. 147. Elsevier BV, pp. 338–348, 2019. doi: 10.1016/j.procs.2019.01.234
