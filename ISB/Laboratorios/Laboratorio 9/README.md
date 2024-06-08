@@ -60,7 +60,7 @@ Antes de extraer las características del ECG, se vio conveniente realizar el fi
 
 ## HRV - Heart Rate Variability
 
-A continuacion, se muestran los resultados obtenido luego de realizar la extraccion de los parametros que caraacterizan el HRV. El codigo utilizado para ello lo puede ecnontrar [aqui]()
+A continuacion, se muestran los resultados obtenido luego de realizar la extraccion de los parametros que caraacterizan el HRV. El codigo utilizado para ello lo puede ecnontrar [aqui](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/5b81ecc35d245ff29e78e1bbf10b284eb15236d1/ISB/Laboratorios/Laboratorio%209/PROCESAMIENTO_ECG.ipynb)
 ### Ubicación de Picos R
 
 <table>
