@@ -84,7 +84,7 @@ Antes de extraer las características del ECG, se vio conveniente realizar el fi
     </tr>
     <tr>
         <td>Filtrada</td>
-        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/filtro_respiracion.png"></td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_filter_respiracion.png"></td>
     </tr>
     <tr>
         <td rowspan="2">Ejercicio</td>
@@ -128,6 +128,32 @@ Antes de extraer las características del ECG, se vio conveniente realizar el fi
 
 ## Discusión
 
+### DIFERENCIA ENTRE PICOS R
+
+De acuerdo a la Figura 1, podemos decir que los valores de diferencia entre picos R varían más cuando el sujeto se encontraba en reposo y respiración, mientras que cuando se encontraba realizando ejercicio, el valor de diferencia entre picos R era más constante que en los otros 2 casos. Asimismo, podemos observar que el valor de la diferencia entre picos R es menor cuando se encuentra realizando ejercicio.  Esto se debe a que durante el ejercicio la frecuencia cardíaca aumenta, y por ello la la distancia entre picos R disminuye. [10]
+
+VALOR DEL INTERVALO R-R
+
+En cuanto al intervalo R-R, en la Figura 1. también podemos observar lo siguiente:
+
+* En reposo: Los valores van desde los 700 ms a los 840 ms aproximadamente. 
+* En respiración: De 800 milisegundos a 700 milisegundos aproximadamente.
+* En ejercicio: Entre 450 a 575 milisegundos.
+
+De acuerdo a ello vemos que el valor del intervalo R-R es menor cuando el sujeto se encontraba en ejercicio. Esto tiene sentido ya que el ritmo cardíaco aumenta cuando se realiza actividad física, es por ello que la duración del intervalo R-R es menor, ya que el tiempo entre latido disminuye.
+
+Los valores de reposo y respiración están en rangos de valores similares, y son mayores a los valores registrados cuando el sujeto se encontraba realizando ejercicio, dando a entender que el ritmo cardiaco disminuye cuando se está en reposo o respiracion.
+
+### VALOR DE RMSSD
+
+En cuanto a los valores de RMSSD que pudimos obtener, podemos observar que este es más grande cuando el sujeto está en reposo, y es menor cuando está realizando ejercicio. 
+
+Este valor es uno de los parámetros que son considerados al momento de querer evaluar la Variabilidad de Frecuencia Cardiaca. Este valor suele ser mayor cuando la longitud del intervalo R-R varía más, y es menor cuando la longitud de este intervalo se mantiene de forma casi constante.
+
+Es por ello que el valor es mayor cuando el sujeto se encontraba en reposo, ya que como pudimos observar en la Figura 1, la longitud del intervalo RR variaba más, en comparación a los otros 2 casos. De forma análoga, la señal obtenida cuando el sujeto realizaba ejercicio proporcionaba un valor de RMSSD bastante menor, ya que la longitud del intervalo R-R era casi constante.
+
+Un dato a considerar es que la cantidad de picos fue menor cuando el sujeto se encontraba en ejercicio, por lo que hubo un mayor número de muestra utilizados para calcular el RMSSD a diferencia de los 2 casos anteriores.
+
 ## Bibliografía
 [1] Bhyri C, Hamde ST, Waghmare LM. ECG feature extraction and disease diagnosis. J Med Eng Technol. 2011 Aug-Oct;35(6-7):354-61. doi: 10.3109/03091902.2011.595530. <br> 
 [2] I. Patel, A. Sandhya, V. S. Raja, and S. Saravanan, “Extraction of Features from ECG Signal,” International Journal of Current Research and Review, vol. 13, no. 08. Radiance Research Academy, pp. 103–109, 2021. doi: 10.31782/ijcrr.2021.13806. <br>
@@ -138,3 +164,5 @@ Antes de extraer las características del ECG, se vio conveniente realizar el fi
 [7] Pham T, Lau ZJ, Chen SHA, Makowski D. Heart Rate Variability in Psychology: A Review of HRV Indices and an Analysis Tutorial. Sensors (Basel). 2021 Jun 9;21(12):3998. doi: 10.3390/s21123998 <br>
 [8] C. A. Calvert, “Heart Rate Variability,” Veterinary Clinics of North America: Small Animal Practice, vol. 28, no. 6. Elsevier BV, pp. 1409–1427, Nov. 1998. doi: 10.1016/s0195-5616(98)50129-5 <br>
 [9] C. Wang and J. Guo, “A data-driven framework for learners’ cognitive load detection using ECG-PPG physiological feature fusion and XGBoost classification,” Procedia Computer Science, vol. 147. Elsevier BV, pp. 338–348, 2019. doi: 10.1016/j.procs.2019.01.234
+
+[10] M. Gusev, S. Tudjarski and A. Anagelevska, "Sampling Rate Impact on Heart Rate Variability," 2022 30th Telecommunications Forum (TELFOR), Belgrade, Serbia, 2022, pp. 1-4, doi: 10.1109/TELFOR56187.2022.9983696. keywords: {Time-frequency analysis;Databases;Benchmark testing;Telecommunications;Heart rate variability;Time-domain analysis;Standards;ECG;HRV;heart rate variability;sampling rate},
