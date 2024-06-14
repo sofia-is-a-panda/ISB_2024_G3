@@ -11,6 +11,8 @@
 
 ## Objetivos
 
+* Extraer características de señales EEG
+
 ## Base de datos escogida
 
 La señales que se emplearon fueron obtenidas de la siguiente base de datos ["Auditory evoked potential EEG-Biometric dataset"](https://physionet.org/content/auditory-eeg/1.0.0/#files-panel) la cual es el libre acceso via Physionet. 
