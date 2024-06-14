@@ -13,6 +13,8 @@
 
 ## Filtrado
 
+La señal que se utilizó fue obtenida de la siguiente base de datos [EEG During Mental Arithmetic Tasks](https://physionet.org/content/eegmat/1.0.0/)
+
 ## Discusión
 
 ## Bibliografía
