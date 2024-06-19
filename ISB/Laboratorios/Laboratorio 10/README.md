@@ -39,9 +39,6 @@ Para el filtrado de la señal, se hizo uso de un filtropasabanda con una frecuen
 
 Una vez realizado el filtrado, obtuvimos ambas gráficas, tanto para el sujeto que escuchaba música nativa, como aquel que escuchaba música no nativa.
 
-
-
-<div><img "src"=></div>
 <table>
     <tr>
         <th>Experimento</th>
@@ -117,7 +114,17 @@ Para la extracción de características, utilizamos una DWT para este propósito
 * Entropía
 * LBP (Local Binary Pattern)
 
-Primero, mostramos las caracterististicas de EEG del sujeto que fue sometido el experimento 5 (escuchar música en idioma nativo).
+
+Utilizando el DWT para realizar un ICA (Independent Component Anlysis),obtuvimos los siguientes niveles de descomposición, cuyas gráficas mostramos a continuación.
+
+
+<div align="center"><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/feature_native.png"></div>
+
+
+
+<div align="center"><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/feature_nonative.png"></div>
+
+Asimismo, mostramos también las caracterististicas de EEG del sujeto que fue sometido el experimento 5 (escuchar música en idioma nativo).
 <table>
     <tr>    
         <th>Fuente de la señal/Característica</th>
@@ -160,7 +167,7 @@ Primero, mostramos las caracterististicas de EEG del sujeto que fue sometido el 
 </table>
 
 
-Además, también se muestran las características de EEG de la señal de aquel sujeto realizando el experimento 6 (eschuchar música no nativa) 
+Además, también se muestran las características de EEG de la señal de aquel sujeto realizando el experimento 6 (escuchar música no nativa) 
 
 <table>
     <tr>    
