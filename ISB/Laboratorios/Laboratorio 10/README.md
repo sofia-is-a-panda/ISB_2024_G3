@@ -31,7 +31,48 @@ Consiste de 240 señales de EEG de dos minutos de duración que fueron obtenidas
 
 Dado que se tiene la información para los 10 experimentos para cada persona, resultó de interés el analizar la actividad cerebral en las actividades 5 (escuchar canción en idioma nativo) y 6 (escuchar canción en idioma no nativo)
 
-Adicionalmente, se presenta información para cuatro canales, la frecuencia de muestreo fue de 200Hz
+Adicionalmente, se presenta información para cuatro canales, la frecuencia de muestreo fue de 200Hz.
+
+## Filtrado de la Señal
+
+Para el filtrado de la señal, se hizo uso de un filtropasabanda con una frecuencia inferior de 0.48 Hz y una frecuencia superior de 30 Hz.
+
+Una vez realizado el filtrado, obtuvimos ambas gráficas, tanto para el sujeto que escuchaba música nativa, como aquel que escuchaba música no nativa.
+
+<table>
+    <tr>
+        <th>Experimento</th>
+        <th>Estado de la señal</th>
+        <th>Ploteo de la señal</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Escuchando música nativa</td>
+        <td>Sin Filtrar</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_nofilter_reposo.png"></td>
+    </tr>
+    <tr>
+        <td>Filtrada</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_filter_reposo.png"></td>
+    </tr>
+    <tr>
+        <td rowspan="2">Escuchando música no nativa</td>
+        <td>Sin Filtrar</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_nofilter_respiracion.png"></td>
+    </tr>
+    <tr>
+        <td>Filtrada</td>
+        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_filter_respiracion.png"></td>
+    </tr>
+
+</table>
+
+## Extracción de Características
+
+Para la extracción de las características, se hizo uso de un filtro Wavelet (db4).
+
+
+
+
 
 ## Discusión
 
