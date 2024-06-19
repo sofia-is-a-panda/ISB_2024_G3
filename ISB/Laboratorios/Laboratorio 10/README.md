@@ -212,6 +212,9 @@ Además, también se muestran las características de EEG de la señal de aquel 
 
 ## Discusión
 
+En los espectros de magnitud de las señales no filtradas, lo que más resalta es la presencia de un pico alrededor de una frecuencia aproximada de 50 Hz. Esto es posible que se deba al PNS (Power Noise Signal). Este tipo de ruidos son generados por la red eléctrica, cuyas frecuencias suelen ser de 50 Hz o 60 Hz dependiendo de la zona donde se encuentre. Dado que las señales fueron adquiridas en la Marche Polytechnic University (UNIVPM), la red eléctrica suele presentar una frecuencia de 50 Hz, coincidiendo con lo observado en la gráfica de espectros de magnitud.
+En la primera parte aplicamos un filtro pasabanda que tenía una frecuencia de corte que iba entre 0.48 y 30 Hz, con el objetivo de reducir frecuencias altas, incluyendo también el ruido anteriormente mencionado.
+
 ## Bibliografía
 [1]
 [2]
