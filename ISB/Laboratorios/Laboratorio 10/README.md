@@ -80,21 +80,34 @@ Se hizo uso de la libreria MNE. A continuacion, mostraremos los resultados obten
     </tr>
     <tr>
         <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/7920f361dc2203e83862d9d6f765181675df29ca/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica_1.png"></td>
-        <td><img src=""></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica0_nonative.png"></td>
     </tr>
     <tr>
         <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/7920f361dc2203e83862d9d6f765181675df29ca/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica_2.png"></td>
-        <td><img src=""></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica1_nonative.png"></td>
     </tr>
     <tr>
         <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/7920f361dc2203e83862d9d6f765181675df29ca/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica_3.png"></td>
-        <td><img src=""></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica2_nonative.png"></td>
     </tr>
     <tr>
         <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/7920f361dc2203e83862d9d6f765181675df29ca/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica_4.png"></td>
-        <td><img src=""></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica3_nonative.png"></td>
     </tr>
 </table>
+
+Luego de ello, se obtuvo la puntuacion del ICA.
+<table>
+    <tr>
+        <th>ICA Score (Musica en idioma nativo)</th>
+        <th>ICA Score (Musica en idioma no nativo)</th>
+    </tr>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica_score_native.png"></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/ica_score_nonative.png"></td>
+    <tr>
+    </tr>
+</table>
+
 ## Extracción de Características
 
 Para la extracción de características, utilizamos una DWT para este propósito, tomando como base el procedimiento realizado en el artículo "". Las características que se analizaron en el mismo incluyen: 
