@@ -48,20 +48,20 @@ Una vez realizado el filtrado, obtuvimos ambas gráficas, tanto para el sujeto q
     <tr>
         <td rowspan="2">Escuchando música nativa</td>
         <td>Sin Filtrar</td>
-        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_nofilter_reposo.png"></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/efd794555b1c1362e8d6620d94d44e1c296a8248/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/espectro_nofiltro.png"></td>
     </tr>
     <tr>
         <td>Filtrada</td>
-        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_filter_reposo.png"></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/efd794555b1c1362e8d6620d94d44e1c296a8248/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/espectro_filtrado.png"></td>
     </tr>
     <tr>
         <td rowspan="2">Escuchando música no nativa</td>
         <td>Sin Filtrar</td>
-        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_nofilter_respiracion.png"></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/efd794555b1c1362e8d6620d94d44e1c296a8248/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/nofilter_nonative.png"></td>
     </tr>
     <tr>
         <td>Filtrada</td>
-        <td><img src="/ISB/Imágenes - Multimedia/Multimedia_Lab9/picos_filter_respiracion.png"></td>
+        <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/efd794555b1c1362e8d6620d94d44e1c296a8248/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/filter_nonative.png"></td>
     </tr>
 
 </table>
