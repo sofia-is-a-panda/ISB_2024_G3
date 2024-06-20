@@ -107,7 +107,9 @@ Luego de ello, se obtuvo la puntuacion del ICA.
 
 ## Extracción de Características
 
-Para la extracción de características, utilizamos una DWT para este propósito, tomando como base el procedimiento realizado en el artículo "". Las características que se analizaron en el mismo incluyen: 
+Para la extracción de características, utilizamos una DWT para este propósito, tomando como base el procedimiento realizado en el artículo "EEG Signal Analysis for Diagnosing Neurological
+Disorders Using Discrete Wavelet Transform and
+Intelligent Techniques". Las características que se analizaron en el mismo incluyen: 
 * Varianza
 * SD (Desviacion Estandar)
 * Kurtosis
@@ -117,10 +119,15 @@ Para la extracción de características, utilizamos una DWT para este propósito
 
 Utilizando el DWT para realizar un ICA (Independent Component Anlysis),obtuvimos los siguientes niveles de descomposición, cuyas gráficas mostramos a continuación.
 
+En este caso, se observa los coeficientes de aproximación A4, y los coeficientes de detalle D1,D2,D3 y D4. Estos coeficientes nos dan información de la señal en distintos rangos de frecuencia[], los cuales son explicados a continuación:
+
+* A4: 0.1 Hz a 4 Hz 
+* D1: 30 Hz a 60 Hz
+* D2: 15 Hz a 30 Hz
+* D3: 8 Hz a 15 Hz
+* D4: 4 Hz a 8 Hz
 
 <div align="center"><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/feature_native.png"></div>
-
-
 
 <div align="center"><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/feature_nonative.png"></div>
 
@@ -215,7 +222,16 @@ Además, también se muestran las características de EEG de la señal de aquel 
 En los espectros de magnitud de las señales no filtradas, lo que más resalta es la presencia de un pico alrededor de una frecuencia aproximada de 50 Hz. Esto es posible que se deba al PNS (Power Noise Signal). Este tipo de ruidos son generados por la red eléctrica, cuyas frecuencias suelen ser de 50 Hz o 60 Hz dependiendo de la zona donde se encuentre. Dado que las señales fueron adquiridas en la Marche Polytechnic University (UNIVPM), la red eléctrica suele presentar una frecuencia de 50 Hz, coincidiendo con lo observado en la gráfica de espectros de magnitud.
 En la primera parte aplicamos un filtro pasabanda que tenía una frecuencia de corte que iba entre 0.48 y 30 Hz, con el objetivo de reducir frecuencias altas, incluyendo también el ruido anteriormente mencionado.
 
+Asimismo, analizando el ICA component score en la tabla, observamos que estos valores son muy pequeños, razón por la cual decidimos no eliminar coeficientes de ninguno de los canales.
+
+Asimismo, 
+En cuanto a las caracteristicas que podemos observar, vemos que la entropía de la señal varía discretamente en la mayoría de canales, excepto en el canal 1, donde la entropía es mayor el sujeto que escuchaba 
 ## Bibliografía
-[1]
-[2]
-[3]
+
+
+[] R. Kher and R. Gandhi, "Adaptive filtering based artifact removal from electroencephalogram (EEG) signals," 2016 International Conference on Communication and Signal Processing (ICCSP), Melmaruvathur, India, 2016, pp. 0561-0564, doi: 10.1109/ICCSP.2016.7754202. 
+
+
+[] Alturki, Fahd A.; AlSharabi, Khalil; Abdurraqeeb, Akram M.; Aljalal, Majid (2020). EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques. Sensors, 20(9), 2505–. doi:10.3390/s20092505 
+
+[]
