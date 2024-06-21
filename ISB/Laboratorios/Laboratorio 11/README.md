@@ -16,7 +16,21 @@
 
 1. Ashley Estefania Bravo Bravo
 
+<table>
+<tr>
+<th></th>
+<th>EMG</th>
+<th>ECG</th>
+<th>EEG</th>
+</tr>
+<tr>
+<td>Enlace de Edge Impulse</td>
+<td>https://studio.edgeimpulse.com/public/431149/live</td>
+<td>https://studio.edgeimpulse.com/public/431151/live</td>
+<td>https://studio.edgeimpulse.com/public/431152/live</td>
 
+</tr>
+</table>
 
    
 2. Kevin Alexis Palomino Díaz
