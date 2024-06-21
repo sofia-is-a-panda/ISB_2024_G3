@@ -71,7 +71,7 @@ Adicionalmente, se presenta información para cuatro canales con una frecuencia 
 
 ## Filtrado de la Señal
 Para el preprocesamiento de la señal, see hizo uso de la librería MNE-Python.
-Para el filtrado de la señal, se hizo uso de un filtropasabanda con una frecuencia inferior de 0.48 Hz y una frecuencia superior de 30 Hz.
+Para el filtrado de la señal, se hizo uso de un filtropasabanda con una frecuencia inferior de 0.48 Hz y una frecuencia superior de 30 Hz, el cual fue utilizado en el trabajo "Adaptive filtering based artifact removal from electroencephalogram (EEG) signals" [9].
 
 Una vez realizado el filtrado, obtuvimos ambas gráficas, tanto para el sujeto que escuchaba música nativa, como aquel que escuchaba música no nativa.
 
@@ -143,7 +143,7 @@ Luego de ello, se obtuvo la puntuacion del ICA.
 
 ## Extracción de Características
 
-Para la extracción de características, utilizamos una DWT para este propósito, tomando como base el procedimiento realizado en el artículo *EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques* [6]. Las características que se tomaron en cuenta en el mismo incluyen: 
+Para la extracción de características, utilizamos una DWT para este propósito, tomando como base el procedimiento realizado en el artículo *EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques* [8]. Las características que se tomaron en cuenta en el mismo incluyen: 
 * Varianza
 * SD (Desviacion Estandar)
 * Kurtosis
@@ -153,7 +153,7 @@ Para la extracción de características, utilizamos una DWT para este propósito
 
 Utilizando el DWT para realizar un ICA (Independent Component Anlysis),obtuvimos los siguientes niveles de descomposición, cuyas gráficas mostramos a continuación.
 
-En este caso, se observa los coeficientes de aproximación A4, y los coeficientes de detalle D1,D2,D3 y D4. Estos coeficientes nos dan información de la señal en distintos rangos de frecuencia [7], los cuales son explicados a continuación:
+En este caso, se observa los coeficientes de aproximación A4, y los coeficientes de detalle D1,D2,D3 y D4. Estos coeficientes nos dan información de la señal en distintos rangos de frecuencia [8], los cuales son explicados a continuación:
 
 * A4: 0.1 Hz a 4 Hz 
 * D1: 30 Hz a 60 Hz
@@ -163,7 +163,11 @@ En este caso, se observa los coeficientes de aproximación A4, y los coeficiente
 
 <div align="center"><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/feature_native.png"></div>
 
+<div align="center">Figura 5. Niveles de descomposición de los coeficientes de la señal del sujeto que escuchaba música nativa </div>
+
 <div align="center"><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/581edef149f6f48341a8a0c8153c8132c8b32efb/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/feature_nonative.png"></div>
+
+<div align="center">Figura 6. Niveles de descomposición de los coeficientes de la señal del sujeto que escuchaba música no nativa  </div>
 
 Asimismo, mostramos también las caracterististicas de EEG del sujeto que fue sometido el experimento 5 (escuchar música en idioma nativo).
 <table>
@@ -272,6 +276,7 @@ Asimismo, en cuanto a las caracteristicas que podemos observar, vemos que la ent
 [4] S. P. Ahlfors and M. S. Hämäläinen, “MEG and EEG: source estimation,” in Handbook of Neural Activity Measurement, R. Brette and A. Destexhe, Eds. Cambridge: Cambridge University Press, 2012, pp. 257–286 <br>
 
 [5] X. Jiang, G.-B. Bian, and Z. Tian, “Removal of Artifacts from EEG Signals: A Review,” Sensors, vol. 19, no. 5. MDPI AG, p. 987, Feb. 26, 2019. doi: 10.3390/s19050987. <br>
+
 [6] A. Kachenoura, L. Albera, and L. Senhadji, “Blind source separation methods applied to synthesized polysomnographic recordings: a comparative study,” 2007 29th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE, Aug. 2007. doi: 10.1109/iembs.2007.4353177. <br>
 
 [7] Puntonet, C.G., Górriz, J.M., Salmerón, M., Hornillo-Mellado, S. (2004). Theoretical Method for Solving BSS-ICA Using SVM. In: Puntonet, C.G., Prieto, A. (eds) Independent Component Analysis and Blind Signal Separation. ICA 2004. Lecture Notes in Computer Science, vol 3195. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-30110-3_33 <br>
