@@ -8,15 +8,39 @@
 * [Bibliografía](#bibliografía)
 
 ## Introducción
+### Preprocesamiento de la señal EEG
+Sabemos que el proceso de adquisición de una señal electroencefalograma consta del posicionamiento de los electrodos, o canales, según sistemas de posicionamiento como el sistema 10-20 establecido internacionalmente o el sistema 10-10 [1]. Ambos sistemas se basan en la posición relativa entre electrodos adyacentes como se puede observar en las imágenes de abajo.
+
+Posterior a la adquisión de los datos a través de los diferentes canales, se obtiene un arreglo (o matriz) de señales no procesadas, cada una de las cuales presenta componentes electroencefalográficos con ciertas contribuciones provenientes de distintas regiones del cerebro [2]. Asimismo, cada sensor también se encuentra expuesto a componentes provenientes de fuentes fisiológicas no relacionadas con la actividad eléctrica cerebral como la actividad eléctrica ocular, cardíaca o muscular [3]. Estas últimas claramente no contienen información pertinente al análisis cerebral, por lo que se consideran como artefactos. Existen varias técnicas utilizadas para la eliminación de estos componentes, tales como métodos regresivos, Transformada Wavelet o métodos de separación ciega de fuentes (BSS por sus siglas en inglés) [3]. Los métodos de este último buscan solucionar el problema de la estimación de cada uno de las fuentes (cerebrales y artefactos), representados como una matriz S, así como también las contribuciones, representados como una matriz A (conocida como matriz de mezcla) y el posible ruido en cada una de las fuentes, representado por una matriz V, solamente a partir de la matriz de señales combinadas, denotada por la letra X suponiendo que la combinación de cada una de las fuentes es lineal [4].
+
+<div align="center">
+    <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab10/BSS_methods.png">
+    <div>Figura 1. Problema de descomposición ciega de fuentes (BSS) representadas por la matriz de fuentes S. [4] </div>
+</div>
+<br>
+
+Dentro los métodos de esta última, se destaca el análisis de componentes independientes (ICA por sus siglas en inglés) el cual supone que las fuentes de la matriz S son estadísticamente independientes y no gaussianas [5]. 
+
+Por otra parte, así como se buscó separar las fuentes de actividad cerebral de los artefactos fisiológicos provenientes de otras fuentes no cerebrales, durante el estudio del electroencefalograma, también se busca localizar espacial y temporalmente cada una de la fuentes cerebrales lo cual se conoce como estimación de fuentes. En general, esto se modela como un problema inverso en el cual se busca reconstruir la distribución espacial de las fuentes eléctricas y/o magnéticas, en el caso del magnetoencefalograma, a partir de la adquisición de estas [2].
+
+<div align="center">
+    <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab10/Source_estimation.png">
+    <div>Figura 2. Proceso o modelo de estimación de la distribución espacial y temporal de fuentes de actividad eléctrica del cerebro. [2] </div>
+</div>
+<br>
+
+La compleja librería de Python enfocada en el preprocesado,procesamiento y análisis de señales electroencefalogramas y magnetoencefalogramas que fue utilizada en este informe, llamada *MNE*, incluye métodos de remoción de artefactos tales como el método ICA o métodos regresivos, además de métodos de estimación de fuentes y otros procesos.
 
 ## Objetivos
-
-* Extraer características de señales EEG
+* Buscar señales de electroencefalogramas de varios canales a partir de base de datos públicas.
+* Realizar un filtrado, en frecuencia, de la señal para obtener el rango de frecuencias, 0.5 a 30 Hz, de las ondas de un electroencefalograma.
+* Eliminar componentes no cerebrales de las señales de electroencefalograma utilizando el método ICA.
+* Realizar la extracción de características más importantes de las señales de electroencefalograma.
 
 ## Base de datos escogida
 
-La señales que se emplearon fueron obtenidas de la siguiente base de datos ["Auditory evoked potential EEG-Biometric dataset"](https://physionet.org/content/auditory-eeg/1.0.0/#files-panel) la cual es el libre acceso via Physionet. 
-Consiste de 240 señales de EEG de dos minutos de duración que fueron obtenidas de 20 voluntarios. La toma de la señal siguió los siguientes pasos:
+La señales que se emplearon fueron obtenidas de la siguiente base de datos ["Auditory evoked potential EEG-Biometric dataset"](https://physionet.org/content/auditory-eeg/1.0.0/#files-panel) la cual es de libre acceso via Physionet. 
+Esta consiste de 240 señales de EEG de dos minutos de duración que fueron obtenidas de 20 voluntarios. La toma de la señal siguió los siguientes pasos:
 
 1. Tres minutos de estado de reposo, con los ojos abiertos durante tres sesiones.
 2. Tres minutos de estado de reposo, con los ojos cerrados durante tres sesiones.
@@ -29,12 +53,12 @@ Consiste de 240 señales de EEG de dos minutos de duración que fueron obtenidas
 9. Tres minutos de escucha de una canción en un idioma no nativo utilizando auriculares de conducción ósea.
 10. Tres minutos de escucha con música neutra utilizando auriculares de conducción ósea.
 
-Dado que se tiene la información para los 10 experimentos para cada persona, resultó de interés el analizar la actividad cerebral en las actividades 5 (escuchar canción en idioma nativo) y 6 (escuchar canción en idioma no nativo)
+Dado que se tiene la información para los 10 experimentos para cada persona, resultó de interés analizar la actividad cerebral en las actividades 5 (escuchar canción en idioma nativo) y 6 (escuchar canción en idioma no nativo)
 
-Adicionalmente, se presenta información para cuatro canales, la frecuencia de muestreo fue de 200Hz.
+Adicionalmente, se presenta información para cuatro canales con una frecuencia de muestreo de 200 Hz.
 
 ## Filtrado de la Señal
-Asimismo, se hizo uso de la librería MNE.
+Para el preprocesamiento de la señal, see hizo uso de la librería MNE-Python.
 Para el filtrado de la señal, se hizo uso de un filtropasabanda con una frecuencia inferior de 0.48 Hz y una frecuencia superior de 30 Hz.
 
 Una vez realizado el filtrado, obtuvimos ambas gráficas, tanto para el sujeto que escuchaba música nativa, como aquel que escuchaba música no nativa.
@@ -107,9 +131,7 @@ Luego de ello, se obtuvo la puntuacion del ICA.
 
 ## Extracción de Características
 
-Para la extracción de características, utilizamos una DWT para este propósito, tomando como base el procedimiento realizado en el artículo "EEG Signal Analysis for Diagnosing Neurological
-Disorders Using Discrete Wavelet Transform and
-Intelligent Techniques". Las características que se analizaron en el mismo incluyen: 
+Para la extracción de características, utilizamos una DWT para este propósito, tomando como base el procedimiento realizado en el artículo *EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques* [6]. Las características que se tomaron en cuenta en el mismo incluyen: 
 * Varianza
 * SD (Desviacion Estandar)
 * Kurtosis
@@ -119,7 +141,7 @@ Intelligent Techniques". Las características que se analizaron en el mismo incl
 
 Utilizando el DWT para realizar un ICA (Independent Component Anlysis),obtuvimos los siguientes niveles de descomposición, cuyas gráficas mostramos a continuación.
 
-En este caso, se observa los coeficientes de aproximación A4, y los coeficientes de detalle D1,D2,D3 y D4. Estos coeficientes nos dan información de la señal en distintos rangos de frecuencia[], los cuales son explicados a continuación:
+En este caso, se observa los coeficientes de aproximación A4, y los coeficientes de detalle D1,D2,D3 y D4. Estos coeficientes nos dan información de la señal en distintos rangos de frecuencia [7], los cuales son explicados a continuación:
 
 * A4: 0.1 Hz a 4 Hz 
 * D1: 30 Hz a 60 Hz
@@ -220,18 +242,21 @@ Además, también se muestran las características de EEG de la señal de aquel 
 ## Discusión
 
 En los espectros de magnitud de las señales no filtradas, lo que más resalta es la presencia de un pico alrededor de una frecuencia aproximada de 50 Hz. Esto es posible que se deba al PNS (Power Noise Signal). Este tipo de ruidos son generados por la red eléctrica, cuyas frecuencias suelen ser de 50 Hz o 60 Hz dependiendo de la zona donde se encuentre. Dado que las señales fueron adquiridas en la Marche Polytechnic University (UNIVPM), la red eléctrica suele presentar una frecuencia de 50 Hz, coincidiendo con lo observado en la gráfica de espectros de magnitud.
+
 En la primera parte aplicamos un filtro pasabanda que tenía una frecuencia de corte que iba entre 0.48 y 30 Hz, con el objetivo de reducir frecuencias altas, incluyendo también el ruido anteriormente mencionado.
 
 Asimismo, analizando el ICA component score en la tabla, observamos que estos valores son muy pequeños, razón por la cual decidimos no eliminar coeficientes de ninguno de los canales.
 
-Asimismo, 
-En cuanto a las caracteristicas que podemos observar, vemos que la entropía de la señal varía discretamente en la mayoría de canales, excepto en el canal 1, donde la entropía es mayor el sujeto que escuchaba 
+Asimismo, en cuanto a las caracteristicas que podemos observar, vemos que la entropía de la señal varía discretamente en la mayoría de canales, excepto en el canal 1, donde la entropía es mayor en el sujeto que escuchaba música.
+
 ## Bibliografía
 
+[1] V. Jurcak, D. Tsuzuki, and I. Dan, “10/20, 10/10, and 10/5 systems revisited: Their validity as relative head-surface-based positioning systems,” NeuroImage, vol. 34, no. 4. Elsevier BV, pp. 1600–1611, Feb. 2007. doi: 10.1016/j.neuroimage.2006.09.024. <br>
+[2] S. P. Ahlfors and M. S. Hämäläinen, “MEG and EEG: source estimation,” in Handbook of Neural Activity Measurement, R. Brette and A. Destexhe, Eds. Cambridge: Cambridge University Press, 2012, pp. 257–286 <br>
+[3] X. Jiang, G.-B. Bian, and Z. Tian, “Removal of Artifacts from EEG Signals: A Review,” Sensors, vol. 19, no. 5. MDPI AG, p. 987, Feb. 26, 2019. doi: 10.3390/s19050987. <br>
+[4] A. Kachenoura, L. Albera, and L. Senhadji, “Blind source separation methods applied to synthesized polysomnographic recordings: a comparative study,” 2007 29th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE, Aug. 2007. doi: 10.1109/iembs.2007.4353177. <br>
+[5] Puntonet, C.G., Górriz, J.M., Salmerón, M., Hornillo-Mellado, S. (2004). Theoretical Method for Solving BSS-ICA Using SVM. In: Puntonet, C.G., Prieto, A. (eds) Independent Component Analysis and Blind Signal Separation. ICA 2004. Lecture Notes in Computer Science, vol 3195. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-30110-3_33 <br>
 
-[] R. Kher and R. Gandhi, "Adaptive filtering based artifact removal from electroencephalogram (EEG) signals," 2016 International Conference on Communication and Signal Processing (ICCSP), Melmaruvathur, India, 2016, pp. 0561-0564, doi: 10.1109/ICCSP.2016.7754202. 
+[6] Alturki, Fahd A.; AlSharabi, Khalil; Abdurraqeeb, Akram M.; Aljalal, Majid (2020). EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques. Sensors, 20(9), 2505–. doi:10.3390/s20092505 <br>
 
-
-[] Alturki, Fahd A.; AlSharabi, Khalil; Abdurraqeeb, Akram M.; Aljalal, Majid (2020). EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques. Sensors, 20(9), 2505–. doi:10.3390/s20092505 
-
-[]
+[7] R. Kher and R. Gandhi, "Adaptive filtering based artifact removal from electroencephalogram (EEG) signals," 2016 International Conference on Communication and Signal Processing (ICCSP), Melmaruvathur, India, 2016, pp. 0561-0564, doi: 10.1109/ICCSP.2016.7754202. 
