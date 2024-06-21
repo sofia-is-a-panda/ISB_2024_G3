@@ -164,7 +164,7 @@ El calculo de estos parametros los hicimos de acuerdo a la siguiente tabla, la c
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/varianza.png"></td>
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/desvi.png"></td>
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/kurtosis.png"></td>
-<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/entropi.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/entropia.png"></td>
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/lbp.png"></td>
 </tr>
 </table>
