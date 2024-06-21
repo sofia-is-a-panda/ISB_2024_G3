@@ -104,7 +104,7 @@ Una vez realizado el filtrado, obtuvimos ambas gráficas, tanto para el sujeto q
 
 ## Analisis de ICA
 
-Se hizo uso de la libreria MNE. A continuacion, mostraremos los resultados obtenidos con la herramienta mencionada anteriormente.
+Para un análisis más detallado de ambas señales EEG, se hizo uso de la libreria [MNE](https://mne.tools/stable/index.html) . A continuacion, mostraremos los resultados obtenidos con la herramienta mencionada anteriormente.
 
 <table>
     <tr>
@@ -261,9 +261,18 @@ En los espectros de magnitud de las señales no filtradas, lo que más resalta e
 
 En la primera parte aplicamos un filtro pasabanda que tenía una frecuencia de corte que iba entre 0.48 y 30 Hz, con el objetivo de reducir frecuencias altas, incluyendo también el ruido anteriormente mencionado.
 
-Asimismo, analizando el ICA component score en la tabla, observamos que estos valores son muy pequeños, razón por la cual decidimos no eliminar coeficientes de ninguno de los canales.
+Por otro lado, analizando el ICA component score, observamos que estos valores eran muy pequeños, lo que indicaba la poca o nula presencia de artefactos en la señal, y por ende, no vimos necesario eliminar los coeficientes de algun nivel de descomposición de la señal.
 
-Asimismo, en cuanto a las caracteristicas que podemos observar, vemos que la entropía de la señal varía discretamente en la mayoría de canales, excepto en el canal 1, donde la entropía es mayor en el sujeto que escuchaba música.
+Para la extracción de características, habíamos empleado una DWT Daubechies 4, como wavelet madre, y los coeficientes que analizamos fueron A4,D1,D2,D3 y D4.
+
+En este caso, el coeficiente A4 abarcaba un rango de frecuencia de 0.1 a 4 Hz, por lo que vendría a representar la banda delta. Asimismo, siguiendo la misma lógica, el coeficiente D4, abarcaba de 4 a 8 Hz (theta), el coeficiente D3, abarcaba de 8 a 15 Hz (alpha), el coeficiente D2, abarcaba de 15 a 30 Hz (beta) y el coeficiente D1, abarcaba de 30 a 60 Hz (gamma).[8]
+
+Asimismo, en cuanto a las caracteristicas que podemos observar, una de las que mas resalta es la entropía de la señal proveniente del Canal 1 en ambos casos, ya que podemos observar que la entropía es mucho mayor en este canal que en los demás.
+
+La Kurtosis está defininda como una medida que representa la cantidad de valores atípicos que pueden haber presentes en una muestra [10], en este caso, la señal de EEG. Con esto en mente, podemos ver que al contrario de lo que pasaba con la entropia, la kurtosis presenta un valor menor en el canal 1 de ambos casos, en comparacion a los demas canales.
+
+
+
 
 ## Bibliografía
 
@@ -284,3 +293,5 @@ Asimismo, en cuanto a las caracteristicas que podemos observar, vemos que la ent
 [8] Alturki, Fahd A.; AlSharabi, Khalil; Abdurraqeeb, Akram M.; Aljalal, Majid (2020). EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques. Sensors, 20(9), 2505–. doi:10.3390/s20092505 <br>
 
 [9] R. Kher and R. Gandhi, "Adaptive filtering based artifact removal from electroencephalogram (EEG) signals," 2016 International Conference on Communication and Signal Processing (ICCSP), Melmaruvathur, India, 2016, pp. 0561-0564, doi: 10.1109/ICCSP.2016.7754202. 
+
+[10] “Resumir: Estadísticos.” Www.ibm.com, www.ibm.com/docs/es/spss-statistics/saas?topic=summarize-statistics.
