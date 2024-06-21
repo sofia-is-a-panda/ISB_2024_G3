@@ -11,6 +11,8 @@
 ### Procesamiento de la señal EEG
 Sabemos que el proceso de adquisición de una señal electroencefalograma consta del posicionamiento de los electrodos, o canales, según sistemas de posicionamiento como el sistema 10-20 establecido internacionalmente o el sistema 10-10 [1]. Ambos sistemas se basan en la posición relativa entre electrodos adyacentes como se puede observar en las imágenes de abajo.
 
+
+
 Posterior a la adquisión de los datos a través de los diferentes canales, se obtiene un arreglo (o matriz) de señales no procesadas, cada una de las cuales presenta componentes electroencefalográficos con ciertas contribuciones provenientes de distintas regiones del cerebro [2]. Asimismo, cada sensor también se encuentra expuesto a componentes provenientes de fuentes fisiológicas no relacionadas con la actividad eléctrica cerebral como la actividad eléctrica ocular, cardíaca o muscular [3]. Estas últimas claramente no contienen información pertinente al análisis cerebral, por lo que se consideran como artefactos. Existen varias técnicas utilizadas para la eliminación de estos componentes, tales como métodos regresivos, Transformada Wavelet o métodos de separación ciega de fuentes (BSS por sus siglas en inglés) [3]. Los métodos de este último buscan solucionar el problema de la estimación de cada uno de las fuentes (cerebrales y artefactos), representados como una matriz S, así como también las contribuciones, representados como una matriz A (conocida como matriz de mezcla) y el posible ruido en cada una de las fuentes, representado por una matriz V, solamente a partir de la matriz de señales combinadas, denotada por la letra X suponiendo que la combinación de cada una de las fuentes es lineal [4].
 
 <div align="center">
@@ -250,13 +252,19 @@ Asimismo, analizando el ICA component score en la tabla, observamos que estos va
 Asimismo, en cuanto a las caracteristicas que podemos observar, vemos que la entropía de la señal varía discretamente en la mayoría de canales, excepto en el canal 1, donde la entropía es mayor en el sujeto que escuchaba música.
 
 ## Bibliografía
+[1] Novo-Olivas, Carlos & Guitiérrez, Leticia & Bribiesca, José. (2010). Mapeo Electroencefalográfico y Neurofeedback. 
 
-[1] V. Jurcak, D. Tsuzuki, and I. Dan, “10/20, 10/10, and 10/5 systems revisited: Their validity as relative head-surface-based positioning systems,” NeuroImage, vol. 34, no. 4. Elsevier BV, pp. 1600–1611, Feb. 2007. doi: 10.1016/j.neuroimage.2006.09.024. <br>
-[2] S. P. Ahlfors and M. S. Hämäläinen, “MEG and EEG: source estimation,” in Handbook of Neural Activity Measurement, R. Brette and A. Destexhe, Eds. Cambridge: Cambridge University Press, 2012, pp. 257–286 <br>
-[3] X. Jiang, G.-B. Bian, and Z. Tian, “Removal of Artifacts from EEG Signals: A Review,” Sensors, vol. 19, no. 5. MDPI AG, p. 987, Feb. 26, 2019. doi: 10.3390/s19050987. <br>
-[4] A. Kachenoura, L. Albera, and L. Senhadji, “Blind source separation methods applied to synthesized polysomnographic recordings: a comparative study,” 2007 29th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE, Aug. 2007. doi: 10.1109/iembs.2007.4353177. <br>
-[5] Puntonet, C.G., Górriz, J.M., Salmerón, M., Hornillo-Mellado, S. (2004). Theoretical Method for Solving BSS-ICA Using SVM. In: Puntonet, C.G., Prieto, A. (eds) Independent Component Analysis and Blind Signal Separation. ICA 2004. Lecture Notes in Computer Science, vol 3195. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-30110-3_33 <br>
+[2] Korats, Gundars & Cam, Steven & Ranta, Radu & Hamid, Mohamed. (2013). Applying ICA in EEG: Choice of the Window Length and of the Decorrelation Method. Communications in Computer and Information Science. 357, 2013. 269-286. 10.1007/978-3-642-38256-7_18. 
 
-[6] Alturki, Fahd A.; AlSharabi, Khalil; Abdurraqeeb, Akram M.; Aljalal, Majid (2020). EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques. Sensors, 20(9), 2505–. doi:10.3390/s20092505 <br>
+[3] V. Jurcak, D. Tsuzuki, and I. Dan, “10/20, 10/10, and 10/5 systems revisited: Their validity as relative head-surface-based positioning systems,” NeuroImage, vol. 34, no. 4. Elsevier BV, pp. 1600–1611, Feb. 2007. doi: 10.1016/j.neuroimage.2006.09.024. <br>
 
-[7] R. Kher and R. Gandhi, "Adaptive filtering based artifact removal from electroencephalogram (EEG) signals," 2016 International Conference on Communication and Signal Processing (ICCSP), Melmaruvathur, India, 2016, pp. 0561-0564, doi: 10.1109/ICCSP.2016.7754202. 
+[4] S. P. Ahlfors and M. S. Hämäläinen, “MEG and EEG: source estimation,” in Handbook of Neural Activity Measurement, R. Brette and A. Destexhe, Eds. Cambridge: Cambridge University Press, 2012, pp. 257–286 <br>
+
+[5] X. Jiang, G.-B. Bian, and Z. Tian, “Removal of Artifacts from EEG Signals: A Review,” Sensors, vol. 19, no. 5. MDPI AG, p. 987, Feb. 26, 2019. doi: 10.3390/s19050987. <br>
+[6] A. Kachenoura, L. Albera, and L. Senhadji, “Blind source separation methods applied to synthesized polysomnographic recordings: a comparative study,” 2007 29th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE, Aug. 2007. doi: 10.1109/iembs.2007.4353177. <br>
+
+[7] Puntonet, C.G., Górriz, J.M., Salmerón, M., Hornillo-Mellado, S. (2004). Theoretical Method for Solving BSS-ICA Using SVM. In: Puntonet, C.G., Prieto, A. (eds) Independent Component Analysis and Blind Signal Separation. ICA 2004. Lecture Notes in Computer Science, vol 3195. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-30110-3_33 <br>
+
+[8] Alturki, Fahd A.; AlSharabi, Khalil; Abdurraqeeb, Akram M.; Aljalal, Majid (2020). EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques. Sensors, 20(9), 2505–. doi:10.3390/s20092505 <br>
+
+[9] R. Kher and R. Gandhi, "Adaptive filtering based artifact removal from electroencephalogram (EEG) signals," 2016 International Conference on Communication and Signal Processing (ICCSP), Melmaruvathur, India, 2016, pp. 0561-0564, doi: 10.1109/ICCSP.2016.7754202. 
