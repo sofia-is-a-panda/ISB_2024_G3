@@ -11,23 +11,33 @@
 ### Procesamiento de la señal EEG
 Sabemos que el proceso de adquisición de una señal electroencefalograma consta del posicionamiento de los electrodos, o canales, según sistemas de posicionamiento como el sistema 10-20 establecido internacionalmente o el sistema 10-10 [1]. Ambos sistemas se basan en la posición relativa entre electrodos adyacentes como se puede observar en las imágenes de abajo.
 
-
-
-Posterior a la adquisión de los datos a través de los diferentes canales, se obtiene un arreglo (o matriz) de señales no procesadas, cada una de las cuales presenta componentes electroencefalográficos con ciertas contribuciones provenientes de distintas regiones del cerebro [2]. Asimismo, cada sensor también se encuentra expuesto a componentes provenientes de fuentes fisiológicas no relacionadas con la actividad eléctrica cerebral como la actividad eléctrica ocular, cardíaca o muscular [3]. Estas últimas claramente no contienen información pertinente al análisis cerebral, por lo que se consideran como artefactos. Existen varias técnicas utilizadas para la eliminación de estos componentes, tales como métodos regresivos, Transformada Wavelet o métodos de separación ciega de fuentes (BSS por sus siglas en inglés) [3]. Los métodos de este último buscan solucionar el problema de la estimación de cada uno de las fuentes (cerebrales y artefactos), representados como una matriz S, así como también las contribuciones, representados como una matriz A (conocida como matriz de mezcla) y el posible ruido en cada una de las fuentes, representado por una matriz V, solamente a partir de la matriz de señales combinadas, denotada por la letra X suponiendo que la combinación de cada una de las fuentes es lineal [4].
-
 <div align="center">
-    <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab10/BSS_methods.png">
-    <div>Figura 1. Problema de descomposición ciega de fuentes (BSS) representadas por la matriz de fuentes S. [4] </div>
+    <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/6c12496ceee0eb19fbada3c91fd4f1c66cef4220/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/eeg_10_10.png">
+    <div>Figura 1. Posicionamiento de los electrodos de acerudo al sistema 10-10 [2] </div>
 </div>
 <br>
 
-Dentro los métodos de esta última, se destaca el análisis de componentes independientes (ICA por sus siglas en inglés) el cual supone que las fuentes de la matriz S son estadísticamente independientes y no gaussianas [5]. 
+<div align="center">
+    <img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/6c12496ceee0eb19fbada3c91fd4f1c66cef4220/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/eeg_10_20.png">
+    <div>Figura 2. Posicionamiento de los electrodos de acuerdo al sistema 10-20 [3] </div>
+</div>
+<br>
 
-Por otra parte, así como se buscó separar las fuentes de actividad cerebral de los artefactos fisiológicos provenientes de otras fuentes no cerebrales, durante el estudio del electroencefalograma, también se busca localizar espacial y temporalmente cada una de la fuentes cerebrales lo cual se conoce como estimación de fuentes. En general, esto se modela como un problema inverso en el cual se busca reconstruir la distribución espacial de las fuentes eléctricas y/o magnéticas, en el caso del magnetoencefalograma, a partir de la adquisición de estas [2].
+Posterior a la adquisión de los datos a través de los diferentes canales, se obtiene un arreglo (o matriz) de señales no procesadas, cada una de las cuales presenta componentes electroencefalográficos con ciertas contribuciones provenientes de distintas regiones del cerebro [4]. Asimismo, cada sensor también se encuentra expuesto a componentes provenientes de fuentes fisiológicas no relacionadas con la actividad eléctrica cerebral como la actividad eléctrica ocular, cardíaca o muscular [5]. Estas últimas claramente no contienen información pertinente al análisis cerebral, por lo que se consideran como artefactos. Existen varias técnicas utilizadas para la eliminación de estos componentes, tales como métodos regresivos, Transformada Wavelet o métodos de separación ciega de fuentes (BSS por sus siglas en inglés) [5]. Los métodos de este último buscan solucionar el problema de la estimación de cada uno de las fuentes (cerebrales y artefactos), representados como una matriz S, así como también las contribuciones, representados como una matriz A (conocida como matriz de mezcla) y el posible ruido en cada una de las fuentes, representado por una matriz V, solamente a partir de la matriz de señales combinadas, denotada por la letra X suponiendo que la combinación de cada una de las fuentes es lineal [6].
+
+<div align="center">
+    <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab10/BSS_methods.png">
+    <div>Figura 3. Problema de descomposición ciega de fuentes (BSS) representadas por la matriz de fuentes S. [6] </div>
+</div>
+<br>
+
+Dentro los métodos de esta última, se destaca el análisis de componentes independientes (ICA por sus siglas en inglés) el cual supone que las fuentes de la matriz S son estadísticamente independientes y no gaussianas [7]. 
+
+Por otra parte, así como se buscó separar las fuentes de actividad cerebral de los artefactos fisiológicos provenientes de otras fuentes no cerebrales, durante el estudio del electroencefalograma, también se busca localizar espacial y temporalmente cada una de la fuentes cerebrales lo cual se conoce como estimación de fuentes. En general, esto se modela como un problema inverso en el cual se busca reconstruir la distribución espacial de las fuentes eléctricas y/o magnéticas, en el caso del magnetoencefalograma, a partir de la adquisición de estas [4].
 
 <div align="center">
     <img src="/ISB/Imágenes - Multimedia/Multimedia_Lab10/Source_estimation.png">
-    <div>Figura 2. Proceso o modelo de estimación de la distribución espacial y temporal de fuentes de actividad eléctrica del cerebro. [2] </div>
+    <div>Figura 4. Proceso o modelo de estimación de la distribución espacial y temporal de fuentes de actividad eléctrica del cerebro. [4] </div>
 </div>
 <br>
 
@@ -252,11 +262,12 @@ Asimismo, analizando el ICA component score en la tabla, observamos que estos va
 Asimismo, en cuanto a las caracteristicas que podemos observar, vemos que la entropía de la señal varía discretamente en la mayoría de canales, excepto en el canal 1, donde la entropía es mayor en el sujeto que escuchaba música.
 
 ## Bibliografía
-[1] Novo-Olivas, Carlos & Guitiérrez, Leticia & Bribiesca, José. (2010). Mapeo Electroencefalográfico y Neurofeedback. 
 
-[2] Korats, Gundars & Cam, Steven & Ranta, Radu & Hamid, Mohamed. (2013). Applying ICA in EEG: Choice of the Window Length and of the Decorrelation Method. Communications in Computer and Information Science. 357, 2013. 269-286. 10.1007/978-3-642-38256-7_18. 
+[1] V. Jurcak, D. Tsuzuki, and I. Dan, “10/20, 10/10, and 10/5 systems revisited: Their validity as relative head-surface-based positioning systems,” NeuroImage, vol. 34, no. 4. Elsevier BV, pp. 1600–1611, Feb. 2007. doi: 10.1016/j.neuroimage.2006.09.024. <br>
 
-[3] V. Jurcak, D. Tsuzuki, and I. Dan, “10/20, 10/10, and 10/5 systems revisited: Their validity as relative head-surface-based positioning systems,” NeuroImage, vol. 34, no. 4. Elsevier BV, pp. 1600–1611, Feb. 2007. doi: 10.1016/j.neuroimage.2006.09.024. <br>
+[2] Novo-Olivas, Carlos & Guitiérrez, Leticia & Bribiesca, José. (2010). Mapeo Electroencefalográfico y Neurofeedback. 
+
+[3] Korats, Gundars & Cam, Steven & Ranta, Radu & Hamid, Mohamed. (2013). Applying ICA in EEG: Choice of the Window Length and of the Decorrelation Method. Communications in Computer and Information Science. 357, 2013. 269-286. 10.1007/978-3-642-38256-7_18. 
 
 [4] S. P. Ahlfors and M. S. Hämäläinen, “MEG and EEG: source estimation,” in Handbook of Neural Activity Measurement, R. Brette and A. Destexhe, Eds. Cambridge: Cambridge University Press, 2012, pp. 257–286 <br>
 
