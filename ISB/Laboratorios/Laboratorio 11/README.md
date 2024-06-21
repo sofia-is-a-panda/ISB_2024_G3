@@ -30,6 +30,12 @@
 <td>https://studio.edgeimpulse.com/public/431152/live</td>
 
 </tr>
+<tr>
+<td>Imagen</td>
+<td>Dato 1</td>
+<td>Dato 2</td>
+<td>Dato 3</td>
+</tr>
 </table>
 
    
