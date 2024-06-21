@@ -47,6 +47,27 @@
    
 3. Sofia Natalia Sotelo Castillo
 
+<table>
+<tr>
+<th></th>
+<th>EMG</th>
+<th>ECG</th>
+<th>EEG</th>
+</tr>
+<tr>
+<td>Enlace de Edge Impulse</td>
+<td>https://studio.edgeimpulse.com/public/431095/live</td>
+<td>https://studio.edgeimpulse.com/public/431064/live</td>
+<td>https://studio.edgeimpulse.com/public/431065/live</td>
+
+</tr>
+<tr>
+<td>Imagen</td>
+<td>Dato 1</td>
+<td>Dato 2</td>
+<td>Dato 3</td>
+</tr>
+</table>
 
 
    
