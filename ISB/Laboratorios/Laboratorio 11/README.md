@@ -10,3 +10,27 @@
 ### Entregables
 
 * Crear un proyecto en EI por cada señal trabaja en clases. Es decir, deben tener 3 proyectos en EI para EMG, ECG, EEG. Las señales deben estar etiquetadas, ejemplo para ECG: Sentadillas, hiperventilación, reposo, despuesdeactividad.
+
+
+#### Entregable por miembro del grupo
+
+1. Ashley Estefania Bravo Bravo
+
+
+
+   
+2. Kevin Alexis Palomino Díaz
+
+
+
+
+   
+3. Sofia Natalia Sotelo Castillo
+
+
+
+   
+4. Leonardo Nicolas Zuñiga
+
+
+
