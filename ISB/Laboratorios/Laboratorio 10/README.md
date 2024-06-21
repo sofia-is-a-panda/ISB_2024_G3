@@ -148,9 +148,22 @@ Para la extracción de características, utilizamos una DWT para este propósito
 * SD (Desviacion Estandar)
 * Kurtosis
 * Entropía
-* LBP (Local Binary Pattern)
+* LBP (Logarithmic Band Power)
 
+El calculo de estos parametros los hicimos de acuerdo a la siguiente tabla
 
+<table>
+<tr>
+<th>Varianza</th>
+<th>Desviacion Estandar</th>
+<th>Kurtosis</th>
+<th>Entropia</th>
+<th>Logarithmic Band Power</th>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
 Utilizando el DWT para realizar un ICA (Independent Component Anlysis),obtuvimos los siguientes niveles de descomposición, cuyas gráficas mostramos a continuación.
 
 En este caso, se observa los coeficientes de aproximación A4, y los coeficientes de detalle D1,D2,D3 y D4. Estos coeficientes nos dan información de la señal en distintos rangos de frecuencia [8], los cuales son explicados a continuación:
