@@ -150,7 +150,7 @@ Para la extracción de características, utilizamos una DWT para este propósito
 * Entropía
 * LBP (Logarithmic Band Power)
 
-El calculo de estos parametros los hicimos de acuerdo a la siguiente tabla
+El calculo de estos parametros los hicimos de acuerdo a la siguiente tabla, la cual la hicimos basados en el trabajo anteriormente mencionado. [8]
 
 <table>
 <tr>
@@ -161,7 +161,11 @@ El calculo de estos parametros los hicimos de acuerdo a la siguiente tabla
 <th>Logarithmic Band Power</th>
 </tr>
 <tr>
-<td></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/varianza.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/desvi.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/kurtosis.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/entropi.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/e84916f4b2a375ea76bc96a228efef2dd2540c5e/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia_Lab10/lbp.png"></td>
 </tr>
 </table>
 Utilizando el DWT para realizar un ICA (Independent Component Anlysis),obtuvimos los siguientes niveles de descomposición, cuyas gráficas mostramos a continuación.
