@@ -16,7 +16,7 @@
 
 1. Ashley Estefania Bravo Bravo
 
-Se subieron las señales a edge impulse mediante el [siguiente código] () en el cual se convirtieron los valores de voltaje mV y tiempo a milisegundos
+Se subieron las señales a edge impulse mediante el [siguiente código] () en el cual se convirtieron los valores de voltaje mV y tiempo a milisegundos; sin embargo para la de EEG se encuentra en uV
 
 <table>
 <tr>
