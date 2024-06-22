@@ -98,5 +98,24 @@ Puede encontrar el código utilizado y los resultados [aquí](https://github.com
    
 4. Leonardo Nicolas Zuñiga
 
+Se adaptaron las señales de formato texto a CSV apoyandose en las librerias Numpy y Pandas. Asimismo, se realizaron las conversiones a las unidades correspondientes de cada señal. El código lo puede encontrar [aquí]()
 
+<table>
+<tr>
+<th></th>
+<th>Señal EMG</th>
+<th>Señal ECG</th>
+<th>Señal EEG</th>
+</tr>
+<tr>
+<td>Enlaces de Edge Impulse</td>
+<td></td>
+<td></td>
+<td></td>
 
+</tr>
+<tr>
+<td>Imágenes de Edge Impulse</td>
+<td><img src=""></td>
+<td><img src=""></td>
+<td><img src=""></td>
