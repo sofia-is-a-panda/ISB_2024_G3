@@ -98,7 +98,7 @@ Puede encontrar el código utilizado y los resultados [aquí](https://github.com
    
 4. Leonardo Nicolas Zuñiga
 
-Se adaptaron las señales de formato texto a CSV apoyandose en las librerias Numpy y Pandas. Asimismo, se realizaron las conversiones a las unidades correspondientes de cada señal. El código lo puede encontrar [aquí]()
+Se adaptaron las señales de formato texto a CSV apoyandose en las librerias Numpy y Pandas. Asimismo, se realizaron las conversiones a las unidades correspondientes de cada señal. El código lo puede encontrar [aquí](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/6196f59af8904ec45cff47e7601a9cc615fae92f/ISB/Laboratorios/Laboratorio%2011/EI_Leonardo_Zuniga.ipynb)
 
 <table>
 <tr>
@@ -109,13 +109,13 @@ Se adaptaron las señales de formato texto a CSV apoyandose en las librerias Num
 </tr>
 <tr>
 <td>Enlaces de Edge Impulse</td>
-<td></td>
-<td></td>
-<td></td>
+<td>https://studio.edgeimpulse.com/public/431108/live</td>
+<td>https://studio.edgeimpulse.com/public/431106/live</td>
+<td>https://studio.edgeimpulse.com/public/431107/live</td>
 
 </tr>
 <tr>
 <td>Imágenes de Edge Impulse</td>
-<td><img src=""></td>
-<td><img src=""></td>
-<td><img src=""></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/6196f59af8904ec45cff47e7601a9cc615fae92f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/emg_leo.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/6196f59af8904ec45cff47e7601a9cc615fae92f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/ECG_leo.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/6196f59af8904ec45cff47e7601a9cc615fae92f/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/EEG_leo.png"></td>
