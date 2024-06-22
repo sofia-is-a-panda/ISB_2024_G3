@@ -84,13 +84,14 @@ Se subieron las señales a edge impulse mediante el [siguiente código] () en el
 
 </tr>
 <tr>
-<td>Imagen</td>
-<td>Dato 1</td>
-<td>Dato 2</td>
-<td>Dato 3</td>
-</tr>
-</table>
+<td>Imagenes</td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/69b3ba02f43ad20cb4367499fa8610451c3b6cd4/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/emg_sotelo.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/69b3ba02f43ad20cb4367499fa8610451c3b6cd4/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/ecg_sotelo.png"></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/69b3ba02f43ad20cb4367499fa8610451c3b6cd4/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/eeg_sotelo.png"></td>
 
+</tr>
+
+</table>
 
    
 4. Leonardo Nicolas Zuñiga
