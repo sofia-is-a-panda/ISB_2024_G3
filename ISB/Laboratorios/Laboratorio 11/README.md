@@ -16,6 +16,8 @@
 
 1. Ashley Estefania Bravo Bravo
 
+Se subieron las señales a edge impulse mediante el [siguiente código] () en el cual se convirtieron los valores de voltaje mV y tiempo a milisegundos
+
 <table>
 <tr>
 <th></th>
@@ -31,11 +33,29 @@
 
 </tr>
 <tr>
-<td>Imagen</td>
-<td>Dato 1</td>
+<td>Imagenes</td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Reposo_EMG_Ashley.png"></td>
 <td>Dato 2</td>
 <td>Dato 3</td>
 </tr>
+
+</tr>
+<tr>
+<td></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Oposicion_EMG_Ashley.png"></td>
+<td>Dato 2</td>
+<td>Dato 3</td>
+</tr>
+
+</tr>
+<tr>
+<td></td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Tension_EMG_Ashley.png"></td>
+<td>Dato 2</td>
+<td>Dato 3</td>
+</tr>
+
+
 </table>
 
    
