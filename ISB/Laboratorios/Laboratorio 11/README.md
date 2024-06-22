@@ -68,6 +68,8 @@ Se subieron las señales a edge impulse mediante el [siguiente código] () en el
 
    
 3. Sofia Natalia Sotelo Castillo
+   
+Puede encontrar el código utilizado y los resultados [aquí](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/73cdda830ef0088f842043c9f554d41b80db1cde/ISB/Laboratorios/Laboratorio%204/Ploteo_se%C3%B1ales_Py.ipynb)
 
 <table>
 <tr>
