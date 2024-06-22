@@ -63,7 +63,31 @@ Se subieron las señales a edge impulse mediante el [siguiente código] () en el
    
 2. Kevin Alexis Palomino Díaz
 
+Cada señal se subió por separado mediante el código utilizado [aquí].
 
+<table>
+<tr>
+<th></th>
+<th>EMG</th>
+<th>ECG</th>
+<th>EEG</th>
+</tr>
+<tr>
+<td>Enlace de Edge Impulse</td>
+<td>https://studio.edgeimpulse.com/public/431059/live</td>
+<td>https://studio.edgeimpulse.com/public/431111/live</td>
+<td>https://studio.edgeimpulse.com/public/431599/live</td>
+
+</tr>
+<tr>
+<td>Imagenes</td>
+<td><img src="/ISB/Imágenes - Multimedia/Multimedia - Lab 11/EMG_Alexis.png"></td>
+<td><img src="/ISB/Imágenes - Multimedia/Multimedia - Lab 11/EKG_Alexis.png"></td>
+<td><img src="/ISB/Imágenes - Multimedia/Multimedia - Lab 11/EEG_Alexis.png"></td>
+
+</tr>
+
+</table>
 
 
    
