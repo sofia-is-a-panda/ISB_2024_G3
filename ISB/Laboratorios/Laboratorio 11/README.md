@@ -63,7 +63,7 @@ Se subieron las señales a edge impulse mediante el [siguiente código] () en el
    
 2. Kevin Alexis Palomino Díaz
 
-Cada señal se subió por separado mediante el código utilizado [aquí].
+Cada señal se subió por separado mediante el código utilizado [aquí](https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Laboratorios/Laboratorio%2011/EdgeImpulse_AlexisPalomino.ipynb).
 
 <table>
 <tr>
