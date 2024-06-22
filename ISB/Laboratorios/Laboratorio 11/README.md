@@ -35,7 +35,7 @@ Se subieron las señales a edge impulse mediante el [siguiente código] () en el
 <tr>
 <td>Imagenes</td>
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Reposo_EMG_Ashley.png"></td>
-<td>Dato 3</td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Reposo-EKG.png"></td>
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Reposo1-EEG.png"></td>
 
 </tr>
@@ -44,7 +44,7 @@ Se subieron las señales a edge impulse mediante el [siguiente código] () en el
 <tr>
 <td></td>
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Oposicion_EMG_Ashley.png"></td>
-<td>Dato 3</td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Ejercicio-EKG.png"></td>
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/ProblemasMAT1-EEG.png"></td>
 
 </tr>
@@ -53,8 +53,8 @@ Se subieron las señales a edge impulse mediante el [siguiente código] () en el
 <tr>
 <td></td>
 <td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Tension_EMG_Ashley.png"></td>
-<td>Dato 2</td>
-<td>Dato 3</td>
+<td><img src="https://github.com/sofia-is-a-panda/ISB_2024_G3/blob/main/ISB/Im%C3%A1genes%20-%20Multimedia/Multimedia%20-%20Lab%2011/Respiracion-EKG.png"></td>
+<td></td>
 </tr>
 
 
