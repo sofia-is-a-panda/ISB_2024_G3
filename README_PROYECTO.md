@@ -21,11 +21,12 @@ Mantener un IMC saludable es crucial no solo para el bienestar general sino tamb
 <a id = "Contenido"></a>  
 <h2 style = "text-align: center;">MOTIVACION</h2>
 
-
+La relación entre el índice de masa corporal (IMC) y las enfermedades cardiovasculares ha sido demostrada en numerosos estudios, destacando su importancia para médicos y nutricionistas al evaluar la salud física de una persona. Además, debido a que diversas enfermedades cardíacas, como las arritmias, pueden detectarse a través del monitoreo del electrocardiograma, es fundamental considerar la relación entre el IMC y las características del electrocardiograma. 
 
 <a id = "Contenido"></a>  
 <h2 style = "text-align: center;">PRINCIPALES HALLAZGOS</h2>
 
+Al comparar las muestras de 2 estudiantes con peso normal y 2 estudiantes con sobrepeso, según su índice de masa corporal (IMC), se observó que los valores de latidos por minuto (BPM) y los intervalos RR mostraron diferencias significativas entre ambos grupos. Los estudiantes con sobrepeso presentaron BPM más elevados en comparación con aquellos con peso normal, lo que sugiere que un IMC mayor está asociado con una mayor carga cardiovascular. Asimismo, la variabilidad de la frecuencia cardíaca, medida a través de los intervalos RR, mostró diferencias significativas entre los dos grupos, sugiriendo que el sobrepeso puede afectar negativamente la regulación autonómica del corazón. Estos hallazgos subrayan la importancia de mantener un IMC saludable para evitar complicaciones cardiovasculares.
 
 
 
