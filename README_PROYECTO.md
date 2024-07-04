@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">INTRODUCCIÓN A SEÑALES BIOMÉDICAS - GRUPO 3</h1>
+<h1 style="text-align: center;">Comparación de medias de electrocardiografía Parámetros en estudiantes universitarios peruanos basados en su índice de masa corporal</h1>
 
 Bienvenidos al repositorio del **Grupo 3** del curso *Introducción a Señales Biomédicas*. Somos un equipo de estudiantes de Ingeniería Biomédica de las universidades UPCH y PUCP del semestre 2024-1. 
 <p style="text-align: center;">Aquí podrás encontrar nuestro proyecto relacionado a la adquisición y procesamientos señales de un electrocardiograma (ECG).</p>
